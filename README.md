@@ -1,6 +1,4 @@
-# MEAN Stack application Example
-
-This is basic CRUD (Create-Retrieve-Update-Delete) application created using MEAN technologies.
+# Smart Inventory Web where we are using Mean Stack
 
 * M - Mongo DB
 * E - Express js
@@ -9,8 +7,6 @@ This is basic CRUD (Create-Retrieve-Update-Delete) application created using MEA
 
 Following image can get idea about what are those.
 
-[![N|Solid](https://www.wedevz.com/wp-content/uploads/2016/08/mean.png)](https://nodesource.com/products/nsolid)
-
 # Run Application
 
 * Download this repository
@@ -18,6 +14,6 @@ Following image can get idea about what are those.
 * Opean terminal and run following code
 
 ```sh
-npm install
+npm start
 ```
-* Server will start in localhost:3000 port
+* Server will start in http://localhost:3000 port
