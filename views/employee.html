@@ -2,14 +2,15 @@
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
-
+<html>
+<body style="background-color:powderblue;">
 <div class="container">
     <div id="loginbox" style="margin-top:50px;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
         <div class="panel panel-info" >
             <div class="panel-heading">
-                <div class="panel-title">Employee Page</div>
-                <div style="float:right; font-size: 120%; position: relative; top:-20px"><a href="#">Welcome Alice</a></div>
-            </div>
+                <center><h1><div class="panel-title">Employee Page</div></center></h1>
+                <center><div style="float:center; font-size: 120%; position: relative; top:-20px"><a href="#">Welcome Alice</a></div>
+            </div></center>
 
             <div style="padding-top:30px" class="panel-body" >
 
@@ -17,22 +18,73 @@
 
                 <form id="loginform" class="form-horizontal" role="form">
 
-                    <div style="margin-bottom: 25px" class="input-group">
-                        <input id="login-username" type="text" class="form-control" name="username" value="" placeholder="Item">
-                    </div>
+                   <!-- <div style="margin-bottom: 25px" class="input-group">
+                        <center><input id="login-username" type="text" class="form-control" name="username" value="" placeholder="Item">
+                    </div>>-->
+                   
+
+<button onclick="myFunction()">Click here to enter your name</button>
+
+<p id="demo"></p>
+
+
+<center><script>
+function myFunction() {
+    var txt;
+    var person = prompt("Please enter your name:", "Enter your name here");
+    if (person == null || person == "") {
+        txt = "User cancelled the prompt.";
+    } else {
+        txt = "Hello " + person + "! How are you today?";
+    }
+    document.getElementById("demo").innerHTML = txt;
+}
+</script></center>
+                    <select>
+                        <center>
+                        <option value="a">Items</option>
+                        <option value="b">1</option>
+                        <option value="c">2</option>
+                        <option value="d">3</option>
+                        <option value="e">4</option>
+                        <option value="f">5</option>
+                        <option value="g">6</option>
+                        <option value="h">7</option>
+                        <option value="i">8</option>
+                    </center>
+                      </select>
 
                     <div style="margin-bottom: 25px" class="input-group">
-                        <input id="login-password" type="text" class="form-control" name="password" placeholder="Number of Items">
-                    </div>
+                        <center><input id="login-password" type="text" class="form-control" name="password" placeholder="Number of Items">
+                    </div></center>
+
+                    <!--<div style="margin-bottom: 25px" class="input-group">
+                        <center><input id="login-username" type="text" class="form-control" name="username" value="" placeholder="Item">
+                    </div></center>
+
+                    <div style="margin-bottom: 25px" class="input-group">
+                        <center><input id="login-password" type="text" class="form-control" name="password" placeholder="Number of Items">
+                    </div></center> -->
+
+                    <div style="margin-bottom: 25px" class="input-group">
+                        <center><input id="login-password" type="text" class="form-control" name="password" placeholder="comments">
+                    </div></center>
 
                     <div style="margin-top:10px" class="form-group">
 
-                        <div class="col-sm-12 controls">
+                        <center><big><div class="col-sm-12 controls">
                             <a id="btn-login" href="#" class="btn btn-success">Confirm</a>
-                        </div>
+                            <!--<button type="button" onclick="alert('Hello world!')">Click Me!</button> -->
+                        </big>
+
+                        <big class="col-sm-12 controls">
+                            <a id="btn-edit" href="#" class="btn btn-edit">edit</a>
+                        </div></big></center>
                     </div>
                 </form>
             </div>
         </div>
     </div>
 </div>
+</body>
+</html>
