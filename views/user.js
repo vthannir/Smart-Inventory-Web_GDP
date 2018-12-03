@@ -39,7 +39,7 @@ function setStatusClosed(id) {
 
   for(var i=0; i < issues.length; i++){
     if(issues[i].id == id) {
-      issues[i].status = 'closed';
+      issues[i].status = 'Request send to Admin';
     }
   }
 
@@ -47,6 +47,20 @@ function setStatusClosed(id) {
 
   fetchIssues();
 }
+
+function setStatusCancel(id) {
+    var issues = JSON.parse(localStorage.getItem('issues'));
+  
+    for(var i=0; i < issues.length; i++){
+      if(issues[i].id == id) {
+        issues[i].status = 'Request has been cancelled';
+      }
+    }
+  
+    localStorage.setItem('issues', JSON.stringify(issues));
+  
+    fetchIssues();
+  }
 
 function deleteIssue(id) {
 
@@ -79,14 +93,15 @@ function fetchIssues () {
       var status = issues[i].status;
       
       issuesList.innerHTML +=   '<div class="well">'+
-                                '<h6>Issue ID: ' + id + '</h6>'+
+                                // '<h6>Issue ID: ' + id + '</h6>'+
                                 '<p><span class="label label-info">' + status + '</span></p>'+
                                 '<h3> Mobile Name: ' + MobileName + '</h3>'+
                                 '<h4> Description: ' + Specification + '</h4>'+
                                 '<p><span class="glyphicon glyphicon-phone"></span> ' + NumberOfDevices + ' '+
                                 '<span class="glyphicon glyphicon-usd"></span> ' + price + '</p>'+
-                                '<a href="#" class="btn btn-warning" onclick="setStatusClosed(\''+id+'\')">Close</a> '+
-                                '<a href="#" class="btn btn-danger" onclick="deleteIssue(\''+id+'\')">Delete</a>'+
+                                '<a href="#" class="btn btn-warning" onclick="setStatusClosed(\''+id+'\')">Accept</a> '+
+                                '<a href="#" class="btn btn-warning" onclick="setStatusCancel(\''+id+'\')">Cancel</a> '+
+                                
                                 '</div>'
     }
   }
