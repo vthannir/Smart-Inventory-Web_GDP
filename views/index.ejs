@@ -1,59 +1,65 @@
-<% include ../header.ejs %>
-<div class="products">
-        <% 
-        if (products.query.length == 0) {
-        %>
-            <h3>Nothing in inventory system</h3>
-        <%
-        } else {
-            for (var i = 0; i < products.query.length; i++) {   
-                item = products.query[i]; %>
-                <form name="search-form" id="search-form" method="GET" action="/admin/details/<%= item._id %>">
-                    <div class="product" onClick="document.forms['search-form'].submit();">
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <label>Name of product:</label>
-                            </div>
-                            <div class="col-sm-6">
-                                <p> <%= item.name %> </p>
-                            </div>
+<div class="container">
+    <div class="row navigation">
+            <div class="col-sm-6">
+                <p>Smart Inventory</p>
+            </div>
+            <div class="col-sm-3"></div>
+            <div class="col-sm-1 buttonNav">
+                <a href="/intro/adminLogin">Admin</a>
+            </div>
+            <div class="col-sm-1 buttonNav">
+                <a href="/intro/userLogin">User</a>
+            </div>
+        </div>
+        <div class="mainBody">
+            <div class="bodyContent">
+                <p>Here goes introduction</p>
+            </div>
+            <div class="bodySignUp">
+                <h3>SignUp for new user</h3>
+                <form action="/user">
+                    <div class="row signUpContent">
+                        <div class="col-sm-6 inputContent">
+                            <input type="text" placeholder="First Name">
                         </div>
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <label>Quantity of product:</label>
-                            </div>
-                            <div class="col-sm-6">
-                                <p> <%= item.quantity %> </p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <label>Prize per unit line:</label>
-                            </div>
-                            <div class="col-sm-6">
-                                <p> <%= item.prize %> </p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <label>Description of product:</label>
-                            </div>
-                            <div class="col-sm-8">
-                                <p> <%= item.description %> </p>
-                            </div>
-                        </div>
-                        <div class="row productButton">
-                            <div class="col-sm-6"></div>
-                            <div class="col-sm-3">
-                                <a href="/admin/edit/<%= item._id %>" class="btn btn-warning">Edit</a>
-                            </div>
-                            <div class="col-sm-3">
-                                <a href="/admin/delete/<%= item._id %>" class="btn btn-danger">Delete</a>
-                            </div>
+                        <div class="col-sm-6 inputContent">
+                            <input type="text" placeholder="Last Name">
                         </div>
                     </div>
+                    <div class="row signUpContent">
+                        <div class="col-sm-12">
+                            <input type="text" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="row signUpContent">
+                        <div class="col-sm-12">
+                            <input type="password" placeholder="Password">
+                        </div>
+                    </div>
+                    <div class="row  signUpContent">
+                        <div class="col-sm-12">
+                            <input type="password" placeholder="Confirm password">
+                        </div>
+                    </div>
+                    <div class="row  signUpContent">
+                        <div class="col-sm-12">
+                            <input type="text" placeholder="Contact Number">
+                        </div>
+                    </div>
+                    <div class="row  signUpContent">
+                        <div class="col-sm-12">
+                            <input type="text" placeholder="Company Name">
+                        </div>
+                    </div>
+                    <div class="row  signUpContent">
+                        <div class="col-sm-12">
+                            <button type="submit">SignUP</button>
+                        </div>
+                    </div>
+                    <div class="terms">
+                        <p>By sigining up, you agree to smart inventory <a href="">Terms of service</a></p>
+                    </div>
                 </form>
-        <% }
-        }
-    %>
+            </div>
+        </div>
 </div>
