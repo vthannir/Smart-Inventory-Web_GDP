@@ -1,20 +1,9 @@
 <% include ../header.ejs %>
-<div class="row inventoryMenu">
-    <div class="col-sm-3 contentInv">
-        <p>Inventory System</p>
-    </div>
-    <div class="col-sm-6"></div>
-    <div class="col-sm-3 buttonContent">
-        <form action="/admin/create">
-            <button type="submit">Add new product</button>
-        </form>
-    </div>
-</div>
 <div class="products">
-    <% 
+        <% 
         if (products.query.length == 0) {
         %>
-            <h3>Click Add new product button to continue to your inventory system</h3>
+            <h3>Nothing in inventory system</h3>
         <%
         } else {
             for (var i = 0; i < products.query.length; i++) {   
