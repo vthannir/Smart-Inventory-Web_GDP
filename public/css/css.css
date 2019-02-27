@@ -1,0 +1,193 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+
+html, body{    
+    height: 500px;
+    background-color: ghostwhite;
+}
+
+.container{
+
+    width: 60%;
+    margin: auto;
+    padding: 0;
+}
+
+.navbar{
+    background-color:rgb(145, 145, 168);
+    color: #666; 
+    padding: 5px;
+    opacity: 1;
+}
+
+
+.contact-body{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#images{
+    margin-left: 75%;
+    bottom: 30px;
+    position: absolute
+}
+
+#images img{
+    height:80px;
+    width:80px;
+    border-radius:20%;
+}
+
+#images p{
+    padding: 10px;
+    text-align: center;
+}
+
+.index-body{
+    background-image: url('../img/mypic2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.mycss a{
+    color: rgb(0, 0, 0);
+}
+
+.mycss a:hover {
+    background-color:rgb(102, 91, 91);
+    color : ghostwhite;
+    border-radius: 5px;
+}
+
+.header-container{
+    background-color: black;
+    color: ghostwhite;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 30%;
+    text-align: center;
+    margin-left: 35%;
+    border-radius: 20px;
+}
+
+footer{
+    text-align: right;
+}
+
+#article{
+    float: left;
+    width: 65%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#aside{
+    float: left;
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.body-index{   
+    padding: 50px;
+    background-color: #f4f4f4;
+    color: #666;
+    height: 680px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.video{
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.image img{
+    height: 250px;
+    width: 225px;
+    border-radius: 50%;
+    align-items: center;
+    padding: 10px;
+    display: block;    
+    margin: 0 auto;
+}
+
+.container{    
+    width: 60%;
+    margin: auto;
+    padding: 4em;
+
+}
+
+.my-article{
+    float: left;
+}
+
+.block{
+    width: 65%;
+}
+
+.block1{
+    float: right;
+    width: 30%
+}
+
+.clr{
+    clear: both;
+}
+
+#sid input{
+    width:83%;
+}
+
+.form-group label{
+    display: inline-block;
+}
+
+.colcal input{
+    width:100%;
+}
+
+.hearder-calc{
+    text-align: center;
+    color:#666;
+}
+
+.button1{
+    width:10%;
+}
+
+.Result label{
+    padding-top: 10px;
+    padding-bottom: 0px;
+} 
+
+.Result input{
+    width:83%;
+}
+
+.myss{
+    padding: 20px;
+}
+
+.form-group label {
+    display: inline-block;
+    margin: 20px;
+}
+
+.form-group textarea {
+    overflow: auto;
+    resize: vertical;
+    padding: 20px;
+    margin-left: 20px;
+    width: 50%;
+}
+
+#github{
+    height: 80px;
+    width: 100px;
+}
+
