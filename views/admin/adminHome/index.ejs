@@ -5,22 +5,22 @@
     </div>
     <div class="col-sm-6"></div>
     <div class="col-sm-3 buttonContent">
-        <form action="/admin/create">
+        <form action="/admin/addProduct">
             <button type="submit">Add new product</button>
         </form>
     </div>
 </div>
 <div class="products">
     <% 
-        if (products.query.length == 0) {
+        if (productsMongo.length == 0) {
         %>
             <h3>Click Add new product button to continue to your inventory system</h3>
         <%
         } else {
-            for (var i = 0; i < products.query.length; i++) {   
-                item = products.query[i]; %>
-                <form name="search-form" id="search-form" method="GET" action="/admin/details/<%= item._id %>">
-                    <div class="product" onClick="document.forms['search-form'].submit();">
+            for (var i = 0; i < productsMongo.length; i++) {   
+                item = productsMongo[i]; %>
+                <form name="search-form-<%= i %>" id="search-form-<%= i %>" method="GET" action="/admin/details/<%= item._id %>">
+                    <div class="product" onClick="document.forms['search-form-<%= i %>'].submit();">
                         <div class="row">
                             <div class="col-sm-4">
                                 <label>Name of product:</label>

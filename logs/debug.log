@@ -2111,3 +2111,1201 @@ ReferenceError: products is not defined
 2019-02-12T09:57:27.011Z - debug: GET /user
 2019-02-12T09:58:18.111Z - debug: GET /user
 2019-02-12T09:58:19.074Z - debug: GET /user
+2019-02-18T15:24:11.675Z - info: Environment variables loaded.
+2019-02-18T15:24:11.774Z - info: Loaded routing.
+2019-02-18T15:24:11.870Z - info: START seeder.
+2019-02-18T15:24:11.878Z - debug: 6 products
+2019-02-18T15:24:11.879Z - info: END Seeder. Sample data read and verified.
+2019-02-18T15:24:25.751Z - debug: GET /
+2019-02-18T15:27:16.901Z - debug: GET /intro/adminLogin
+2019-02-18T15:27:19.737Z - debug: GET /admin
+2019-02-18T15:27:45.804Z - debug: GET /admin/edit/1
+2019-02-18T15:27:53.792Z - debug: GET /admin
+<<<<<<< HEAD
+2019-02-26T07:27:39.404Z - info: Environment variables loaded.
+2019-02-26T07:27:39.639Z - error: uncaughtException: Cannot find module 'monk' date=Tue Feb 26 2019 01:27:39 GMT-0600 (Central Standard Time), pid=10488, uid=null, gid=null, cwd=D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\app.js], rss=72806400, heapTotal=63221760, heapUsed=33162416, external=18762495, loadavg=[0, 0, 0], uptime=376395
+Error: Cannot find module 'monk'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:603:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:25)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\utils\seeder.js:5:12)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\app.js:52:1)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:774:12)
+    at executeUserCode (internal/bootstrap/node.js:342:17)
+    at startExecution (internal/bootstrap/node.js:276:5)
+    at startup (internal/bootstrap/node.js:227:5)
+2019-02-26T07:27:39.493Z - info: Loaded routing.
+2019-02-26T07:28:32.089Z - info: Environment variables loaded.
+2019-02-26T07:28:32.280Z - error: uncaughtException: Identifier 'db' has already been declared date=Tue Feb 26 2019 01:28:32 GMT-0600 (Central Standard Time), pid=15700, uid=null, gid=null, cwd=D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\app.js], rss=72564736, heapTotal=63221760, heapUsed=31957968, external=18595555, loadavg=[0, 0, 0], uptime=376447
+D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\utils\seeder.js:20
+  var db = monk('localhost:27017/project1');
+      ^
+
+SyntaxError: Identifier 'db' has already been declared
+    at new Script (vm.js:84:7)
+    at createScript (vm.js:264:10)
+    at Object.runInThisContext (vm.js:312:10)
+    at Module._compile (internal/modules/cjs/loader.js:684:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\app.js:52:1)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:774:12)
+    at executeUserCode (internal/bootstrap/node.js:342:17)
+    at startExecution (internal/bootstrap/node.js:276:5)
+    at startup (internal/bootstrap/node.js:227:5)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+2019-02-26T07:28:32.223Z - info: Loaded routing.
+2019-02-26T07:29:07.539Z - info: Environment variables loaded.
+2019-02-26T07:29:07.718Z - error: uncaughtException: Cannot find module 'monk' date=Tue Feb 26 2019 01:29:07 GMT-0600 (Central Standard Time), pid=4236, uid=null, gid=null, cwd=D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\app.js], rss=70324224, heapTotal=62132224, heapUsed=29915488, external=18718405, loadavg=[0, 0, 0], uptime=376483
+Error: Cannot find module 'monk'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:603:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:25)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at module.exports (D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\utils\seeder.js:19:14)
+    at Object.<anonymous> (D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\app.js:52:29)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:774:12)
+    at executeUserCode (internal/bootstrap/node.js:342:17)
+    at startExecution (internal/bootstrap/node.js:276:5)
+    at startup (internal/bootstrap/node.js:227:5)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+2019-02-26T07:29:07.640Z - info: Loaded routing.
+2019-02-26T07:29:07.693Z - info: START seeder.
+2019-02-26T07:31:25.668Z - info: Environment variables loaded.
+2019-02-26T07:31:25.746Z - info: Loaded routing.
+2019-02-26T07:31:26.153Z - info: START seeder.
+2019-02-26T07:31:26.159Z - debug: 6 products
+2019-02-26T07:31:26.159Z - info: END Seeder. Sample data read and verified.
+2019-02-26T07:31:48.815Z - debug: GET /
+2019-02-26T07:31:48.938Z - debug: GET /css/main.css
+2019-02-26T07:32:58.554Z - info: Environment variables loaded.
+2019-02-26T07:32:58.625Z - info: Loaded routing.
+2019-02-26T07:32:58.699Z - info: START seeder.
+2019-02-26T07:32:58.725Z - debug: 6 products
+2019-02-26T07:32:58.726Z - info: END Seeder. Sample data read and verified.
+=======
+2019-02-26T06:58:49.385Z - info: Environment variables loaded.
+2019-02-26T06:58:49.473Z - info: Loaded routing.
+2019-02-26T06:58:49.520Z - info: START seeder.
+2019-02-26T06:58:49.527Z - debug: 6 products
+2019-02-26T06:58:49.528Z - info: END Seeder. Sample data read and verified.
+2019-02-26T07:01:00.941Z - info: Environment variables loaded.
+2019-02-26T07:01:01.066Z - info: Loaded routing.
+2019-02-26T07:01:01.139Z - info: START seeder.
+2019-02-26T07:01:01.153Z - debug: 6 products
+2019-02-26T07:01:01.153Z - info: END Seeder. Sample data read and verified.
+2019-02-26T07:02:21.957Z - info: Environment variables loaded.
+2019-02-26T07:02:22.071Z - info: Loaded routing.
+2019-02-26T07:02:22.133Z - info: START seeder.
+2019-02-26T07:02:22.139Z - debug: 6 products
+2019-02-26T07:02:22.139Z - info: END Seeder. Sample data read and verified.
+2019-02-26T07:02:30.249Z - debug: GET /
+2019-02-26T07:02:30.326Z - debug: GET /
+2019-02-26T07:02:35.430Z - debug: GET /intro/adminLogin
+2019-02-26T07:02:38.542Z - debug: GET /admin
+2019-02-26T07:02:45.034Z - debug: GET /admin/create?
+2019-02-26T07:03:02.036Z - debug: GET /admin/create?
+2019-02-26T07:03:25.257Z - debug: GET /admin/create?
+2019-02-26T07:04:49.151Z - debug: GET /admin
+2019-02-26T07:04:52.719Z - debug: POST /admin/create/
+2019-02-26T07:05:56.576Z - debug: GET /admin
+2019-02-26T07:08:23.758Z - info: Environment variables loaded.
+2019-02-26T07:08:23.829Z - info: Loaded routing.
+2019-02-26T07:08:23.875Z - info: START seeder.
+2019-02-26T07:08:23.885Z - debug: 6 products
+2019-02-26T07:08:23.885Z - info: END Seeder. Sample data read and verified.
+2019-02-26T07:08:32.018Z - debug: GET /admin
+2019-02-26T07:08:36.138Z - debug: GET /admin/create/?
+2019-02-26T07:08:49.930Z - debug: GET /admin
+2019-02-26T07:08:57.530Z - debug: GET /admin/create?
+2019-02-26T07:19:22.840Z - info: Environment variables loaded.
+2019-02-26T07:19:22.940Z - info: Loaded routing.
+2019-02-26T07:19:23.013Z - info: START seeder.
+2019-02-26T07:19:23.025Z - debug: 6 products
+2019-02-26T07:19:23.032Z - info: END Seeder. Sample data read and verified.
+2019-02-26T07:19:25.982Z - info: Environment variables loaded.
+2019-02-26T07:19:26.107Z - info: Loaded routing.
+2019-02-26T07:19:26.289Z - info: START seeder.
+2019-02-26T07:19:26.295Z - debug: 6 products
+2019-02-26T07:19:26.295Z - info: END Seeder. Sample data read and verified.
+2019-02-26T07:20:32.817Z - info: Environment variables loaded.
+2019-02-26T07:20:32.930Z - info: Loaded routing.
+2019-02-26T07:20:33.042Z - info: START seeder.
+2019-02-26T07:20:33.052Z - debug: 6 products
+2019-02-26T07:20:33.053Z - info: END Seeder. Sample data read and verified.
+2019-02-26T07:22:13.862Z - info: Environment variables loaded.
+2019-02-26T07:22:14.010Z - info: Loaded routing.
+2019-02-26T07:22:14.061Z - info: START seeder.
+2019-02-26T07:22:14.066Z - debug: 6 products
+2019-02-26T07:22:14.068Z - info: END Seeder. Sample data read and verified.
+2019-02-26T07:23:12.479Z - info: Environment variables loaded.
+2019-02-26T07:23:12.566Z - info: Loaded routing.
+2019-02-26T07:23:12.621Z - info: START seeder.
+2019-02-26T07:23:12.626Z - debug: 6 products
+2019-02-26T07:23:12.626Z - info: END Seeder. Sample data read and verified.
+2019-02-26T07:23:22.587Z - info: Environment variables loaded.
+2019-02-26T07:23:22.678Z - info: Loaded routing.
+2019-02-26T07:23:22.746Z - info: START seeder.
+2019-02-26T07:23:22.750Z - debug: 6 products
+2019-02-26T07:23:22.750Z - info: END Seeder. Sample data read and verified.
+2019-02-26T07:23:37.096Z - info: Environment variables loaded.
+2019-02-26T07:23:37.148Z - error: uncaughtException: Unexpected token } date=Tue Feb 26 2019 01:23:37 GMT-0600 (Central Standard Time), pid=15312, uid=null, gid=null, cwd=C:\GDP 2\smartinventoey, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.4, argv=[C:\Program Files\nodejs\node.exe, C:\GDP 2\smartinventoey\app.js], rss=74862592, heapTotal=62853120, heapUsed=33633112, external=18492793, loadavg=[0, 0, 0], uptime=264916.6400386
+C:\GDP 2\smartinventoey\controllers\admin.js:43
+  })
+  ^
+
+SyntaxError: Unexpected token }
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:607:28)
+    at Object.Module._extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+    at tryModuleLoad (module.js:499:12)
+    at Function.Module._load (module.js:491:3)
+    at Module.require (module.js:587:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\GDP 2\smartinventoey\routes\index.js:23:22)
+    at Module._compile (module.js:643:30)
+    at Object.Module._extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+    at tryModuleLoad (module.js:499:12)
+    at Function.Module._load (module.js:491:3)
+    at Module.require (module.js:587:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\GDP 2\smartinventoey\app.js:57:16)
+    at Module._compile (module.js:643:30)
+    at Object.Module._extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+    at tryModuleLoad (module.js:499:12)
+2019-02-26T07:23:49.971Z - info: Environment variables loaded.
+2019-02-26T07:23:50.059Z - error: uncaughtException: Unexpected token } date=Tue Feb 26 2019 01:23:50 GMT-0600 (Central Standard Time), pid=5020, uid=null, gid=null, cwd=C:\GDP 2\smartinventoey, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.4, argv=[C:\Program Files\nodejs\node.exe, C:\GDP 2\smartinventoey\app.js], rss=74473472, heapTotal=62853120, heapUsed=33614016, external=18500985, loadavg=[0, 0, 0], uptime=264929.5361018
+C:\GDP 2\smartinventoey\controllers\admin.js:43
+  })
+  ^
+
+SyntaxError: Unexpected token }
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:607:28)
+    at Object.Module._extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+    at tryModuleLoad (module.js:499:12)
+    at Function.Module._load (module.js:491:3)
+    at Module.require (module.js:587:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\GDP 2\smartinventoey\routes\index.js:23:22)
+    at Module._compile (module.js:643:30)
+    at Object.Module._extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+    at tryModuleLoad (module.js:499:12)
+    at Function.Module._load (module.js:491:3)
+    at Module.require (module.js:587:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\GDP 2\smartinventoey\app.js:57:16)
+    at Module._compile (module.js:643:30)
+    at Object.Module._extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+    at tryModuleLoad (module.js:499:12)
+2019-02-26T07:24:04.463Z - info: Environment variables loaded.
+2019-02-26T07:24:04.580Z - info: Loaded routing.
+2019-02-26T07:24:04.651Z - info: START seeder.
+2019-02-26T07:24:04.657Z - debug: 6 products
+2019-02-26T07:24:04.658Z - info: END Seeder. Sample data read and verified.
+2019-02-26T07:26:08.096Z - info: Environment variables loaded.
+2019-02-26T07:26:08.272Z - info: Loaded routing.
+2019-02-26T07:26:08.326Z - info: START seeder.
+2019-02-26T07:26:08.334Z - debug: 6 products
+2019-02-26T07:26:08.335Z - info: END Seeder. Sample data read and verified.
+2019-02-26T07:26:12.698Z - debug: GET /admin/create?
+2019-02-26T07:26:27.971Z - debug: POST /admin/save
+2019-02-26T07:26:28.104Z - debug: GET /admin
+2019-02-26T07:27:21.297Z - debug: GET /admin
+2019-02-26T07:27:24.897Z - debug: GET /admin/create?
+2019-02-26T07:27:47.928Z - debug: POST /admin/save
+2019-02-26T07:27:47.953Z - debug: GET /admin
+2019-02-26T07:28:25.313Z - info: Environment variables loaded.
+2019-02-26T07:28:25.429Z - info: Loaded routing.
+2019-02-26T07:28:25.507Z - info: START seeder.
+2019-02-26T07:28:25.523Z - debug: 6 products
+2019-02-26T07:28:25.525Z - info: END Seeder. Sample data read and verified.
+2019-02-26T07:28:25.873Z - debug: GET /admin
+2019-02-26T07:28:31.166Z - debug: GET /admin/create?
+2019-02-26T07:28:43.046Z - debug: POST /admin/save
+2019-02-26T07:28:43.229Z - debug: GET /admin
+2019-02-26T07:29:38.479Z - info: Environment variables loaded.
+2019-02-26T07:29:38.566Z - info: Loaded routing.
+2019-02-26T07:29:38.598Z - info: START seeder.
+2019-02-26T07:29:38.603Z - debug: 6 products
+2019-02-26T07:29:38.603Z - info: END Seeder. Sample data read and verified.
+2019-02-26T07:29:49.078Z - info: Environment variables loaded.
+2019-02-26T07:29:49.194Z - info: Loaded routing.
+2019-02-26T07:29:49.295Z - info: START seeder.
+2019-02-26T07:29:49.310Z - debug: 6 products
+2019-02-26T07:29:49.311Z - info: END Seeder. Sample data read and verified.
+2019-02-26T07:30:05.502Z - info: Environment variables loaded.
+2019-02-26T07:30:05.736Z - info: Loaded routing.
+2019-02-26T07:30:05.841Z - info: START seeder.
+2019-02-26T07:30:05.854Z - debug: 6 products
+2019-02-26T07:30:05.854Z - info: END Seeder. Sample data read and verified.
+2019-02-26T07:30:07.983Z - debug: GET /admin/create?
+2019-02-26T07:30:15.408Z - debug: POST /admin/save
+2019-02-26T07:30:15.620Z - debug: GET /admin
+2019-02-26T07:32:38.511Z - debug: GET /admin
+2019-02-26T07:32:42.740Z - debug: GET /admin/create?
+2019-02-26T07:32:50.865Z - debug: POST /admin/save
+2019-02-26T07:32:50.902Z - debug: GET /admin
+2019-02-26T07:34:40.493Z - debug: GET /admin/create?
+2019-02-26T07:35:35.675Z - debug: GET /admin/create?
+2019-02-26T07:36:02.094Z - debug: GET /admin/create?
+2019-02-26T07:36:45.606Z - debug: GET /admin/create?
+2019-02-26T07:36:51.302Z - debug: GET /admin/create?
+2019-02-26T07:37:28.745Z - info: Environment variables loaded.
+2019-02-26T07:37:28.902Z - info: Loaded routing.
+2019-02-26T07:37:29.014Z - info: START seeder.
+2019-02-26T07:37:29.028Z - debug: 6 products
+2019-02-26T07:37:29.030Z - info: END Seeder. Sample data read and verified.
+2019-02-26T07:37:39.276Z - info: Environment variables loaded.
+2019-02-26T07:37:39.363Z - info: Loaded routing.
+2019-02-26T07:37:39.427Z - info: START seeder.
+2019-02-26T07:37:39.433Z - debug: 6 products
+2019-02-26T07:37:39.433Z - info: END Seeder. Sample data read and verified.
+2019-02-26T07:37:48.610Z - info: Environment variables loaded.
+2019-02-26T07:37:48.749Z - info: Loaded routing.
+2019-02-26T07:37:48.862Z - info: START seeder.
+2019-02-26T07:37:48.878Z - debug: 6 products
+2019-02-26T07:37:48.878Z - info: END Seeder. Sample data read and verified.
+2019-02-26T07:37:49.107Z - debug: GET /admin/create?
+2019-02-26T07:37:58.907Z - debug: POST /admin/save
+2019-02-26T07:37:59.146Z - debug: GET /admin
+2019-02-26T07:39:08.450Z - debug: GET /admin/create?
+2019-02-26T07:39:23.588Z - debug: POST /admin/save
+2019-02-26T07:39:23.621Z - debug: GET /admin
+2019-02-26T07:40:08.509Z - info: Environment variables loaded.
+2019-02-26T07:40:08.701Z - info: Loaded routing.
+2019-02-26T07:40:08.842Z - info: START seeder.
+2019-02-26T07:40:08.860Z - debug: 6 products
+2019-02-26T07:40:08.861Z - info: END Seeder. Sample data read and verified.
+2019-02-26T07:40:14.868Z - info: Environment variables loaded.
+2019-02-26T07:40:15.054Z - info: Loaded routing.
+2019-02-26T07:40:15.156Z - info: START seeder.
+2019-02-26T07:40:15.160Z - debug: 6 products
+2019-02-26T07:40:15.160Z - info: END Seeder. Sample data read and verified.
+2019-02-26T07:40:22.520Z - info: Environment variables loaded.
+2019-02-26T07:40:22.635Z - info: Loaded routing.
+2019-02-26T07:40:22.686Z - info: START seeder.
+2019-02-26T07:40:22.695Z - debug: 6 products
+2019-02-26T07:40:22.697Z - info: END Seeder. Sample data read and verified.
+2019-02-26T07:40:31.857Z - debug: GET /admin/create?
+2019-02-26T07:40:40.830Z - debug: POST /admin/save
+2019-02-26T07:41:31.657Z - info: Environment variables loaded.
+2019-02-26T07:41:31.732Z - info: Loaded routing.
+2019-02-26T07:41:31.794Z - info: START seeder.
+2019-02-26T07:41:31.798Z - debug: 6 products
+2019-02-26T07:41:31.798Z - info: END Seeder. Sample data read and verified.
+2019-02-26T07:41:36.674Z - debug: POST /admin/save
+2019-02-26T07:41:36.870Z - debug: GET /admin
+2019-02-26T07:42:00.225Z - info: Environment variables loaded.
+2019-02-26T07:42:00.351Z - info: Loaded routing.
+2019-02-26T07:42:00.418Z - info: START seeder.
+2019-02-26T07:42:00.431Z - debug: 6 products
+2019-02-26T07:42:00.434Z - info: END Seeder. Sample data read and verified.
+2019-02-26T07:42:17.241Z - info: Environment variables loaded.
+2019-02-26T07:42:17.314Z - info: Loaded routing.
+2019-02-26T07:42:17.363Z - info: START seeder.
+2019-02-26T07:42:17.368Z - debug: 6 products
+2019-02-26T07:42:17.368Z - info: END Seeder. Sample data read and verified.
+2019-02-26T07:42:26.719Z - info: Environment variables loaded.
+2019-02-26T07:42:26.863Z - info: Loaded routing.
+2019-02-26T07:42:26.956Z - info: START seeder.
+2019-02-26T07:42:26.968Z - debug: 6 products
+2019-02-26T07:42:26.969Z - info: END Seeder. Sample data read and verified.
+2019-02-26T07:42:36.423Z - info: Environment variables loaded.
+2019-02-26T07:42:36.524Z - info: Loaded routing.
+2019-02-26T07:42:36.559Z - info: START seeder.
+2019-02-26T07:42:36.563Z - debug: 6 products
+2019-02-26T07:42:36.563Z - info: END Seeder. Sample data read and verified.
+2019-02-26T07:42:36.798Z - debug: GET /admin/create?
+2019-02-26T07:42:58.795Z - debug: POST /admin/save
+2019-02-26T07:43:17.639Z - info: Environment variables loaded.
+2019-02-26T07:43:17.756Z - info: Loaded routing.
+2019-02-26T07:43:17.839Z - info: START seeder.
+2019-02-26T07:43:17.847Z - debug: 6 products
+2019-02-26T07:43:17.848Z - info: END Seeder. Sample data read and verified.
+2019-02-26T07:43:45.167Z - debug: GET /admin/create?
+2019-02-26T07:43:52.243Z - debug: POST /admin/save/7
+2019-02-26T07:43:52.424Z - debug: GET /admin
+2019-02-26T07:59:03.113Z - info: Environment variables loaded.
+2019-02-26T07:59:03.178Z - info: Loaded routing.
+2019-02-26T07:59:03.213Z - info: START seeder.
+2019-02-26T07:59:03.219Z - debug: 6 products
+2019-02-26T07:59:03.219Z - info: END Seeder. Sample data read and verified.
+2019-02-26T08:55:58.084Z - info: Environment variables loaded.
+2019-02-26T08:55:58.217Z - info: Loaded routing.
+2019-02-26T08:55:58.319Z - info: START seeder.
+2019-02-26T08:55:58.340Z - debug: 6 products
+2019-02-26T08:55:58.343Z - info: END Seeder. Sample data read and verified.
+2019-02-26T08:58:39.373Z - info: Environment variables loaded.
+2019-02-26T08:58:39.475Z - info: Loaded routing.
+2019-02-26T08:58:39.551Z - info: START seeder.
+2019-02-26T08:58:39.559Z - debug: 6 products
+2019-02-26T08:58:39.561Z - info: END Seeder. Sample data read and verified.
+2019-02-26T08:58:47.173Z - info: Environment variables loaded.
+2019-02-26T08:58:47.353Z - info: Loaded routing.
+2019-02-26T08:58:47.464Z - info: START seeder.
+2019-02-26T08:58:47.492Z - debug: 6 products
+2019-02-26T08:58:47.493Z - info: END Seeder. Sample data read and verified.
+2019-02-26T08:58:52.264Z - info: Environment variables loaded.
+2019-02-26T08:58:52.385Z - info: Loaded routing.
+2019-02-26T08:58:52.499Z - info: START seeder.
+2019-02-26T08:58:52.536Z - debug: 6 products
+2019-02-26T08:58:52.537Z - info: END Seeder. Sample data read and verified.
+2019-02-26T08:58:59.669Z - info: Environment variables loaded.
+2019-02-26T08:58:59.777Z - info: Loaded routing.
+2019-02-26T08:58:59.845Z - info: START seeder.
+2019-02-26T08:58:59.859Z - debug: 6 products
+2019-02-26T08:58:59.860Z - info: END Seeder. Sample data read and verified.
+2019-02-26T08:59:08.151Z - info: Environment variables loaded.
+2019-02-26T08:59:08.306Z - info: Loaded routing.
+2019-02-26T08:59:08.412Z - info: START seeder.
+2019-02-26T08:59:08.423Z - debug: 6 products
+2019-02-26T08:59:08.423Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:00:09.273Z - info: Environment variables loaded.
+2019-02-26T09:00:09.505Z - info: Loaded routing.
+2019-02-26T09:00:09.646Z - info: START seeder.
+2019-02-26T09:00:09.673Z - debug: 6 products
+2019-02-26T09:00:09.676Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:00:32.773Z - debug: GET /admin/create?
+2019-02-26T09:06:47.933Z - info: Environment variables loaded.
+2019-02-26T09:06:48.029Z - info: Loaded routing.
+2019-02-26T09:06:48.112Z - info: START seeder.
+2019-02-26T09:06:48.119Z - debug: 6 products
+2019-02-26T09:06:48.119Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:07:42.877Z - debug: GET /intro/adminLogin
+2019-02-26T09:07:42.982Z - debug: GET /intro/adminLogin
+2019-02-26T09:07:45.777Z - debug: GET /admin
+2019-02-26T09:08:09.105Z - debug: GET /admin/create?
+2019-02-26T09:10:20.846Z - info: Environment variables loaded.
+2019-02-26T09:10:20.941Z - info: Loaded routing.
+2019-02-26T09:10:20.986Z - info: START seeder.
+2019-02-26T09:10:20.993Z - debug: 6 products
+2019-02-26T09:10:20.994Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:10:30.002Z - info: Environment variables loaded.
+2019-02-26T09:10:30.090Z - info: Loaded routing.
+2019-02-26T09:10:30.209Z - info: START seeder.
+2019-02-26T09:10:30.222Z - debug: 6 products
+2019-02-26T09:10:30.223Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:10:34.065Z - info: Environment variables loaded.
+2019-02-26T09:10:34.207Z - info: Loaded routing.
+2019-02-26T09:10:34.305Z - info: START seeder.
+2019-02-26T09:10:34.337Z - debug: 6 products
+2019-02-26T09:10:34.337Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:10:46.347Z - info: Environment variables loaded.
+2019-02-26T09:10:46.452Z - info: Loaded routing.
+2019-02-26T09:10:46.538Z - info: START seeder.
+2019-02-26T09:10:46.548Z - debug: 6 products
+2019-02-26T09:10:46.548Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:10:56.327Z - info: Environment variables loaded.
+2019-02-26T09:10:56.442Z - info: Loaded routing.
+2019-02-26T09:10:56.523Z - info: START seeder.
+2019-02-26T09:10:56.539Z - debug: 6 products
+2019-02-26T09:10:56.539Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:11:26.509Z - info: Environment variables loaded.
+2019-02-26T09:11:26.610Z - info: Loaded routing.
+2019-02-26T09:11:26.656Z - info: START seeder.
+2019-02-26T09:11:26.674Z - debug: 6 products
+2019-02-26T09:11:26.674Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:11:41.878Z - info: Environment variables loaded.
+2019-02-26T09:11:41.967Z - info: Loaded routing.
+2019-02-26T09:11:42.034Z - info: START seeder.
+2019-02-26T09:11:42.054Z - debug: 6 products
+2019-02-26T09:11:42.071Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:11:46.326Z - info: Environment variables loaded.
+2019-02-26T09:11:46.426Z - info: Loaded routing.
+2019-02-26T09:11:46.522Z - info: START seeder.
+2019-02-26T09:11:46.531Z - debug: 6 products
+2019-02-26T09:11:46.532Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:12:10.709Z - info: Environment variables loaded.
+2019-02-26T09:12:10.819Z - info: Loaded routing.
+2019-02-26T09:12:10.916Z - info: START seeder.
+2019-02-26T09:12:10.947Z - debug: 6 products
+2019-02-26T09:12:10.948Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:12:15.031Z - info: Environment variables loaded.
+2019-02-26T09:12:15.123Z - info: Loaded routing.
+2019-02-26T09:12:15.159Z - info: START seeder.
+2019-02-26T09:12:15.166Z - debug: 6 products
+2019-02-26T09:12:15.167Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:12:19.940Z - info: Environment variables loaded.
+2019-02-26T09:12:20.014Z - info: Loaded routing.
+2019-02-26T09:12:20.053Z - info: START seeder.
+2019-02-26T09:12:20.057Z - debug: 6 products
+2019-02-26T09:12:20.057Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:12:39.946Z - info: Environment variables loaded.
+2019-02-26T09:12:40.144Z - info: Loaded routing.
+2019-02-26T09:12:40.272Z - info: START seeder.
+2019-02-26T09:12:40.286Z - debug: 6 products
+2019-02-26T09:12:40.287Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:16:37.590Z - info: Environment variables loaded.
+2019-02-26T09:16:37.679Z - info: Loaded routing.
+2019-02-26T09:16:37.759Z - info: START seeder.
+2019-02-26T09:16:37.769Z - debug: 6 products
+2019-02-26T09:16:37.771Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:16:42.939Z - info: Environment variables loaded.
+2019-02-26T09:16:43.023Z - info: Loaded routing.
+2019-02-26T09:16:43.059Z - info: START seeder.
+2019-02-26T09:16:43.064Z - debug: 6 products
+2019-02-26T09:16:43.064Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:19:54.390Z - info: Environment variables loaded.
+2019-02-26T09:19:54.488Z - info: Loaded routing.
+2019-02-26T09:19:54.571Z - info: START seeder.
+2019-02-26T09:19:54.586Z - debug: 6 products
+2019-02-26T09:19:54.587Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:21:15.053Z - info: Environment variables loaded.
+2019-02-26T09:21:15.160Z - info: Loaded routing.
+2019-02-26T09:21:15.235Z - info: START seeder.
+2019-02-26T09:21:15.240Z - debug: 6 products
+2019-02-26T09:21:15.241Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:21:23.425Z - info: Environment variables loaded.
+2019-02-26T09:21:23.528Z - info: Loaded routing.
+2019-02-26T09:21:23.660Z - info: START seeder.
+2019-02-26T09:21:23.684Z - debug: 6 products
+2019-02-26T09:21:23.686Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:21:28.758Z - info: Environment variables loaded.
+2019-02-26T09:21:28.826Z - error: uncaughtException: Unexpected token [ date=Tue Feb 26 2019 03:21:28 GMT-0600 (Central Standard Time), pid=10360, uid=null, gid=null, cwd=C:\GDP 2\smartinventoey, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.4, argv=[C:\Program Files\nodejs\node.exe, C:\GDP 2\smartinventoey\app.js], rss=74854400, heapTotal=62328832, heapUsed=42052512, external=19926398, loadavg=[0, 0, 0], uptime=271988.3164269
+C:\GDP 2\smartinventoey\controllers\admin.js:11
+    products[]
+            ^
+
+SyntaxError: Unexpected token [
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:607:28)
+    at Object.Module._extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+    at tryModuleLoad (module.js:499:12)
+    at Function.Module._load (module.js:491:3)
+    at Module.require (module.js:587:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\GDP 2\smartinventoey\routes\index.js:23:22)
+    at Module._compile (module.js:643:30)
+    at Object.Module._extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+    at tryModuleLoad (module.js:499:12)
+    at Function.Module._load (module.js:491:3)
+    at Module.require (module.js:587:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\GDP 2\smartinventoey\app.js:57:16)
+    at Module._compile (module.js:643:30)
+    at Object.Module._extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+    at tryModuleLoad (module.js:499:12)
+2019-02-26T09:21:39.117Z - info: Environment variables loaded.
+2019-02-26T09:21:39.203Z - error: uncaughtException: Invalid shorthand property initializer date=Tue Feb 26 2019 03:21:39 GMT-0600 (Central Standard Time), pid=5528, uid=null, gid=null, cwd=C:\GDP 2\smartinventoey, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.4, argv=[C:\Program Files\nodejs\node.exe, C:\GDP 2\smartinventoey\app.js], rss=75071488, heapTotal=62328832, heapUsed=42201824, external=19942782, loadavg=[0, 0, 0], uptime=271998.6886895
+C:\GDP 2\smartinventoey\controllers\admin.js:11
+    products = [{},{}]
+    ^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid shorthand property initializer
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:607:28)
+    at Object.Module._extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+    at tryModuleLoad (module.js:499:12)
+    at Function.Module._load (module.js:491:3)
+    at Module.require (module.js:587:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\GDP 2\smartinventoey\routes\index.js:23:22)
+    at Module._compile (module.js:643:30)
+    at Object.Module._extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+    at tryModuleLoad (module.js:499:12)
+    at Function.Module._load (module.js:491:3)
+    at Module.require (module.js:587:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\GDP 2\smartinventoey\app.js:57:16)
+    at Module._compile (module.js:643:30)
+    at Object.Module._extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+    at tryModuleLoad (module.js:499:12)
+2019-02-26T09:21:51.196Z - info: Environment variables loaded.
+2019-02-26T09:21:51.333Z - error: uncaughtException: Invalid shorthand property initializer date=Tue Feb 26 2019 03:21:51 GMT-0600 (Central Standard Time), pid=8968, uid=null, gid=null, cwd=C:\GDP 2\smartinventoey, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.4, argv=[C:\Program Files\nodejs\node.exe, C:\GDP 2\smartinventoey\app.js], rss=74137600, heapTotal=62853120, heapUsed=41515312, external=19814142, loadavg=[0, 0, 0], uptime=272010.8183513
+C:\GDP 2\smartinventoey\controllers\admin.js:11
+    products = Model
+    ^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid shorthand property initializer
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:607:28)
+    at Object.Module._extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+    at tryModuleLoad (module.js:499:12)
+    at Function.Module._load (module.js:491:3)
+    at Module.require (module.js:587:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\GDP 2\smartinventoey\routes\index.js:23:22)
+    at Module._compile (module.js:643:30)
+    at Object.Module._extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+    at tryModuleLoad (module.js:499:12)
+    at Function.Module._load (module.js:491:3)
+    at Module.require (module.js:587:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\GDP 2\smartinventoey\app.js:57:16)
+    at Module._compile (module.js:643:30)
+    at Object.Module._extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+    at tryModuleLoad (module.js:499:12)
+2019-02-26T09:21:56.123Z - info: Environment variables loaded.
+2019-02-26T09:21:56.175Z - error: uncaughtException: Invalid shorthand property initializer date=Tue Feb 26 2019 03:21:56 GMT-0600 (Central Standard Time), pid=16012, uid=null, gid=null, cwd=C:\GDP 2\smartinventoey, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.4, argv=[C:\Program Files\nodejs\node.exe, C:\GDP 2\smartinventoey\app.js], rss=74596352, heapTotal=62328832, heapUsed=41521248, external=19877661, loadavg=[0, 0, 0], uptime=272015.6667679
+C:\GDP 2\smartinventoey\controllers\admin.js:11
+    products = Model.find()
+    ^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid shorthand property initializer
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:607:28)
+    at Object.Module._extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+    at tryModuleLoad (module.js:499:12)
+    at Function.Module._load (module.js:491:3)
+    at Module.require (module.js:587:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\GDP 2\smartinventoey\routes\index.js:23:22)
+    at Module._compile (module.js:643:30)
+    at Object.Module._extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+    at tryModuleLoad (module.js:499:12)
+    at Function.Module._load (module.js:491:3)
+    at Module.require (module.js:587:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\GDP 2\smartinventoey\app.js:57:16)
+    at Module._compile (module.js:643:30)
+    at Object.Module._extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+    at tryModuleLoad (module.js:499:12)
+2019-02-26T09:22:16.093Z - info: Environment variables loaded.
+2019-02-26T09:22:16.277Z - info: Loaded routing.
+2019-02-26T09:22:16.400Z - info: START seeder.
+2019-02-26T09:22:16.408Z - debug: 6 products
+2019-02-26T09:22:16.409Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:22:24.479Z - info: Environment variables loaded.
+2019-02-26T09:22:24.636Z - info: Loaded routing.
+2019-02-26T09:22:24.692Z - info: START seeder.
+2019-02-26T09:22:24.699Z - debug: 6 products
+2019-02-26T09:22:24.699Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:22:29.924Z - info: Environment variables loaded.
+2019-02-26T09:22:30.132Z - info: Loaded routing.
+2019-02-26T09:22:30.245Z - info: START seeder.
+2019-02-26T09:22:30.252Z - debug: 6 products
+2019-02-26T09:22:30.254Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:23:49.267Z - info: Environment variables loaded.
+2019-02-26T09:23:49.334Z - info: Loaded routing.
+2019-02-26T09:23:49.390Z - info: START seeder.
+2019-02-26T09:23:49.397Z - debug: 6 products
+2019-02-26T09:23:49.398Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:24:03.216Z - info: Environment variables loaded.
+2019-02-26T09:24:03.296Z - info: Loaded routing.
+2019-02-26T09:24:03.373Z - info: START seeder.
+2019-02-26T09:24:03.383Z - debug: 6 products
+2019-02-26T09:24:03.385Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:24:15.971Z - info: Environment variables loaded.
+2019-02-26T09:24:16.109Z - info: Loaded routing.
+2019-02-26T09:24:16.230Z - info: START seeder.
+2019-02-26T09:24:16.244Z - debug: 6 products
+2019-02-26T09:24:16.246Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:25:42.784Z - info: Environment variables loaded.
+2019-02-26T09:25:42.880Z - info: Loaded routing.
+2019-02-26T09:25:42.919Z - info: START seeder.
+2019-02-26T09:25:42.925Z - debug: 6 products
+2019-02-26T09:25:42.925Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:26:01.843Z - info: Environment variables loaded.
+2019-02-26T09:26:01.936Z - info: Loaded routing.
+2019-02-26T09:26:01.973Z - info: START seeder.
+2019-02-26T09:26:01.988Z - debug: 6 products
+2019-02-26T09:26:01.989Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:26:12.896Z - info: Environment variables loaded.
+2019-02-26T09:26:13.059Z - info: Loaded routing.
+2019-02-26T09:26:13.126Z - info: START seeder.
+2019-02-26T09:26:13.132Z - debug: 6 products
+2019-02-26T09:26:13.132Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:26:27.446Z - info: Environment variables loaded.
+2019-02-26T09:26:27.530Z - info: Loaded routing.
+2019-02-26T09:26:27.588Z - info: START seeder.
+2019-02-26T09:26:27.595Z - debug: 6 products
+2019-02-26T09:26:27.596Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:26:39.518Z - info: Environment variables loaded.
+2019-02-26T09:26:39.695Z - info: Loaded routing.
+2019-02-26T09:26:39.815Z - info: START seeder.
+2019-02-26T09:26:39.836Z - debug: 6 products
+2019-02-26T09:26:39.837Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:27:03.750Z - info: Environment variables loaded.
+2019-02-26T09:27:03.845Z - info: Loaded routing.
+2019-02-26T09:27:03.901Z - info: START seeder.
+2019-02-26T09:27:03.909Z - debug: 6 products
+2019-02-26T09:27:03.909Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:27:23.764Z - info: Environment variables loaded.
+2019-02-26T09:27:23.975Z - info: Loaded routing.
+2019-02-26T09:27:24.026Z - info: START seeder.
+2019-02-26T09:27:24.035Z - debug: 6 products
+2019-02-26T09:27:24.036Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:27:34.555Z - info: Environment variables loaded.
+2019-02-26T09:27:34.722Z - info: Loaded routing.
+2019-02-26T09:27:34.758Z - info: START seeder.
+2019-02-26T09:27:34.762Z - debug: 6 products
+2019-02-26T09:27:34.763Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:27:44.603Z - info: Environment variables loaded.
+2019-02-26T09:27:44.790Z - info: Loaded routing.
+2019-02-26T09:27:44.873Z - info: START seeder.
+2019-02-26T09:27:44.879Z - debug: 6 products
+2019-02-26T09:27:44.879Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:28:20.241Z - info: Environment variables loaded.
+2019-02-26T09:28:20.397Z - info: Loaded routing.
+2019-02-26T09:28:20.469Z - info: START seeder.
+2019-02-26T09:28:20.478Z - debug: 6 products
+2019-02-26T09:28:20.479Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:28:24.773Z - info: Environment variables loaded.
+2019-02-26T09:28:24.955Z - info: Loaded routing.
+2019-02-26T09:28:25.043Z - info: START seeder.
+2019-02-26T09:28:25.051Z - debug: 6 products
+2019-02-26T09:28:25.052Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:28:34.037Z - info: Environment variables loaded.
+2019-02-26T09:28:34.190Z - info: Loaded routing.
+2019-02-26T09:28:34.270Z - info: START seeder.
+2019-02-26T09:28:34.303Z - debug: 6 products
+2019-02-26T09:28:34.325Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:28:43.270Z - info: Environment variables loaded.
+2019-02-26T09:28:43.405Z - info: Loaded routing.
+2019-02-26T09:28:43.485Z - info: START seeder.
+2019-02-26T09:28:43.494Z - debug: 6 products
+2019-02-26T09:28:43.495Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:28:51.478Z - info: Environment variables loaded.
+2019-02-26T09:28:51.681Z - info: Loaded routing.
+2019-02-26T09:28:51.804Z - info: START seeder.
+2019-02-26T09:28:51.815Z - debug: 6 products
+2019-02-26T09:28:51.815Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:29:56.727Z - info: Environment variables loaded.
+2019-02-26T09:29:56.897Z - info: Loaded routing.
+2019-02-26T09:29:57.046Z - info: START seeder.
+2019-02-26T09:29:57.052Z - debug: 6 products
+2019-02-26T09:29:57.053Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:30:01.813Z - info: Environment variables loaded.
+2019-02-26T09:30:01.992Z - info: Loaded routing.
+2019-02-26T09:30:02.043Z - info: START seeder.
+2019-02-26T09:30:02.048Z - debug: 6 products
+2019-02-26T09:30:02.049Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:30:07.949Z - info: Environment variables loaded.
+2019-02-26T09:30:08.161Z - info: Loaded routing.
+2019-02-26T09:30:08.282Z - info: START seeder.
+2019-02-26T09:30:08.294Z - debug: 6 products
+2019-02-26T09:30:08.295Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:30:22.992Z - info: Environment variables loaded.
+2019-02-26T09:30:23.051Z - info: Loaded routing.
+2019-02-26T09:30:23.110Z - info: START seeder.
+2019-02-26T09:30:23.114Z - debug: 6 products
+2019-02-26T09:30:23.115Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:30:30.751Z - debug: GET /admin
+2019-02-26T09:31:34.384Z - info: Environment variables loaded.
+2019-02-26T09:31:34.471Z - info: Loaded routing.
+2019-02-26T09:31:34.515Z - info: START seeder.
+2019-02-26T09:31:34.522Z - debug: 6 products
+2019-02-26T09:31:34.524Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:31:41.237Z - info: Environment variables loaded.
+2019-02-26T09:31:41.407Z - info: Loaded routing.
+2019-02-26T09:31:41.495Z - info: START seeder.
+2019-02-26T09:31:41.502Z - debug: 6 products
+2019-02-26T09:31:41.503Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:31:56.168Z - info: Environment variables loaded.
+2019-02-26T09:31:56.359Z - info: Loaded routing.
+2019-02-26T09:31:56.438Z - info: START seeder.
+2019-02-26T09:31:56.449Z - debug: 6 products
+2019-02-26T09:31:56.452Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:32:08.136Z - info: Environment variables loaded.
+2019-02-26T09:32:08.214Z - info: Loaded routing.
+2019-02-26T09:32:08.286Z - info: START seeder.
+2019-02-26T09:32:08.292Z - debug: 6 products
+2019-02-26T09:32:08.293Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:32:21.455Z - info: Environment variables loaded.
+2019-02-26T09:32:21.611Z - info: Loaded routing.
+2019-02-26T09:32:21.720Z - info: START seeder.
+2019-02-26T09:32:21.733Z - debug: 6 products
+2019-02-26T09:32:21.734Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:32:27.104Z - info: Environment variables loaded.
+2019-02-26T09:32:27.201Z - info: Loaded routing.
+2019-02-26T09:32:27.304Z - info: START seeder.
+2019-02-26T09:32:27.317Z - debug: 6 products
+2019-02-26T09:32:27.318Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:33:32.228Z - debug: GET /admin
+2019-02-26T09:37:01.921Z - info: Environment variables loaded.
+2019-02-26T09:37:02.105Z - info: Loaded routing.
+2019-02-26T09:37:02.298Z - info: START seeder.
+2019-02-26T09:37:02.304Z - debug: 6 products
+2019-02-26T09:37:02.304Z - info: END Seeder. Sample data read and verified.
+2019-02-26T09:37:06.010Z - info: Environment variables loaded.
+2019-02-26T09:37:06.098Z - info: Loaded routing.
+2019-02-26T09:37:06.150Z - info: START seeder.
+2019-02-26T09:37:06.161Z - debug: 6 products
+2019-02-26T09:37:06.162Z - info: END Seeder. Sample data read and verified.
+>>>>>>> 932454e632978a4d5a4d77c1d4cd6705ac36e0e0
+2019-02-27T15:05:17.038Z - info: Environment variables loaded.
+2019-02-27T15:05:17.187Z - info: Loaded routing.
+2019-02-27T15:05:17.267Z - info: START seeder.
+2019-02-27T15:05:17.272Z - debug: 6 products
+2019-02-27T15:05:17.272Z - info: END Seeder. Sample data read and verified.
+2019-02-27T15:05:25.489Z - debug: GET /
+2019-02-27T15:05:28.266Z - debug: GET /intro/adminLogin
+2019-02-27T15:05:29.771Z - debug: GET /admin
+2019-02-27T15:42:52.844Z - debug: GET /
+2019-02-27T15:42:53.111Z - debug: GET /css/main.css
+2019-02-27T15:42:55.964Z - debug: GET /intro/adminLogin
+2019-02-27T15:42:57.918Z - debug: GET /admin
+2019-02-27T15:43:01.877Z - debug: GET /admin/create?
+2019-02-27T15:43:36.059Z - debug: POST /admin/save/7
+2019-02-27T15:43:36.242Z - debug: GET /admin
+2019-02-27T15:43:41.151Z - debug: GET /
+2019-02-27T15:43:43.024Z - debug: GET /intro/userLogin
+2019-02-27T15:43:45.012Z - debug: GET /user
+2019-02-27T15:44:02.927Z - debug: GET /admin/edit/3
+2019-02-27T15:47:28.965Z - debug: GET /user
+2019-02-27T15:47:30.703Z - debug: GET /user
+2019-02-27T15:47:32.046Z - debug: GET /user
+2019-02-27T15:47:32.933Z - debug: GET /admin/details/1?
+2019-02-27T15:47:35.850Z - debug: GET /admin?
+2019-02-27T15:49:08.041Z - debug: GET /admin?
+2019-02-27T15:49:09.223Z - debug: GET /
+2019-02-27T15:49:12.149Z - debug: GET /intro/userLogin
+2019-02-27T15:49:13.783Z - debug: GET /user
+2019-02-27T15:49:15.394Z - debug: GET /user
+2019-02-27T15:49:16.668Z - debug: GET /user?
+2019-02-27T15:49:17.888Z - debug: GET /user?
+2019-02-27T15:49:18.602Z - debug: GET /user?
+2019-02-27T15:49:19.161Z - debug: GET /user?
+2019-02-27T15:49:19.593Z - debug: GET /user?
+2019-02-27T20:29:14.373Z - debug: GET /user?
+2019-02-27T20:29:15.936Z - debug: GET /user?
+2019-02-27T20:29:17.426Z - debug: GET /user?
+2019-02-27T20:29:18.517Z - debug: GET /user?
+2019-02-27T20:29:19.889Z - debug: GET /user?
+2019-02-27T20:29:21.035Z - debug: GET /user?
+2019-02-27T20:29:22.286Z - debug: GET /user?
+2019-02-27T20:29:23.317Z - debug: GET /user?
+2019-02-27T20:29:24.238Z - debug: GET /user?
+2019-02-27T20:33:03.383Z - debug: GET /
+2019-02-27T20:33:05.291Z - debug: GET /intro/adminLogin
+2019-02-27T20:33:07.469Z - debug: GET /admin
+2019-02-27T20:33:09.531Z - debug: GET /admin/create?
+2019-02-27T20:35:40.878Z - debug: POST /admin/save/7
+2019-02-27T20:35:40.898Z - debug: GET /admin
+2019-02-27T20:35:45.577Z - debug: GET /admin/edit/7
+2019-02-27T20:36:40.361Z - info: Environment variables loaded.
+2019-02-27T20:36:40.468Z - info: Loaded routing.
+2019-02-27T20:36:40.613Z - info: START seeder.
+2019-02-27T20:36:40.627Z - debug: 6 products
+2019-02-27T20:36:40.628Z - info: END Seeder. Sample data read and verified.
+2019-02-27T20:37:04.599Z - debug: GET /admin
+2019-02-27T20:37:06.952Z - debug: GET /admin/delete/7
+2019-02-27T20:37:11.467Z - debug: GET /
+2019-02-27T20:37:13.747Z - debug: GET /intro/adminLogin
+2019-02-27T20:37:15.339Z - debug: GET /admin
+2019-02-27T20:37:20.834Z - debug: GET /admin/addProduct?
+2019-02-27T20:37:31.453Z - debug: POST /admin/save/7
+2019-02-27T20:37:31.689Z - debug: GET /admin
+2019-02-27T20:42:10.776Z - debug: GET /admin
+2019-02-27T20:44:59.584Z - info: Environment variables loaded.
+2019-02-27T20:44:59.649Z - info: Loaded routing.
+2019-02-27T20:44:59.690Z - info: START seeder.
+2019-02-27T20:44:59.694Z - debug: 6 products
+2019-02-27T20:44:59.694Z - info: END Seeder. Sample data read and verified.
+2019-02-27T20:45:01.335Z - debug: GET /
+2019-02-27T20:45:04.814Z - debug: GET /intro/adminLogin
+2019-02-27T20:45:06.436Z - debug: GET /admin
+2019-02-27T20:45:08.350Z - debug: GET /admin/addProduct?
+2019-02-27T20:45:17.881Z - debug: POST /admin/save/7
+2019-02-27T20:45:18.055Z - debug: GET /admin
+2019-02-27T20:45:22.834Z - debug: GET /admin/details/7?
+2019-02-27T20:45:24.883Z - debug: GET /admin?
+2019-02-27T20:45:26.636Z - debug: GET /admin/details/7?
+2019-02-27T20:45:28.073Z - debug: GET /admin?
+2019-02-27T20:46:29.454Z - info: Environment variables loaded.
+2019-02-27T20:46:29.624Z - info: Loaded routing.
+2019-02-27T20:46:29.794Z - info: START seeder.
+2019-02-27T20:46:29.823Z - debug: 6 products
+2019-02-27T20:46:29.824Z - info: END Seeder. Sample data read and verified.
+2019-02-27T20:46:31.884Z - debug: GET /intro/adminLogin
+2019-02-27T20:46:33.340Z - debug: GET /admin
+2019-02-27T20:46:35.880Z - debug: GET /admin/edit/7
+2019-02-27T20:46:40.525Z - debug: GET /admin/addProduct?
+2019-02-27T20:46:50.020Z - debug: POST /admin/save/7
+2019-02-27T20:46:50.192Z - debug: GET /admin
+2019-02-27T20:46:53.017Z - debug: GET /admin/edit/7
+2019-02-27T20:47:15.357Z - debug: POST /admin/save/7
+2019-02-27T20:47:15.379Z - debug: GET /admin
+2019-02-27T20:47:20.217Z - debug: GET /
+2019-02-27T20:47:21.636Z - debug: GET /intro/userLogin
+2019-02-27T20:47:22.947Z - debug: GET /user
+2019-02-28T19:54:15.498Z - info: Environment variables loaded.
+2019-02-28T19:54:15.600Z - info: Loaded routing.
+2019-02-28T19:54:15.697Z - info: START seeder.
+2019-02-28T19:54:15.704Z - debug: 6 products
+2019-02-28T19:54:15.705Z - info: END Seeder. Sample data read and verified.
+2019-02-28T19:54:18.001Z - debug: GET /
+2019-02-28T19:54:19.838Z - debug: GET /intro/adminLogin
+2019-02-28T19:54:21.833Z - debug: GET /admin
+2019-02-28T20:17:18.230Z - info: Environment variables loaded.
+2019-02-28T20:17:18.294Z - info: Loaded routing.
+2019-02-28T20:17:18.332Z - info: START seeder.
+2019-02-28T20:17:18.338Z - debug: 6 products
+2019-02-28T20:17:18.339Z - info: END Seeder. Sample data read and verified.
+2019-02-28T20:17:18.534Z - debug: GET /
+2019-02-28T20:17:20.891Z - debug: GET /intro/adminLogin
+2019-02-28T20:17:22.820Z - debug: GET /admin
+2019-02-28T20:19:06.423Z - info: Environment variables loaded.
+2019-02-28T20:19:06.529Z - info: Loaded routing.
+2019-02-28T20:19:06.594Z - info: START seeder.
+2019-02-28T20:19:06.601Z - debug: 6 products
+2019-02-28T20:19:06.601Z - info: END Seeder. Sample data read and verified.
+2019-02-28T20:19:08.921Z - debug: GET /
+2019-02-28T20:19:10.730Z - debug: GET /intro/adminLogin
+2019-02-28T20:19:12.323Z - debug: GET /admin
+2019-02-28T20:20:31.055Z - info: Environment variables loaded.
+2019-02-28T20:20:31.160Z - info: Loaded routing.
+2019-02-28T20:20:31.227Z - info: START seeder.
+2019-02-28T20:20:31.234Z - debug: 6 products
+2019-02-28T20:20:31.234Z - info: END Seeder. Sample data read and verified.
+2019-02-28T20:20:35.839Z - debug: GET /
+2019-02-28T20:20:38.041Z - debug: GET /intro/adminLogin
+2019-02-28T20:20:39.783Z - debug: GET /admin
+2019-02-28T20:24:15.914Z - info: Environment variables loaded.
+2019-02-28T20:24:16.351Z - info: Loaded routing.
+2019-02-28T20:24:16.422Z - info: START seeder.
+2019-02-28T20:24:16.429Z - debug: 6 products
+2019-02-28T20:24:16.429Z - info: END Seeder. Sample data read and verified.
+2019-02-28T20:24:24.411Z - debug: GET /
+2019-02-28T20:24:26.252Z - debug: GET /intro/adminLogin
+2019-02-28T20:24:27.693Z - debug: GET /admin
+2019-02-28T20:37:18.950Z - debug: GET /admin/edit/1
+2019-02-28T20:37:22.305Z - debug: GET /admin
+2019-02-28T20:44:47.301Z - info: Environment variables loaded.
+2019-02-28T20:44:48.054Z - info: Loaded routing.
+2019-02-28T20:44:48.154Z - info: START seeder.
+2019-02-28T20:44:48.164Z - debug: 6 products
+2019-02-28T20:44:48.166Z - info: END Seeder. Sample data read and verified.
+2019-02-28T20:44:57.386Z - debug: GET /admin
+2019-02-28T20:44:59.803Z - debug: GET /admin/edit/1
+2019-02-28T20:52:32.357Z - info: Environment variables loaded.
+2019-02-28T20:52:33.328Z - error: uncaughtException: listen EADDRINUSE: address already in use :::8089 date=Thu Feb 28 2019 14:52:33 GMT-0600 (Central Standard Time), pid=16600, uid=null, gid=null, cwd=D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\app.js], rss=84303872, heapTotal=66326528, heapUsed=31359424, external=36231508, loadavg=[0, 0, 0], uptime=597488
+Error: listen EADDRINUSE: address already in use :::8089
+    at Server.setupListenHandle [as _listen2] (net.js:1255:14)
+    at listenInCluster (net.js:1303:12)
+    at Server.listen (net.js:1391:7)
+    at Function.listen (D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\app.js:73:5)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:774:12)
+    at executeUserCode (internal/bootstrap/node.js:342:17)
+    at startExecution (internal/bootstrap/node.js:276:5)
+    at startup (internal/bootstrap/node.js:227:5)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+2019-02-28T20:52:33.070Z - info: Loaded routing.
+2019-02-28T20:52:33.216Z - info: START seeder.
+2019-02-28T20:52:33.229Z - debug: 6 products
+2019-02-28T20:52:33.230Z - info: END Seeder. Sample data read and verified.
+2019-02-28T20:53:04.496Z - info: Environment variables loaded.
+2019-02-28T20:53:04.774Z - info: Loaded routing.
+2019-02-28T20:53:04.823Z - info: START seeder.
+2019-02-28T20:53:04.827Z - debug: 6 products
+2019-02-28T20:53:04.827Z - info: END Seeder. Sample data read and verified.
+2019-02-28T20:53:10.222Z - debug: GET /
+2019-02-28T20:53:22.901Z - debug: GET /intro/adminLogin
+2019-02-28T20:53:44.682Z - debug: GET /admin
+2019-02-28T20:53:49.599Z - debug: GET /admin/edit/1
+2019-02-28T20:54:30.445Z - debug: GET /admin/edit/1
+2019-02-28T21:00:34.069Z - info: Environment variables loaded.
+2019-02-28T21:00:34.379Z - info: Loaded routing.
+2019-02-28T21:00:34.435Z - info: START seeder.
+2019-02-28T21:00:34.439Z - debug: 6 products
+2019-02-28T21:00:34.439Z - info: END Seeder. Sample data read and verified.
+2019-02-28T21:00:41.301Z - debug: GET /admin/edit/1
+2019-02-28T21:02:19.506Z - debug: GET /admin
+2019-02-28T21:02:32.120Z - debug: GET /admin/edit/2
+2019-02-28T21:02:34.980Z - debug: GET /admin
+2019-02-28T21:02:52.596Z - debug: GET /admin/edit/1
+2019-02-28T21:03:59.764Z - debug: POST /admin/save/1
+2019-02-28T21:05:43.915Z - debug: GET /admin
+2019-02-28T21:05:45.753Z - debug: GET /admin/addProduct?
+2019-02-28T21:05:56.306Z - debug: POST /admin/save/7
+2019-02-28T21:05:56.367Z - debug: GET /admin
+2019-02-28T21:10:10.895Z - debug: GET /admin/edit/1
+2019-02-28T21:10:23.211Z - debug: POST /admin/update/1
+2019-02-28T21:14:01.856Z - debug: GET /admin
+2019-02-28T21:14:03.858Z - debug: GET /admin/edit/1
+2019-02-28T21:14:18.300Z - debug: POST /admin/update/1
+2019-02-28T21:18:13.403Z - info: Environment variables loaded.
+2019-02-28T21:18:13.821Z - info: Loaded routing.
+2019-02-28T21:18:13.900Z - info: START seeder.
+2019-02-28T21:18:13.905Z - debug: 6 products
+2019-02-28T21:18:13.905Z - info: END Seeder. Sample data read and verified.
+2019-02-28T21:18:22.301Z - debug: GET /
+2019-02-28T21:18:25.723Z - debug: GET /intro/adminLogin
+2019-02-28T21:18:27.521Z - debug: GET /admin
+2019-02-28T21:18:29.029Z - debug: GET /admin/edit/1
+2019-02-28T21:18:40.172Z - debug: POST /admin/update/1
+2019-02-28T21:18:40.227Z - debug: GET /admin
+2019-02-28T21:24:25.692Z - info: Environment variables loaded.
+2019-02-28T21:24:26.039Z - info: Loaded routing.
+2019-02-28T21:24:26.089Z - info: START seeder.
+2019-02-28T21:24:26.096Z - debug: 6 products
+2019-02-28T21:24:26.097Z - info: END Seeder. Sample data read and verified.
+2019-02-28T21:24:38.227Z - debug: GET /admin
+2019-02-28T21:24:41.601Z - debug: GET /admin/delete/1
+2019-02-28T21:24:44.093Z - debug: POST /admin/delete/1
+2019-02-28T21:25:23.821Z - debug: GET /admin
+2019-02-28T21:25:25.205Z - debug: GET /admin/delete/1
+2019-02-28T21:25:26.578Z - debug: POST /admin/delete/1
+2019-02-28T21:25:45.551Z - info: Environment variables loaded.
+2019-02-28T21:25:45.815Z - info: Loaded routing.
+2019-02-28T21:25:45.859Z - info: START seeder.
+2019-02-28T21:25:45.863Z - debug: 6 products
+2019-02-28T21:25:45.863Z - info: END Seeder. Sample data read and verified.
+2019-02-28T21:25:49.467Z - debug: GET /admin
+2019-02-28T21:25:51.602Z - debug: GET /admin/delete/1
+2019-02-28T21:25:53.024Z - debug: POST /admin/delete/1
+2019-02-28T21:27:35.612Z - debug: GET /
+2019-02-28T21:27:37.674Z - debug: GET /intro/adminLogin
+2019-02-28T21:27:39.167Z - debug: GET /admin
+2019-02-28T21:27:40.564Z - debug: GET /admin/delete/1
+2019-02-28T21:27:41.529Z - debug: POST /admin/delete/1
+2019-02-28T21:27:53.879Z - info: Environment variables loaded.
+2019-02-28T21:27:54.328Z - info: Loaded routing.
+2019-02-28T21:27:54.391Z - info: START seeder.
+2019-02-28T21:27:54.397Z - debug: 6 products
+2019-02-28T21:27:54.398Z - info: END Seeder. Sample data read and verified.
+2019-02-28T21:27:57.787Z - debug: GET /admin
+2019-02-28T21:27:59.961Z - debug: GET /admin/delete/1
+2019-02-28T21:28:01.805Z - debug: POST /admin/delete/1
+2019-02-28T21:28:01.849Z - debug: GET /admin
+2019-02-28T21:28:56.486Z - debug: GET /admin/addProduct?
+2019-02-28T21:29:09.769Z - debug: GET /admin
+2019-02-28T21:29:11.140Z - debug: GET /admin/addProduct?
+2019-02-28T21:29:12.632Z - debug: GET /admin
+2019-02-28T21:30:24.584Z - debug: GET /admin
+2019-02-28T21:30:24.814Z - debug: GET /admin
+2019-02-28T21:30:24.962Z - debug: GET /admin
+2019-02-28T21:30:25.763Z - debug: GET /admin/details/2?
+2019-02-28T21:30:28.612Z - debug: GET /admin?
+2019-02-28T21:30:30.158Z - debug: GET /admin/details/2?
+2019-02-28T21:30:31.753Z - debug: GET /admin?
+2019-02-28T21:30:32.583Z - debug: GET /admin/details/2?
+2019-02-28T21:30:34.274Z - debug: GET /admin?
+2019-02-28T21:30:47.858Z - info: Environment variables loaded.
+2019-02-28T21:30:48.095Z - info: Loaded routing.
+2019-02-28T21:30:48.132Z - info: START seeder.
+2019-02-28T21:30:48.136Z - debug: 6 products
+2019-02-28T21:30:48.136Z - info: END Seeder. Sample data read and verified.
+2019-02-28T21:30:53.135Z - debug: GET /admin?
+2019-02-28T21:30:53.912Z - debug: GET /admin?
+2019-02-28T21:30:54.070Z - debug: GET /admin?
+2019-02-28T21:30:54.187Z - debug: GET /admin?
+2019-02-28T21:30:54.390Z - debug: GET /admin?
+2019-02-28T21:30:55.302Z - debug: GET /admin/details/2?
+2019-02-28T21:30:58.335Z - debug: GET /admin?
+2019-02-28T21:31:05.674Z - debug: GET /admin/details/2?
+2019-02-28T21:31:07.953Z - debug: GET /admin?
+2019-02-28T21:31:08.790Z - debug: GET /admin/details/2?
+2019-02-28T21:31:11.156Z - debug: GET /admin?
+2019-02-28T21:31:58.646Z - info: Environment variables loaded.
+2019-02-28T21:31:58.863Z - info: Loaded routing.
+2019-02-28T21:31:58.898Z - info: START seeder.
+2019-02-28T21:31:58.906Z - debug: 6 products
+2019-02-28T21:31:58.906Z - info: END Seeder. Sample data read and verified.
+2019-02-28T21:32:02.903Z - debug: GET /
+2019-02-28T21:32:04.890Z - debug: GET /intro/adminLogin
+2019-02-28T21:32:06.698Z - debug: GET /admin
+2019-02-28T21:32:09.778Z - debug: GET /admin/details/2?
+2019-02-28T21:32:41.999Z - debug: GET /admin?
+2019-02-28T21:32:43.653Z - debug: GET /admin/delete/2
+2019-02-28T21:32:44.665Z - debug: POST /admin/delete/2
+2019-02-28T21:32:44.706Z - debug: GET /admin
+2019-02-28T21:32:46.035Z - debug: GET /admin/details/3?
+2019-02-28T21:32:47.957Z - debug: GET /admin?
+2019-02-28T21:34:47.217Z - debug: GET /admin/edit/3
+2019-02-28T21:34:49.092Z - debug: GET /admin
+2019-02-28T21:34:50.632Z - debug: GET /admin/edit/4
+2019-02-28T21:34:53.079Z - debug: GET /admin
+2019-02-28T21:34:54.983Z - debug: GET /admin/edit/5
+2019-02-28T21:34:56.872Z - debug: GET /admin
+2019-02-28T21:34:58.210Z - debug: GET /admin/edit/7
+2019-02-28T21:35:00.085Z - debug: GET /admin
+2019-02-28T21:40:14.151Z - debug: GET /admin
+2019-02-28T21:40:21.614Z - debug: GET /admin/details/3?
+2019-02-28T21:40:42.210Z - info: Environment variables loaded.
+2019-02-28T21:40:42.474Z - info: Loaded routing.
+2019-02-28T21:40:42.508Z - info: START seeder.
+2019-02-28T21:40:42.513Z - debug: 6 products
+2019-02-28T21:40:42.513Z - info: END Seeder. Sample data read and verified.
+2019-02-28T21:40:45.945Z - debug: GET /admin?
+2019-02-28T21:40:49.796Z - debug: GET /admin/details/3?
+2019-02-28T21:40:54.409Z - debug: GET /admin?
+2019-02-28T21:40:55.481Z - debug: GET /admin/details/3?
+2019-02-28T21:43:28.428Z - debug: GET /admin?
+2019-02-28T21:43:34.239Z - debug: GET /admin/details/3?
+2019-02-28T21:43:35.651Z - debug: GET /admin?
+2019-02-28T21:43:37.176Z - debug: GET /admin/details/3?
+2019-02-28T21:43:38.848Z - debug: GET /admin?
+2019-02-28T21:44:04.053Z - debug: GET /admin/edit/4
+2019-02-28T21:44:07.637Z - debug: GET /admin
+2019-02-28T21:44:10.689Z - debug: GET /admin/details/3?
+2019-02-28T21:44:14.148Z - debug: GET /admin?
+2019-02-28T21:47:03.894Z - debug: GET /admin/details/3?
+2019-02-28T21:47:06.497Z - debug: GET /admin?
+2019-02-28T21:53:17.340Z - debug: GET /admin?
+2019-02-28T21:53:17.576Z - debug: GET /admin?
+2019-02-28T21:53:18.440Z - debug: GET /admin/details/3?
+2019-02-28T21:53:19.670Z - debug: GET /admin?
+2019-02-28T21:53:20.371Z - debug: GET /admin/details/4?
+2019-02-28T21:53:22.043Z - debug: GET /admin?
+2019-02-28T21:53:44.872Z - debug: GET /admin/details/7?
+2019-02-28T21:53:47.361Z - debug: GET /admin?
+2019-02-28T21:54:21.783Z - debug: GET /
+2019-02-28T21:54:23.339Z - debug: GET /intro/userLogin
+2019-02-28T21:54:24.749Z - debug: GET /user
+2019-02-28T21:56:44.912Z - debug: GET /user
+2019-02-28T21:57:18.493Z - info: Environment variables loaded.
+2019-02-28T21:57:18.709Z - info: Loaded routing.
+2019-02-28T21:57:18.741Z - info: START seeder.
+2019-02-28T21:57:18.746Z - debug: 6 products
+2019-02-28T21:57:18.746Z - info: END Seeder. Sample data read and verified.
+2019-02-28T21:57:22.568Z - debug: GET /
+2019-02-28T21:57:24.606Z - debug: GET /intro/userLogin
+2019-02-28T21:57:26.164Z - debug: GET /user
+2019-02-28T21:58:16.307Z - debug: GET /user
+2019-02-28T21:58:25.265Z - debug: GET /
+2019-02-28T21:58:29.007Z - debug: GET /user?
+2019-02-28T21:58:31.108Z - debug: GET /user?
+2019-02-28T21:58:54.458Z - debug: GET /user?
+2019-02-28T22:01:19.945Z - debug: GET /user?
+2019-02-28T22:01:23.525Z - debug: GET /user?
+2019-03-02T18:46:17.908Z - info: Environment variables loaded.
+2019-03-02T18:46:18.428Z - info: Loaded routing.
+2019-03-02T18:46:18.506Z - info: START seeder.
+2019-03-02T18:46:18.524Z - debug: 6 products
+2019-03-02T18:46:18.525Z - info: END Seeder. Sample data read and verified.
+2019-03-02T18:46:21.497Z - debug: GET /
+2019-03-02T18:46:24.757Z - debug: GET /intro/userLogin
+2019-03-02T18:46:26.869Z - debug: GET /user
+2019-03-02T18:46:29.095Z - debug: GET /accept
+2019-03-02T23:00:12.489Z - info: Environment variables loaded.
+2019-03-02T23:00:12.913Z - info: Loaded routing.
+2019-03-02T23:00:12.989Z - info: START seeder.
+2019-03-02T23:00:12.997Z - debug: 6 products
+2019-03-02T23:00:12.997Z - info: END Seeder. Sample data read and verified.
+2019-03-02T23:00:54.960Z - debug: GET /
+2019-03-02T23:00:57.180Z - debug: GET /intro/userLogin
+2019-03-02T23:00:58.649Z - debug: GET /user
+2019-03-02T23:00:59.930Z - debug: GET /user/accept
+2019-03-02T23:09:05.611Z - debug: GET /user
+2019-03-02T23:09:07.393Z - debug: GET /user/accept
+2019-03-02T23:09:15.576Z - debug: GET /user
+2019-03-02T23:09:28.866Z - info: Environment variables loaded.
+2019-03-02T23:09:29.242Z - info: Loaded routing.
+2019-03-02T23:09:29.285Z - info: START seeder.
+2019-03-02T23:09:29.297Z - debug: 6 products
+2019-03-02T23:09:29.297Z - info: END Seeder. Sample data read and verified.
+2019-03-02T23:09:29.838Z - debug: GET /
+2019-03-02T23:09:32.353Z - debug: GET /intro/userLogin
+2019-03-02T23:09:34.572Z - debug: GET /user
+2019-03-02T23:09:36.429Z - debug: GET /user/accept
+2019-03-02T23:11:36.457Z - debug: GET /user/accept
+2019-03-02T23:13:37.022Z - debug: GET /user/accept
+2019-03-02T23:15:00.544Z - debug: GET /user
+2019-03-02T23:16:32.982Z - debug: GET /user/accept
+2019-03-02T23:18:33.694Z - debug: GET /user/accept
+2019-03-02T23:20:38.767Z - debug: GET /user/accept
+2019-03-02T23:33:19.995Z - info: Environment variables loaded.
+2019-03-02T23:33:20.431Z - info: Loaded routing.
+2019-03-02T23:33:20.503Z - info: START seeder.
+2019-03-02T23:33:20.512Z - debug: 6 products
+2019-03-02T23:33:20.512Z - info: END Seeder. Sample data read and verified.
+2019-03-02T23:33:22.400Z - debug: GET /
+2019-03-02T23:33:25.561Z - debug: GET /intro/adminLogin
+2019-03-02T23:33:28.212Z - debug: GET /admin
+2019-03-02T23:33:30.241Z - debug: GET /admin/addProduct?
+2019-03-02T23:33:55.808Z - debug: POST /admin/save/7
+2019-03-02T23:37:10.951Z - info: Environment variables loaded.
+2019-03-02T23:37:11.653Z - info: Loaded routing.
+2019-03-02T23:37:11.809Z - info: START seeder.
+2019-03-02T23:37:11.849Z - debug: 6 products
+2019-03-02T23:37:11.851Z - info: END Seeder. Sample data read and verified.
+2019-03-02T23:37:12.051Z - debug: GET /admin
+2019-03-02T23:37:14.781Z - debug: GET /admin/addProduct?
+2019-03-02T23:38:06.922Z - info: Environment variables loaded.
+2019-03-02T23:38:07.377Z - info: Loaded routing.
+2019-03-02T23:38:07.462Z - info: START seeder.
+2019-03-02T23:38:07.471Z - debug: 6 products
+2019-03-02T23:38:07.471Z - info: END Seeder. Sample data read and verified.
+2019-03-02T23:38:09.385Z - debug: GET /admin
+2019-03-02T23:38:11.503Z - debug: GET /admin/addProduct?
+2019-03-02T23:38:15.623Z - debug: GET /admin
+2019-03-02T23:38:17.696Z - debug: GET /admin/addProduct?
+2019-03-02T23:38:19.840Z - debug: GET /admin
+2019-03-02T23:53:42.726Z - debug: GET /
+2019-03-02T23:53:44.808Z - debug: GET /intro/userLogin
+2019-03-02T23:53:47.037Z - debug: GET /user
+2019-03-02T23:53:48.661Z - debug: GET /user/accept/3
+2019-03-02T23:54:02.618Z - info: Environment variables loaded.
+2019-03-02T23:54:02.897Z - info: Loaded routing.
+2019-03-02T23:54:02.940Z - info: START seeder.
+2019-03-02T23:54:02.952Z - debug: 6 products
+2019-03-02T23:54:02.952Z - info: END Seeder. Sample data read and verified.
+2019-03-02T23:54:05.439Z - debug: GET /user
+2019-03-02T23:54:07.437Z - debug: GET /user/accept/3
+2019-03-02T23:54:07.515Z - debug: GET /user
+2019-03-02T23:55:26.569Z - info: Environment variables loaded.
+2019-03-02T23:55:27.086Z - info: Loaded routing.
+2019-03-02T23:55:27.131Z - info: START seeder.
+2019-03-02T23:55:27.137Z - debug: 6 products
+2019-03-02T23:55:27.137Z - info: END Seeder. Sample data read and verified.
+2019-03-02T23:55:28.723Z - debug: GET /user
+2019-03-02T23:55:31.095Z - debug: GET /user/accept/3
+2019-03-02T23:55:55.506Z - debug: GET /user/accept/4
+2019-03-02T23:55:55.557Z - error: uncaughtException: docs is not defined date=Sat Mar 02 2019 17:55:55 GMT-0600 (Central Standard Time), pid=5660, uid=null, gid=null, cwd=D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\app.js], rss=55955456, heapTotal=36208640, heapUsed=29842304, external=36133326, loadavg=[0, 0, 0], uptime=781291
+ReferenceError: docs is not defined
+    at Timeout._onTimeout (D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\controllers\user.js:36:19)
+    at listOnTimeout (timers.js:326:17)
+    at processTimers (timers.js:268:5)
+2019-03-02T23:56:02.558Z - debug: GET /
+2019-03-02T23:56:05.205Z - debug: GET /intro/userLogin
+2019-03-02T23:56:06.775Z - debug: GET /user
+2019-03-02T23:56:08.030Z - debug: GET /user/accept/4

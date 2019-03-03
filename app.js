@@ -21,6 +21,17 @@ const DEFAULT_PORT = 8089
 
 const app = express()
 
+//Set up default mongoose connection
+// var mongoDB = 'mongodb://localhost:27017/project1';
+// mongoose.connect(mongoDB);
+// //Get Mongoose to use the global promise library
+// mongoose.Promise = global.Promise;
+// //Get the default connection
+// var db = mongoose.connection;
+
+// //Bind connection to error event (to get notification of connection errors)
+// db.on('error', console.error.bind(console, 'MongoDB connection error:'));
+
 app.set('port', process.env.PORT || DEFAULT_PORT)
 
 app.set('views', path.join(__dirname, 'views'))
@@ -36,12 +47,20 @@ app.use((req, res, next) => {
   next()
 })
 
+var monk = require('monk');
+var db = monk('localhost:27017/project1');
+
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(expressValidator())
 app.use(express.static(path.join(__dirname, 'public'), { maxAge: 31557600000 }))
 app.use(expressLayouts)
 app.use(errorHandler())
+
+app.use(function(req,res,next){
+  req.db = db;
+  next();
+});
 
 const routes = require('./routes/index.js')
 app.use('/', routes) 
@@ -55,5 +74,3 @@ app.listen(process.env.PORT || 8089, () => {
   console.log('App is running at http://localhost:%d in %s mode', app.get('port'), app.get('env'))
   console.log('  Press CTRL-C to stop\n')
 })
-
-module.exports = app

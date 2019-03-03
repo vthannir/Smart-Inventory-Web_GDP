@@ -1,58 +1,56 @@
 <% include ../header.ejs %>
 <div class="products">
         <% 
-        if (products.query.length == 0) {
+        if (productsMongo.length == 0) {
         %>
             <h3>Nothing in inventory system</h3>
         <%
         } else {
-            for (var i = 0; i < products.query.length; i++) {   
-                item = products.query[i]; %>
-                <form name="search-form" id="search-form" method="GET" action="/admin/details/<%= item._id %>">
-                    <div class="product" onClick="document.forms['search-form'].submit();">
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <label>Name of product:</label>
-                            </div>
-                            <div class="col-sm-6">
-                                <p> <%= item.name %> </p>
-                            </div>
+            for (var i = 0; i < productsMongo.length; i++) {   
+                item = productsMongo[i]; %>
+                <div class="product">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <label>Name of product:</label>
                         </div>
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <label>Quantity of product:</label>
-                            </div>
-                            <div class="col-sm-6">
-                                <p> <%= item.quantity %> </p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <label>Prize per unit line:</label>
-                            </div>
-                            <div class="col-sm-6">
-                                <p> <%= item.prize %> </p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <label>Description of product:</label>
-                            </div>
-                            <div class="col-sm-8">
-                                <p> <%= item.description %> </p>
-                            </div>
-                        </div>
-                        <div class="row productButton">
-                            <div class="col-sm-6"></div>
-                            <div class="col-sm-3">
-                                <a href="/admin/edit/<%= item._id %>" class="btn btn-warning">Edit</a>
-                            </div>
-                            <div class="col-sm-3">
-                                <a href="/admin/delete/<%= item._id %>" class="btn btn-danger">Delete</a>
-                            </div>
+                        <div class="col-sm-6">
+                            <p> <%= item.name %> </p>
                         </div>
                     </div>
-                </form>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <label>Quantity of product:</label>
+                        </div>
+                        <div class="col-sm-6">
+                            <p> <%= item.quantity %> </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <label>Prize per unit line:</label>
+                        </div>
+                        <div class="col-sm-6">
+                            <p> <%= item.prize %> </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <label>Description of product:</label>
+                        </div>
+                        <div class="col-sm-8">
+                            <p> <%= item.description %> </p>
+                        </div>
+                    </div>
+                    <div class="row productButton">
+                        <div class="col-sm-6"></div>
+                        <div class="col-sm-3">
+                            <a href="/user/accept/<%= item._id %>" class="btn btn-warning">Accept</a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="" class="btn btn-danger">Deny</a>
+                        </div>
+                    </div>
+                </div>
         <% }
         }
     %>

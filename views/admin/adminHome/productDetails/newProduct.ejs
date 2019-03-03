@@ -1,13 +1,15 @@
 <h2>New product announcement:</h2>
 <% 
-    maxID=0; 
-    for (var i=0; i < products.query.length; i++) {
-    if(products.query[i]._id > maxID) { 
-        maxID=products.query[i]._id;   
+    var maxID=0; 
+    for (var i=0; i < productsMongo.length; i++) {    
+        if(products.query[i]._id!=undefined && productsMongo[i]._id > maxID) { 
+            maxID=productsMongo[i]._id;   
+        }
+        var age = productsMongo[i].age;
     }
-    var age = products.query[i].age;}
+    console.log("product id is "+(maxID+1))
 %>
-<form class="newProductForm" method="POST" action="/admin/save">
+<form class="newProductForm" method="POST" action="/admin/save/<%= maxID+1 %>">
     <div class="row productFormContent">
         <div class="col-sm-12">
             <input type="number" id="_id" name="_id" placeholder="<%= maxID+1 %>" disabled>

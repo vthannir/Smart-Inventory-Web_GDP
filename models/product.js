@@ -6,7 +6,7 @@ const ProductSchema = new mongoose.Schema({
   name: {
     type: String,
     required: true,
-    default: 'Smith'
+    default: 'Enter the product name...'
   }, 
   description: {
     type: String,
@@ -24,4 +24,6 @@ const ProductSchema = new mongoose.Schema({
     default: 70
   }
 })
+
+//Similar to creating a table in SQL
 module.exports = mongoose.model('Product', ProductSchema)
