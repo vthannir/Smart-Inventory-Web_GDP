@@ -12,14 +12,39 @@ const mongoose = require('mongoose')
 const expressValidator = require('express-validator')
 const expressStatusMonitor = require('express-status-monitor')
 const LOG = require('./utils/logger.js')
+var passport = require('passport');
+var flash    = require('connect-flash');
+var morgan       = require('morgan');
+var cookieParser = require('cookie-parser');
+var configDB = require('./config/database.js');
+const app = express()
 
+// configuration ===============================================================
+mongoose.connect(configDB.url); // connect to our database
+
+require('./config/passport')(passport); // pass passport for configuration
+// set up our express application
+app.use(morgan('dev')); // log every request to the console
+app.use(cookieParser()); // read cookies (needed for auth)
+app.use(bodyParser.json()); // get information from html forms
+app.use(bodyParser.urlencoded({ extended: true }));
+
+// required for passport
+app.use(session({
+  secret: 'ilovescotchscotchyscotchscotch', // session secret
+  resave: true,
+  saveUninitialized: true
+}));
+app.use(passport.initialize());
+app.use(passport.session()); // persistent login sessions
+app.use(flash()); // use connect-flash for flash messages stored in session
 
 dotenv.load({ path: '.env' })
 LOG.info('Environment variables loaded.')
 
 const DEFAULT_PORT = 8089
 
-const app = express()
+
 
 //Set up default mongoose connection
 // var mongoDB = 'mongodb://localhost:27017/project1';
@@ -63,7 +88,7 @@ app.use(function(req,res,next){
 });
 
 const routes = require('./routes/index.js')
-app.use('/', routes) 
+app.use('/', routes)
 LOG.info('Loaded routing.')
 
 app.use((req, res) => { res.status(404).render('404.ejs') })

@@ -6,12 +6,15 @@
  *
  * @requires express
  */
-
 const express = require('express')
+//  const app = express()
+// var passport = require('passport');
 const LOG = require('../utils/logger.js')
 
 // LOG.debug('START routing')
 const router = express.Router()
+
+// module.exports = function (app, passport) {
 
 // Manage top-level request first
 router.get('/', (req, res, next) => {
@@ -24,4 +27,7 @@ router.use('/admin', require('../controllers/admin.js'))
 router.use('/user', require('../controllers/user.js'))
 router.use('/intro', require('../controllers/intro'))
 // LOG.debug('END routing')
-module.exports = router
+
+
+
+module.exports = router;

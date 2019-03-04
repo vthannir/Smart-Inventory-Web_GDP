@@ -4242,3 +4242,1155 @@ SyntaxError: Unexpected token for
 2019-03-04T03:35:52.678Z - debug: GET /admin/announcement
 2019-03-04T03:35:56.780Z - debug: GET /admin/announcement
 2019-03-04T03:36:00.392Z - debug: GET /admin/announcement
+2019-03-04T03:54:40.891Z - info: Environment variables loaded.
+2019-03-04T03:54:41.390Z - error: uncaughtException: listen EADDRINUSE: address already in use :::8089 date=Sun Mar 03 2019 21:54:41 GMT-0600 (Central Standard Time), pid=1804, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js], rss=84398080, heapTotal=67899392, heapUsed=31215576, external=36721936, loadavg=[0, 0, 0], uptime=642497
+Error: listen EADDRINUSE: address already in use :::8089
+    at Server.setupListenHandle [as _listen2] (net.js:1255:14)
+    at listenInCluster (net.js:1303:12)
+    at Server.listen (net.js:1391:7)
+    at Function.listen (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js:73:5)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:774:12)
+    at executeUserCode (internal/bootstrap/node.js:342:17)
+    at startExecution (internal/bootstrap/node.js:276:5)
+    at startup (internal/bootstrap/node.js:227:5)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+2019-03-04T03:54:41.287Z - info: Loaded routing.
+2019-03-04T03:54:41.344Z - info: START seeder.
+2019-03-04T03:54:41.351Z - debug: 6 products
+2019-03-04T03:54:41.351Z - info: END Seeder. Sample data read and verified.
+2019-03-04T03:55:15.317Z - info: Environment variables loaded.
+2019-03-04T03:55:15.633Z - error: uncaughtException: listen EADDRINUSE: address already in use :::8089 date=Sun Mar 03 2019 21:55:15 GMT-0600 (Central Standard Time), pid=4648, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js], rss=80121856, heapTotal=61607936, heapUsed=39213592, external=37731738, loadavg=[0, 0, 0], uptime=642532
+Error: listen EADDRINUSE: address already in use :::8089
+    at Server.setupListenHandle [as _listen2] (net.js:1255:14)
+    at listenInCluster (net.js:1303:12)
+    at Server.listen (net.js:1391:7)
+    at Function.listen (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js:73:5)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:774:12)
+    at executeUserCode (internal/bootstrap/node.js:342:17)
+    at startExecution (internal/bootstrap/node.js:276:5)
+    at startup (internal/bootstrap/node.js:227:5)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+2019-03-04T03:55:15.551Z - info: Loaded routing.
+2019-03-04T03:55:15.591Z - info: START seeder.
+2019-03-04T03:55:15.598Z - debug: 6 products
+2019-03-04T03:55:15.598Z - info: END Seeder. Sample data read and verified.
+2019-03-04T03:55:40.221Z - info: Environment variables loaded.
+2019-03-04T03:55:40.447Z - info: Loaded routing.
+2019-03-04T03:55:40.482Z - info: START seeder.
+2019-03-04T03:55:40.488Z - debug: 6 products
+2019-03-04T03:55:40.488Z - info: END Seeder. Sample data read and verified.
+2019-03-04T03:55:52.078Z - debug: GET /
+2019-03-04T03:56:00.008Z - debug: GET /intro/userLogin
+2019-03-04T03:56:02.447Z - debug: GET /user
+2019-03-04T03:56:07.691Z - debug: GET /
+2019-03-04T03:56:09.497Z - debug: GET /intro/adminLogin
+2019-03-04T03:56:11.333Z - debug: GET /admin
+2019-03-04T03:56:13.282Z - debug: GET /admin/announcement
+2019-03-04T03:56:21.061Z - debug: GET /admin/announcement
+2019-03-04T03:56:24.380Z - debug: GET /admin/announcement
+2019-03-04T03:57:01.578Z - debug: GET /
+2019-03-04T03:57:04.145Z - debug: GET /intro/adminLogin
+2019-03-04T03:57:05.793Z - debug: GET /admin
+2019-03-04T03:57:08.419Z - debug: GET /admin/announcement
+2019-03-04T03:57:15.550Z - debug: GET /
+2019-03-04T03:57:18.639Z - debug: GET /intro/userLogin
+2019-03-04T03:57:20.383Z - debug: GET /user
+2019-03-04T03:57:22.040Z - debug: GET /user/deny/1
+2019-03-04T03:57:22.067Z - debug: GET /user
+2019-03-04T03:57:25.877Z - debug: GET /user/deny/2
+2019-03-04T03:57:25.888Z - debug: GET /user
+2019-03-04T03:57:27.726Z - debug: GET /
+2019-03-04T03:57:29.498Z - debug: GET /intro/adminLogin
+2019-03-04T03:57:31.124Z - debug: GET /admin
+2019-03-04T03:57:33.129Z - debug: GET /admin/announcement
+2019-03-04T03:57:36.335Z - debug: GET /
+2019-03-04T03:57:37.804Z - debug: GET /intro/adminLogin
+2019-03-04T03:57:39.918Z - debug: GET /admin
+2019-03-04T03:57:42.618Z - debug: GET /
+2019-03-04T03:57:45.000Z - debug: GET /intro/userLogin
+2019-03-04T03:57:46.410Z - debug: GET /user
+2019-03-04T03:57:48.094Z - debug: GET /user/accept/1
+2019-03-04T03:57:48.116Z - debug: GET /user
+2019-03-04T03:57:49.698Z - debug: GET /
+2019-03-04T03:57:53.027Z - debug: GET /intro/adminLogin
+2019-03-04T03:57:55.107Z - debug: GET /admin
+2019-03-04T03:57:57.208Z - debug: GET /admin/announcement
+2019-03-04T03:58:00.854Z - debug: GET /
+2019-03-04T03:58:02.649Z - debug: GET /intro/userLogin
+2019-03-04T03:58:04.390Z - debug: GET /user
+2019-03-04T03:58:06.879Z - debug: GET /user/accept/2
+2019-03-04T03:58:06.885Z - debug: GET /user
+2019-03-04T03:58:08.953Z - debug: GET /
+2019-03-04T03:58:10.324Z - debug: GET /intro/adminLogin
+2019-03-04T03:58:11.817Z - debug: GET /admin
+2019-03-04T03:58:13.818Z - debug: GET /admin/announcement
+2019-03-04T03:58:19.826Z - debug: GET /
+2019-03-04T03:58:36.948Z - debug: GET /intro/adminLogin
+2019-03-04T04:41:20.454Z - error: uncaughtException: Cannot find module 'passport' date=Sun Mar 03 2019 22:41:20 GMT-0600 (Central Standard Time), pid=2852, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js], rss=67883008, heapTotal=58462208, heapUsed=36650352, external=19944090, loadavg=[0, 0, 0], uptime=645296
+Error: Cannot find module 'passport'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:603:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:25)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js:15:16)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:774:12)
+    at executeUserCode (internal/bootstrap/node.js:342:17)
+    at startExecution (internal/bootstrap/node.js:276:5)
+    at startup (internal/bootstrap/node.js:227:5)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+2019-03-04T04:42:38.666Z - error: uncaughtException: Cannot find module 'morgan' date=Sun Mar 03 2019 22:42:38 GMT-0600 (Central Standard Time), pid=1508, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js], rss=68325376, heapTotal=61607936, heapUsed=26510072, external=18309834, loadavg=[0, 0, 0], uptime=645375
+Error: Cannot find module 'morgan'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:603:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:25)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js:17:20)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:774:12)
+    at executeUserCode (internal/bootstrap/node.js:342:17)
+    at startExecution (internal/bootstrap/node.js:276:5)
+    at startup (internal/bootstrap/node.js:227:5)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+2019-03-04T04:44:07.500Z - error: uncaughtException: Cannot find module 'passport-local' date=Sun Mar 03 2019 22:44:07 GMT-0600 (Central Standard Time), pid=13988, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js], rss=72720384, heapTotal=63746048, heapUsed=29956760, external=18373942, loadavg=[0, 0, 0], uptime=645463
+Error: Cannot find module 'passport-local'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:603:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:25)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\config\passport.js:2:24)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js:25:1)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:774:12)
+    at executeUserCode (internal/bootstrap/node.js:342:17)
+    at startExecution (internal/bootstrap/node.js:276:5)
+    at startup (internal/bootstrap/node.js:227:5)
+2019-03-04T04:45:27.663Z - error: uncaughtException: Cannot find module 'bcrypt-nodejs' date=Sun Mar 03 2019 22:45:27 GMT-0600 (Central Standard Time), pid=3984, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js], rss=70537216, heapTotal=61607936, heapUsed=27752464, external=18342264, loadavg=[0, 0, 0], uptime=645544
+Error: Cannot find module 'bcrypt-nodejs'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:603:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:25)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app\models\user.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\config\passport.js:5:18)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js:25:1)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+2019-03-04T04:47:03.297Z - info: Environment variables loaded.
+2019-03-04T04:47:03.641Z - error: uncaughtException: express is not defined date=Sun Mar 03 2019 22:47:03 GMT-0600 (Central Standard Time), pid=13560, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js], rss=78544896, heapTotal=62132224, heapUsed=37411064, external=37403583, loadavg=[0, 0, 0], uptime=645640
+ReferenceError: express is not defined
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\routes\index.js:9:13)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js:90:16)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:774:12)
+    at executeUserCode (internal/bootstrap/node.js:342:17)
+    at startExecution (internal/bootstrap/node.js:276:5)
+    at startup (internal/bootstrap/node.js:227:5)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+2019-03-04T04:47:42.069Z - info: Environment variables loaded.
+2019-03-04T04:47:42.501Z - error: uncaughtException: Identifier 'express' has already been declared date=Sun Mar 03 2019 22:47:42 GMT-0600 (Central Standard Time), pid=8912, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js], rss=78295040, heapTotal=66326528, heapUsed=29014360, external=36970907, loadavg=[0, 0, 0], uptime=645678
+C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\routes\index.js:12
+const express = require('express')
+      ^
+
+SyntaxError: Identifier 'express' has already been declared
+    at new Script (vm.js:84:7)
+    at createScript (vm.js:264:10)
+    at Object.runInThisContext (vm.js:312:10)
+    at Module._compile (internal/modules/cjs/loader.js:684:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js:90:16)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:774:12)
+    at executeUserCode (internal/bootstrap/node.js:342:17)
+    at startExecution (internal/bootstrap/node.js:276:5)
+    at startup (internal/bootstrap/node.js:227:5)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+2019-03-04T04:48:28.086Z - info: Environment variables loaded.
+2019-03-04T04:48:28.425Z - error: uncaughtException: Identifier 'express' has already been declared date=Sun Mar 03 2019 22:48:28 GMT-0600 (Central Standard Time), pid=2788, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js], rss=80101376, heapTotal=61083648, heapUsed=39196376, external=37483883, loadavg=[0, 0, 0], uptime=645724
+C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\routes\index.js:12
+const express = require('express')
+      ^
+
+SyntaxError: Identifier 'express' has already been declared
+    at new Script (vm.js:84:7)
+    at createScript (vm.js:264:10)
+    at Object.runInThisContext (vm.js:312:10)
+    at Module._compile (internal/modules/cjs/loader.js:684:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js:90:16)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:774:12)
+    at executeUserCode (internal/bootstrap/node.js:342:17)
+    at startExecution (internal/bootstrap/node.js:276:5)
+    at startup (internal/bootstrap/node.js:227:5)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+2019-03-04T04:50:48.738Z - info: Environment variables loaded.
+2019-03-04T04:50:49.089Z - error: uncaughtException: Cannot read property 'apply' of undefined date=Sun Mar 03 2019 22:50:49 GMT-0600 (Central Standard Time), pid=11336, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js], rss=79806464, heapTotal=61083648, heapUsed=38997016, external=37492653, loadavg=[0, 0, 0], uptime=645865
+TypeError: Cannot read property 'apply' of undefined
+    at C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\node_modules\express\lib\router\index.js:635:15
+    at next (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\node_modules\express\lib\router\index.js:210:14)
+    at Function.handle (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\node_modules\express\lib\router\index.js:47:12)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\routes\index.js:25:55)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js:90:16)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:774:12)
+    at executeUserCode (internal/bootstrap/node.js:342:17)
+    at startExecution (internal/bootstrap/node.js:276:5)
+    at startup (internal/bootstrap/node.js:227:5)
+2019-03-04T04:58:02.952Z - info: Environment variables loaded.
+2019-03-04T04:58:03.247Z - error: uncaughtException: express is not defined date=Sun Mar 03 2019 22:58:03 GMT-0600 (Central Standard Time), pid=14416, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js], rss=79900672, heapTotal=61607936, heapUsed=39149544, external=37483883, loadavg=[0, 0, 0], uptime=646299
+ReferenceError: express is not defined
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\routes\index.js:15:16)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js:90:16)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:774:12)
+    at executeUserCode (internal/bootstrap/node.js:342:17)
+    at startExecution (internal/bootstrap/node.js:276:5)
+    at startup (internal/bootstrap/node.js:227:5)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+2019-03-04T04:59:21.950Z - info: Environment variables loaded.
+2019-03-04T04:59:22.304Z - error: uncaughtException: express is not defined date=Sun Mar 03 2019 22:59:22 GMT-0600 (Central Standard Time), pid=2224, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js], rss=80044032, heapTotal=60559360, heapUsed=38798040, external=37483883, loadavg=[0, 0, 0], uptime=646378
+ReferenceError: express is not defined
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\routes\index.js:15:16)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js:90:16)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:774:12)
+    at executeUserCode (internal/bootstrap/node.js:342:17)
+    at startExecution (internal/bootstrap/node.js:276:5)
+    at startup (internal/bootstrap/node.js:227:5)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+2019-03-04T05:00:33.327Z - info: Environment variables loaded.
+2019-03-04T05:00:33.699Z - error: uncaughtException: Router.use() requires a middleware function but got a undefined date=Sun Mar 03 2019 23:00:33 GMT-0600 (Central Standard Time), pid=14256, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js], rss=80412672, heapTotal=61607936, heapUsed=39511392, external=37506085, loadavg=[0, 0, 0], uptime=646450
+TypeError: Router.use() requires a middleware function but got a undefined
+    at Function.use (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\node_modules\express\lib\router\index.js:458:13)
+    at module.exports (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\routes\index.js:27:8)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js:90:44)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:774:12)
+    at executeUserCode (internal/bootstrap/node.js:342:17)
+    at startExecution (internal/bootstrap/node.js:276:5)
+    at startup (internal/bootstrap/node.js:227:5)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+2019-03-04T05:08:13.032Z - info: Environment variables loaded.
+2019-03-04T05:08:13.398Z - error: uncaughtException: Router.use() requires a middleware function but got a undefined date=Sun Mar 03 2019 23:08:13 GMT-0600 (Central Standard Time), pid=4076, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js], rss=84213760, heapTotal=67375104, heapUsed=30789488, external=36767172, loadavg=[0, 0, 0], uptime=646909
+TypeError: Router.use() requires a middleware function but got a undefined
+    at Function.use (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\node_modules\express\lib\router\index.js:458:13)
+    at module.exports (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\routes\index.js:27:8)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js:90:44)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:774:12)
+    at executeUserCode (internal/bootstrap/node.js:342:17)
+    at startExecution (internal/bootstrap/node.js:276:5)
+    at startup (internal/bootstrap/node.js:227:5)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+2019-03-04T05:13:36.027Z - info: Environment variables loaded.
+2019-03-04T05:13:36.295Z - error: uncaughtException: Router.use() requires a middleware function but got a undefined date=Sun Mar 03 2019 23:13:36 GMT-0600 (Central Standard Time), pid=12212, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js], rss=78798848, heapTotal=62656512, heapUsed=37485896, external=37403583, loadavg=[0, 0, 0], uptime=647232
+TypeError: Router.use() requires a middleware function but got a undefined
+    at Function.use (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\node_modules\express\lib\router\index.js:458:13)
+    at Function.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\node_modules\express\lib\application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\node_modules\express\lib\application.js:217:7)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js:91:5)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:774:12)
+    at executeUserCode (internal/bootstrap/node.js:342:17)
+    at startExecution (internal/bootstrap/node.js:276:5)
+    at startup (internal/bootstrap/node.js:227:5)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+2019-03-04T05:13:36.299Z - error: uncaughtException: Cannot read property 'apply' of undefined date=Sun Mar 03 2019 23:13:36 GMT-0600 (Central Standard Time), pid=12212, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js], rss=79761408, heapTotal=62656512, heapUsed=37700432, external=37403583, loadavg=[0, 0, 0], uptime=647232
+TypeError: Cannot read property 'apply' of undefined
+    at Immediate.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (timers.js:634:17)
+2019-03-04T05:28:02.378Z - info: Environment variables loaded.
+2019-03-04T05:28:02.676Z - error: uncaughtException: Router.use() requires a middleware function but got a undefined date=Sun Mar 03 2019 23:28:02 GMT-0600 (Central Standard Time), pid=13160, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js], rss=83906560, heapTotal=67375104, heapUsed=30852752, external=36767172, loadavg=[0, 0, 0], uptime=648099
+TypeError: Router.use() requires a middleware function but got a undefined
+    at Function.use (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\node_modules\express\lib\router\index.js:458:13)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\routes\index.js:27:8)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js:90:16)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:774:12)
+    at executeUserCode (internal/bootstrap/node.js:342:17)
+    at startExecution (internal/bootstrap/node.js:276:5)
+    at startup (internal/bootstrap/node.js:227:5)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+2019-03-04T05:28:26.222Z - info: Environment variables loaded.
+2019-03-04T05:28:26.488Z - error: uncaughtException: Router.use() requires a middleware function but got a undefined date=Sun Mar 03 2019 23:28:26 GMT-0600 (Central Standard Time), pid=14304, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js], rss=82399232, heapTotal=63746048, heapUsed=41458032, external=37492656, loadavg=[0, 0, 0], uptime=648122
+TypeError: Router.use() requires a middleware function but got a undefined
+    at Function.use (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\node_modules\express\lib\router\index.js:458:13)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\routes\index.js:27:8)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js:90:16)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:774:12)
+    at executeUserCode (internal/bootstrap/node.js:342:17)
+    at startExecution (internal/bootstrap/node.js:276:5)
+    at startup (internal/bootstrap/node.js:227:5)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+2019-03-04T05:32:17.081Z - info: Environment variables loaded.
+2019-03-04T05:32:17.348Z - error: uncaughtException: Router.use() requires a middleware function but got a undefined date=Sun Mar 03 2019 23:32:17 GMT-0600 (Central Standard Time), pid=9648, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js], rss=81076224, heapTotal=65277952, heapUsed=28799392, external=37167170, loadavg=[0, 0, 0], uptime=648353
+TypeError: Router.use() requires a middleware function but got a undefined
+    at Function.use (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\node_modules\express\lib\router\index.js:458:13)
+    at Function.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\node_modules\express\lib\application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\node_modules\express\lib\application.js:217:7)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js:91:5)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:774:12)
+    at executeUserCode (internal/bootstrap/node.js:342:17)
+    at startExecution (internal/bootstrap/node.js:276:5)
+    at startup (internal/bootstrap/node.js:227:5)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+2019-03-04T05:32:17.353Z - error: uncaughtException: Cannot read property 'apply' of undefined date=Sun Mar 03 2019 23:32:17 GMT-0600 (Central Standard Time), pid=9648, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js], rss=81858560, heapTotal=65277952, heapUsed=29023216, external=37167170, loadavg=[0, 0, 0], uptime=648353
+TypeError: Cannot read property 'apply' of undefined
+    at Immediate.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (timers.js:634:17)
+2019-03-04T05:38:19.158Z - info: Environment variables loaded.
+2019-03-04T05:38:19.387Z - error: uncaughtException: Router.use() requires a middleware function but got a undefined date=Sun Mar 03 2019 23:38:19 GMT-0600 (Central Standard Time), pid=7052, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js], rss=79556608, heapTotal=62132224, heapUsed=38837328, external=37483883, loadavg=[0, 0, 0], uptime=648715
+TypeError: Router.use() requires a middleware function but got a undefined
+    at Function.use (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\node_modules\express\lib\router\index.js:458:13)
+    at Function.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\node_modules\express\lib\application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\node_modules\express\lib\application.js:217:7)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js:91:5)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:774:12)
+    at executeUserCode (internal/bootstrap/node.js:342:17)
+    at startExecution (internal/bootstrap/node.js:276:5)
+    at startup (internal/bootstrap/node.js:227:5)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+2019-03-04T05:38:19.391Z - error: uncaughtException: Cannot read property 'apply' of undefined date=Sun Mar 03 2019 23:38:19 GMT-0600 (Central Standard Time), pid=7052, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js], rss=80728064, heapTotal=62132224, heapUsed=39051656, external=37483883, loadavg=[0, 0, 0], uptime=648715
+TypeError: Cannot read property 'apply' of undefined
+    at Immediate.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (timers.js:634:17)
+2019-03-04T05:41:15.247Z - info: Environment variables loaded.
+2019-03-04T05:41:15.557Z - error: uncaughtException: Router.use() requires a middleware function but got a undefined date=Sun Mar 03 2019 23:41:15 GMT-0600 (Central Standard Time), pid=13068, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js], rss=79781888, heapTotal=62132224, heapUsed=38881952, external=37483883, loadavg=[0, 0, 0], uptime=648892
+TypeError: Router.use() requires a middleware function but got a undefined
+    at Function.use (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\node_modules\express\lib\router\index.js:458:13)
+    at Function.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\node_modules\express\lib\application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\node_modules\express\lib\application.js:217:7)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js:91:5)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:774:12)
+    at executeUserCode (internal/bootstrap/node.js:342:17)
+    at startExecution (internal/bootstrap/node.js:276:5)
+    at startup (internal/bootstrap/node.js:227:5)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+2019-03-04T05:41:15.561Z - error: uncaughtException: Cannot read property 'apply' of undefined date=Sun Mar 03 2019 23:41:15 GMT-0600 (Central Standard Time), pid=13068, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js], rss=80822272, heapTotal=62132224, heapUsed=39096296, external=37483883, loadavg=[0, 0, 0], uptime=648892
+TypeError: Cannot read property 'apply' of undefined
+    at Immediate.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (timers.js:634:17)
+2019-03-04T05:44:47.939Z - info: Environment variables loaded.
+2019-03-04T05:44:48.250Z - error: uncaughtException: Identifier 'express' has already been declared date=Sun Mar 03 2019 23:44:48 GMT-0600 (Central Standard Time), pid=13552, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js], rss=83103744, heapTotal=64270336, heapUsed=41949672, external=37540839, loadavg=[0, 0, 0], uptime=649104
+C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\controllers\user.js:4
+const express = require('express')
+      ^
+
+SyntaxError: Identifier 'express' has already been declared
+    at new Script (vm.js:84:7)
+    at createScript (vm.js:264:10)
+    at Object.runInThisContext (vm.js:312:10)
+    at Module._compile (internal/modules/cjs/loader.js:684:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\routes\index.js:27:21)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js:90:16)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+2019-03-04T05:45:10.839Z - info: Environment variables loaded.
+2019-03-04T05:45:11.087Z - error: uncaughtException: require(...) is not a function date=Sun Mar 03 2019 23:45:11 GMT-0600 (Central Standard Time), pid=15756, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js], rss=80367616, heapTotal=61607936, heapUsed=39676624, external=37621011, loadavg=[0, 0, 0], uptime=649127
+TypeError: require(...) is not a function
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js:90:44)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:774:12)
+    at executeUserCode (internal/bootstrap/node.js:342:17)
+    at startExecution (internal/bootstrap/node.js:276:5)
+    at startup (internal/bootstrap/node.js:227:5)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+2019-03-04T05:45:36.173Z - info: Environment variables loaded.
+2019-03-04T05:45:36.418Z - error: uncaughtException: Router.use() requires a middleware function but got a Object date=Sun Mar 03 2019 23:45:36 GMT-0600 (Central Standard Time), pid=2972, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js], rss=79589376, heapTotal=62132224, heapUsed=38362232, external=37540711, loadavg=[0, 0, 0], uptime=649152
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\node_modules\express\lib\router\index.js:458:13)
+    at Function.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\node_modules\express\lib\application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\node_modules\express\lib\application.js:217:7)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js:91:5)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:774:12)
+    at executeUserCode (internal/bootstrap/node.js:342:17)
+    at startExecution (internal/bootstrap/node.js:276:5)
+    at startup (internal/bootstrap/node.js:227:5)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+2019-03-04T05:46:11.493Z - info: Environment variables loaded.
+2019-03-04T05:46:11.768Z - info: Loaded routing.
+2019-03-04T05:46:11.804Z - info: START seeder.
+2019-03-04T05:46:11.813Z - debug: 6 products
+2019-03-04T05:46:11.813Z - info: END Seeder. Sample data read and verified.
+2019-03-04T05:46:19.704Z - debug: GET /
+2019-03-04T05:46:29.806Z - debug: GET /user/login
+2019-03-04T05:48:25.145Z - debug: GET /user/login
+2019-03-04T05:49:17.419Z - debug: GET /user/login
+2019-03-04T05:49:30.219Z - info: Environment variables loaded.
+2019-03-04T05:49:30.482Z - info: Loaded routing.
+2019-03-04T05:49:30.528Z - info: START seeder.
+2019-03-04T05:49:30.532Z - debug: 6 products
+2019-03-04T05:49:30.532Z - info: END Seeder. Sample data read and verified.
+2019-03-04T05:49:33.507Z - debug: GET /user/login
+2019-03-04T05:50:50.033Z - debug: GET /user/login
+2019-03-04T05:54:53.588Z - info: Environment variables loaded.
+2019-03-04T05:54:53.920Z - info: Loaded routing.
+2019-03-04T05:54:53.957Z - info: START seeder.
+2019-03-04T05:54:53.963Z - debug: 6 products
+2019-03-04T05:54:53.964Z - info: END Seeder. Sample data read and verified.
+2019-03-04T05:54:57.485Z - debug: GET /
+2019-03-04T05:55:01.672Z - debug: GET /user/login
+2019-03-04T05:55:17.337Z - debug: GET /intro/adminLogin
+2019-03-04T05:55:21.507Z - debug: GET /user/login
+2019-03-04T06:01:22.822Z - info: Environment variables loaded.
+2019-03-04T06:01:23.213Z - info: Loaded routing.
+2019-03-04T06:01:23.251Z - info: START seeder.
+2019-03-04T06:01:23.259Z - debug: 6 products
+2019-03-04T06:01:23.262Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:01:28.321Z - info: Environment variables loaded.
+2019-03-04T06:01:28.638Z - info: Loaded routing.
+2019-03-04T06:01:28.708Z - info: START seeder.
+2019-03-04T06:01:28.717Z - debug: 6 products
+2019-03-04T06:01:28.717Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:01:34.404Z - info: Environment variables loaded.
+2019-03-04T06:01:34.669Z - info: Loaded routing.
+2019-03-04T06:01:34.727Z - info: START seeder.
+2019-03-04T06:01:34.733Z - debug: 6 products
+2019-03-04T06:01:34.733Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:01:42.748Z - debug: GET /user/login
+2019-03-04T06:01:53.767Z - info: Environment variables loaded.
+2019-03-04T06:01:54.147Z - info: Loaded routing.
+2019-03-04T06:01:54.191Z - info: START seeder.
+2019-03-04T06:01:54.196Z - debug: 6 products
+2019-03-04T06:01:54.196Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:02:44.709Z - debug: GET /user/login
+2019-03-04T06:04:24.993Z - info: Environment variables loaded.
+2019-03-04T06:04:25.276Z - info: Loaded routing.
+2019-03-04T06:04:25.372Z - info: START seeder.
+2019-03-04T06:04:25.379Z - debug: 6 products
+2019-03-04T06:04:25.380Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:04:33.392Z - debug: GET /user/login
+2019-03-04T06:04:49.716Z - info: Environment variables loaded.
+2019-03-04T06:04:49.980Z - error: uncaughtException: missing ) after argument list date=Mon Mar 04 2019 00:04:49 GMT-0600 (Central Standard Time), pid=10376, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app], rss=82341888, heapTotal=63746048, heapUsed=41517008, external=37492628, loadavg=[0, 0, 0], uptime=650306
+C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\controllers\user.js:118
+  res.render('user/userHome/payment.ejs'
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at new Script (vm.js:84:7)
+    at createScript (vm.js:264:10)
+    at Object.runInThisContext (vm.js:312:10)
+    at Module._compile (internal/modules/cjs/loader.js:684:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\routes\index.js:27:21)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js:90:16)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+2019-03-04T06:04:54.508Z - info: Environment variables loaded.
+2019-03-04T06:04:54.875Z - info: Loaded routing.
+2019-03-04T06:04:54.939Z - info: START seeder.
+2019-03-04T06:04:54.946Z - debug: 6 products
+2019-03-04T06:04:54.947Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:04:55.158Z - debug: GET /user/login
+2019-03-04T06:05:08.199Z - info: Environment variables loaded.
+2019-03-04T06:05:08.521Z - info: Loaded routing.
+2019-03-04T06:05:08.619Z - info: START seeder.
+2019-03-04T06:05:08.625Z - debug: 6 products
+2019-03-04T06:05:08.625Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:05:13.601Z - debug: GET /
+2019-03-04T06:05:15.602Z - debug: GET /user/login
+2019-03-04T06:05:29.286Z - info: Environment variables loaded.
+2019-03-04T06:05:29.548Z - info: Loaded routing.
+2019-03-04T06:05:29.609Z - info: START seeder.
+2019-03-04T06:05:29.612Z - debug: 6 products
+2019-03-04T06:05:29.613Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:06:43.855Z - info: Environment variables loaded.
+2019-03-04T06:06:44.109Z - error: uncaughtException: Cannot read property 'get' of undefined date=Mon Mar 04 2019 00:06:44 GMT-0600 (Central Standard Time), pid=1144, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app], rss=81952768, heapTotal=64794624, heapUsed=41221688, external=37492763, loadavg=[0, 0, 0], uptime=650420
+TypeError: Cannot read property 'get' of undefined
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\controllers\user.js:9:5)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\routes\index.js:27:21)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js:90:16)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+2019-03-04T06:06:46.047Z - info: Environment variables loaded.
+2019-03-04T06:06:46.377Z - error: uncaughtException: Cannot read property 'get' of undefined date=Mon Mar 04 2019 00:06:46 GMT-0600 (Central Standard Time), pid=9396, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app], rss=79261696, heapTotal=64753664, heapUsed=29633608, external=37086217, loadavg=[0, 0, 0], uptime=650422
+TypeError: Cannot read property 'get' of undefined
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\controllers\user.js:9:5)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\routes\index.js:27:21)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js:90:16)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+2019-03-04T06:06:50.719Z - info: Environment variables loaded.
+2019-03-04T06:06:50.999Z - error: uncaughtException: 'app.router' is deprecated!
+Please see the 3.x to 4.x migration guide for details on how to update your app. date=Mon Mar 04 2019 00:06:50 GMT-0600 (Central Standard Time), pid=17312, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app], rss=80297984, heapTotal=64229376, heapUsed=29113232, external=37167862, loadavg=[0, 0, 0], uptime=650427
+Error: 'app.router' is deprecated!
+Please see the 3.x to 4.x migration guide for details on how to update your app.
+    at Function.get (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\node_modules\express\lib\application.js:124:13)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\controllers\user.js:5:23)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\routes\index.js:27:21)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js:90:16)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+2019-03-04T06:07:08.537Z - info: Environment variables loaded.
+2019-03-04T06:07:08.823Z - error: uncaughtException: express.router is not a function date=Mon Mar 04 2019 00:07:08 GMT-0600 (Central Standard Time), pid=12172, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app], rss=82272256, heapTotal=63746048, heapUsed=41231488, external=37492765, loadavg=[0, 0, 0], uptime=650445
+TypeError: express.router is not a function
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\controllers\user.js:5:22)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\routes\index.js:27:21)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js:90:16)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+2019-03-04T06:07:20.137Z - info: Environment variables loaded.
+2019-03-04T06:07:20.392Z - info: Loaded routing.
+2019-03-04T06:07:20.429Z - info: START seeder.
+2019-03-04T06:07:20.433Z - debug: 6 products
+2019-03-04T06:07:20.434Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:07:24.138Z - debug: GET /
+2019-03-04T06:07:26.548Z - debug: GET /user/login
+2019-03-04T06:07:47.573Z - info: Environment variables loaded.
+2019-03-04T06:07:47.906Z - info: Loaded routing.
+2019-03-04T06:07:47.960Z - info: START seeder.
+2019-03-04T06:07:47.966Z - debug: 6 products
+2019-03-04T06:07:47.966Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:07:51.555Z - info: Environment variables loaded.
+2019-03-04T06:07:51.886Z - info: Loaded routing.
+2019-03-04T06:07:51.940Z - info: START seeder.
+2019-03-04T06:07:51.948Z - debug: 6 products
+2019-03-04T06:07:51.948Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:07:54.314Z - debug: GET /
+2019-03-04T06:07:58.784Z - debug: GET /user/login
+2019-03-04T06:08:01.732Z - debug: GET /signup
+2019-03-04T06:08:26.977Z - info: Environment variables loaded.
+2019-03-04T06:08:27.300Z - info: Loaded routing.
+2019-03-04T06:08:27.359Z - info: START seeder.
+2019-03-04T06:08:27.365Z - debug: 6 products
+2019-03-04T06:08:27.365Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:08:37.541Z - info: Environment variables loaded.
+2019-03-04T06:08:37.820Z - info: Loaded routing.
+2019-03-04T06:08:37.883Z - info: START seeder.
+2019-03-04T06:08:37.890Z - debug: 6 products
+2019-03-04T06:08:37.890Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:08:43.952Z - info: Environment variables loaded.
+2019-03-04T06:08:44.256Z - info: Loaded routing.
+2019-03-04T06:08:44.291Z - info: START seeder.
+2019-03-04T06:08:44.297Z - debug: 6 products
+2019-03-04T06:08:44.298Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:08:47.582Z - info: Environment variables loaded.
+2019-03-04T06:08:47.943Z - info: Loaded routing.
+2019-03-04T06:08:47.988Z - info: START seeder.
+2019-03-04T06:08:47.996Z - debug: 6 products
+2019-03-04T06:08:47.998Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:09:45.249Z - info: Environment variables loaded.
+2019-03-04T06:09:45.546Z - info: Loaded routing.
+2019-03-04T06:09:45.628Z - info: START seeder.
+2019-03-04T06:09:45.635Z - debug: 6 products
+2019-03-04T06:09:45.636Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:09:52.793Z - info: Environment variables loaded.
+2019-03-04T06:09:53.064Z - info: Loaded routing.
+2019-03-04T06:09:53.124Z - info: START seeder.
+2019-03-04T06:09:53.128Z - debug: 6 products
+2019-03-04T06:09:53.129Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:09:55.516Z - info: Environment variables loaded.
+2019-03-04T06:09:55.862Z - info: Loaded routing.
+2019-03-04T06:09:55.902Z - info: START seeder.
+2019-03-04T06:09:55.907Z - debug: 6 products
+2019-03-04T06:09:55.908Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:10:03.135Z - info: Environment variables loaded.
+2019-03-04T06:10:03.498Z - info: Loaded routing.
+2019-03-04T06:10:03.541Z - info: START seeder.
+2019-03-04T06:10:03.546Z - debug: 6 products
+2019-03-04T06:10:03.547Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:10:14.396Z - info: Environment variables loaded.
+2019-03-04T06:10:14.642Z - info: Loaded routing.
+2019-03-04T06:10:14.718Z - info: START seeder.
+2019-03-04T06:10:14.734Z - debug: 6 products
+2019-03-04T06:10:14.735Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:11:58.805Z - debug: GET /user/login
+2019-03-04T06:12:01.696Z - debug: GET /user/signup
+2019-03-04T06:12:08.955Z - debug: POST /user/user/signup
+2019-03-04T06:13:11.125Z - info: Environment variables loaded.
+2019-03-04T06:13:11.385Z - info: Loaded routing.
+2019-03-04T06:13:11.440Z - info: START seeder.
+2019-03-04T06:13:11.445Z - debug: 6 products
+2019-03-04T06:13:11.445Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:13:14.737Z - debug: GET /user/signup
+2019-03-04T06:13:20.586Z - debug: POST /signup
+2019-03-04T06:15:28.318Z - debug: GET /user/signup
+2019-03-04T06:15:35.338Z - debug: POST /user/signup
+2019-03-04T06:15:35.428Z - debug: GET /user/user/signup
+2019-03-04T06:20:01.271Z - info: Environment variables loaded.
+2019-03-04T06:20:01.605Z - error: uncaughtException: Cannot find module './config/passport' date=Mon Mar 04 2019 00:20:01 GMT-0600 (Central Standard Time), pid=9056, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app], rss=78635008, heapTotal=64229376, heapUsed=29594160, external=37078097, loadavg=[0, 0, 0], uptime=651218
+Error: Cannot find module './config/passport'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:603:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:25)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\controllers\user.js:8:3)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\routes\index.js:27:21)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js:90:16)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+2019-03-04T06:20:16.543Z - info: Environment variables loaded.
+2019-03-04T06:20:16.966Z - error: uncaughtException: Cannot find module './config/passport' date=Mon Mar 04 2019 00:20:16 GMT-0600 (Central Standard Time), pid=13240, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app], rss=80117760, heapTotal=65802240, heapUsed=28355944, external=36817680, loadavg=[0, 0, 0], uptime=651233
+Error: Cannot find module './config/passport'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:603:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:25)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\controllers\user.js:8:3)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\routes\index.js:27:21)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js:90:16)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+2019-03-04T06:20:55.979Z - info: Environment variables loaded.
+2019-03-04T06:20:56.323Z - info: Loaded routing.
+2019-03-04T06:20:56.381Z - info: START seeder.
+2019-03-04T06:20:56.394Z - debug: 6 products
+2019-03-04T06:20:56.394Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:20:58.790Z - debug: GET /user/signup
+2019-03-04T06:22:22.435Z - debug: POST /user/signup
+2019-03-04T06:22:22.489Z - debug: GET /user/user/signup
+2019-03-04T06:25:07.487Z - debug: GET /user/signup
+2019-03-04T06:26:46.340Z - debug: GET /user/user/login
+2019-03-04T06:26:59.051Z - info: Environment variables loaded.
+2019-03-04T06:26:59.299Z - info: Loaded routing.
+2019-03-04T06:26:59.341Z - info: START seeder.
+2019-03-04T06:26:59.350Z - debug: 6 products
+2019-03-04T06:26:59.351Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:27:01.844Z - info: Environment variables loaded.
+2019-03-04T06:27:02.133Z - info: Loaded routing.
+2019-03-04T06:27:02.182Z - info: START seeder.
+2019-03-04T06:27:02.189Z - debug: 6 products
+2019-03-04T06:27:02.189Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:27:05.128Z - info: Environment variables loaded.
+2019-03-04T06:27:05.398Z - info: Loaded routing.
+2019-03-04T06:27:05.450Z - info: START seeder.
+2019-03-04T06:27:05.454Z - debug: 6 products
+2019-03-04T06:27:05.454Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:27:09.115Z - info: Environment variables loaded.
+2019-03-04T06:27:09.447Z - info: Loaded routing.
+2019-03-04T06:27:09.522Z - info: START seeder.
+2019-03-04T06:27:09.537Z - debug: 6 products
+2019-03-04T06:27:09.537Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:27:20.913Z - debug: POST /user/signup
+2019-03-04T06:27:20.957Z - debug: GET /signup
+2019-03-04T06:27:41.638Z - info: Environment variables loaded.
+2019-03-04T06:27:41.913Z - info: Loaded routing.
+2019-03-04T06:27:41.949Z - info: START seeder.
+2019-03-04T06:27:41.953Z - debug: 6 products
+2019-03-04T06:27:41.954Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:27:44.723Z - info: Environment variables loaded.
+2019-03-04T06:27:45.118Z - info: Loaded routing.
+2019-03-04T06:27:45.186Z - info: START seeder.
+2019-03-04T06:27:45.193Z - debug: 6 products
+2019-03-04T06:27:45.194Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:27:45.288Z - debug: GET /user/signup
+2019-03-04T06:27:50.927Z - debug: GET /user/user/login
+2019-03-04T06:28:13.824Z - debug: GET /user/user/login
+2019-03-04T06:29:38.600Z - info: Environment variables loaded.
+2019-03-04T06:29:38.848Z - info: Loaded routing.
+2019-03-04T06:29:38.904Z - info: START seeder.
+2019-03-04T06:29:38.908Z - debug: 6 products
+2019-03-04T06:29:38.909Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:29:41.167Z - debug: GET /user/signup
+2019-03-04T06:29:43.275Z - debug: GET /user1/login
+2019-03-04T06:29:59.219Z - info: Environment variables loaded.
+2019-03-04T06:29:59.687Z - info: Loaded routing.
+2019-03-04T06:29:59.765Z - info: START seeder.
+2019-03-04T06:29:59.772Z - debug: 6 products
+2019-03-04T06:29:59.772Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:30:00.607Z - debug: GET /user/signup
+2019-03-04T06:30:02.653Z - debug: GET /user/login
+2019-03-04T06:30:18.680Z - debug: GET /user/signup
+2019-03-04T06:30:24.003Z - debug: POST /user/signup
+2019-03-04T06:30:24.061Z - debug: GET /signup
+2019-03-04T06:30:36.718Z - info: Environment variables loaded.
+2019-03-04T06:30:36.981Z - info: Loaded routing.
+2019-03-04T06:30:37.022Z - info: START seeder.
+2019-03-04T06:30:37.029Z - debug: 6 products
+2019-03-04T06:30:37.030Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:30:40.868Z - debug: GET /user/signup
+2019-03-04T06:30:43.192Z - debug: GET /user/signup
+2019-03-04T06:30:47.396Z - debug: POST /user/signup
+2019-03-04T06:30:47.445Z - debug: GET /user/signup
+2019-03-04T06:30:52.658Z - debug: GET /user/login
+2019-03-04T06:30:58.036Z - debug: GET /user/forgot
+2019-03-04T06:31:20.999Z - info: Environment variables loaded.
+2019-03-04T06:31:21.263Z - info: Loaded routing.
+2019-03-04T06:31:21.314Z - info: START seeder.
+2019-03-04T06:31:21.321Z - debug: 6 products
+2019-03-04T06:31:21.321Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:31:24.357Z - debug: GET /user/forgot
+2019-03-04T06:31:52.070Z - info: Environment variables loaded.
+2019-03-04T06:31:52.504Z - info: Loaded routing.
+2019-03-04T06:31:52.542Z - info: START seeder.
+2019-03-04T06:31:52.549Z - debug: 6 products
+2019-03-04T06:31:52.549Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:31:55.713Z - info: Environment variables loaded.
+2019-03-04T06:31:56.010Z - info: Loaded routing.
+2019-03-04T06:31:56.049Z - info: START seeder.
+2019-03-04T06:31:56.054Z - debug: 6 products
+2019-03-04T06:31:56.054Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:32:00.413Z - info: Environment variables loaded.
+2019-03-04T06:32:00.781Z - info: Loaded routing.
+2019-03-04T06:32:00.817Z - info: START seeder.
+2019-03-04T06:32:00.824Z - debug: 6 products
+2019-03-04T06:32:00.824Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:32:15.072Z - debug: GET /user/forgot
+2019-03-04T06:33:08.643Z - info: Environment variables loaded.
+2019-03-04T06:33:08.920Z - info: Loaded routing.
+2019-03-04T06:33:08.959Z - info: START seeder.
+2019-03-04T06:33:08.964Z - debug: 6 products
+2019-03-04T06:33:08.965Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:33:13.088Z - debug: GET /user/forgot
+2019-03-04T06:33:17.870Z - debug: POST /user/user/forgote
+2019-03-04T06:35:28.563Z - info: Environment variables loaded.
+2019-03-04T06:35:28.815Z - info: Loaded routing.
+2019-03-04T06:35:28.867Z - info: START seeder.
+2019-03-04T06:35:28.871Z - debug: 6 products
+2019-03-04T06:35:28.872Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:35:46.193Z - debug: POST /user/user/forgote
+2019-03-04T06:37:17.495Z - info: Environment variables loaded.
+2019-03-04T06:37:17.788Z - info: Loaded routing.
+2019-03-04T06:37:17.851Z - info: START seeder.
+2019-03-04T06:37:17.856Z - debug: 6 products
+2019-03-04T06:37:17.857Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:37:28.349Z - debug: GET /user/forgot
+2019-03-04T06:37:31.697Z - debug: POST /user/forgote
+2019-03-04T06:39:36.681Z - info: Environment variables loaded.
+2019-03-04T06:39:36.985Z - error: uncaughtException: Cannot find module 'nodemailer' date=Mon Mar 04 2019 00:39:36 GMT-0600 (Central Standard Time), pid=3892, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app], rss=82477056, heapTotal=63746048, heapUsed=41527584, external=37506501, loadavg=[0, 0, 0], uptime=652393
+Error: Cannot find module 'nodemailer'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:603:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:25)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\controllers\user.js:13:20)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\routes\index.js:27:21)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js:90:16)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+2019-03-04T06:41:21.338Z - info: Environment variables loaded.
+2019-03-04T06:41:21.796Z - error: uncaughtException: Cannot find module 'bcryptjs' date=Mon Mar 04 2019 00:41:21 GMT-0600 (Central Standard Time), pid=5476, uid=null, gid=null, cwd=C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app], rss=80146432, heapTotal=64753664, heapUsed=34369008, external=37707011, loadavg=[0, 0, 0], uptime=652498
+Error: Cannot find module 'bcryptjs'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:603:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:25)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\controllers\user.js:14:14)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\routes\index.js:27:21)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\s531524\Documents\semester 4\GDP - 2\project\Smart-Inventory-Web\app.js:90:16)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+2019-03-04T06:41:51.870Z - info: Environment variables loaded.
+2019-03-04T06:41:52.391Z - info: Loaded routing.
+2019-03-04T06:41:52.449Z - info: START seeder.
+2019-03-04T06:41:52.454Z - debug: 6 products
+2019-03-04T06:41:52.454Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:42:07.106Z - debug: POST /user/forgote
+2019-03-04T06:42:09.169Z - debug: GET /user/forgot
+2019-03-04T06:42:19.085Z - debug: GET /reset/20e84f92d891a14e8d455eeae77aad5ed0670f77
+2019-03-04T06:44:25.750Z - info: Environment variables loaded.
+2019-03-04T06:44:26.259Z - info: Loaded routing.
+2019-03-04T06:44:26.296Z - info: START seeder.
+2019-03-04T06:44:26.303Z - debug: 6 products
+2019-03-04T06:44:26.303Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:44:37.848Z - debug: GET /user/forgot
+2019-03-04T06:44:41.373Z - debug: POST /user/forgote
+2019-03-04T06:44:43.238Z - debug: GET /user/forgot
+2019-03-04T06:44:49.843Z - debug: GET /user/reset/144c32b68669244d7b7e521a8d791724ded6e39b
+2019-03-04T06:44:59.613Z - debug: POST /reset/token
+2019-03-04T06:45:51.073Z - debug: POST /reset/token
+2019-03-04T06:46:23.596Z - info: Environment variables loaded.
+2019-03-04T06:46:23.997Z - info: Loaded routing.
+2019-03-04T06:46:24.049Z - info: START seeder.
+2019-03-04T06:46:24.055Z - debug: 6 products
+2019-03-04T06:46:24.055Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:46:33.536Z - debug: POST /reset/token
+2019-03-04T06:48:22.675Z - info: Environment variables loaded.
+2019-03-04T06:48:23.155Z - info: Loaded routing.
+2019-03-04T06:48:23.243Z - info: START seeder.
+2019-03-04T06:48:23.248Z - debug: 6 products
+2019-03-04T06:48:23.249Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:48:23.497Z - debug: GET /user/reset/144c32b68669244d7b7e521a8d791724ded6e39b
+2019-03-04T06:48:31.954Z - debug: POST /user/reset/token
+2019-03-04T06:48:34.100Z - debug: GET /user/login
+2019-03-04T06:49:13.072Z - info: Environment variables loaded.
+2019-03-04T06:49:13.668Z - info: Loaded routing.
+2019-03-04T06:49:13.727Z - info: START seeder.
+2019-03-04T06:49:13.743Z - debug: 6 products
+2019-03-04T06:49:13.744Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:49:23.517Z - info: Environment variables loaded.
+2019-03-04T06:49:23.934Z - info: Loaded routing.
+2019-03-04T06:49:24.038Z - info: START seeder.
+2019-03-04T06:49:24.052Z - debug: 6 products
+2019-03-04T06:49:24.053Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:49:30.900Z - info: Environment variables loaded.
+2019-03-04T06:49:31.414Z - info: Loaded routing.
+2019-03-04T06:49:31.488Z - info: START seeder.
+2019-03-04T06:49:31.497Z - debug: 6 products
+2019-03-04T06:49:31.498Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:49:34.575Z - debug: GET /user/login
+2019-03-04T06:49:51.617Z - debug: POST /user/login
+2019-03-04T06:49:51.833Z - debug: GET /user/user/userHome/index
+2019-03-04T06:50:32.936Z - info: Environment variables loaded.
+2019-03-04T06:50:33.502Z - info: Loaded routing.
+2019-03-04T06:50:33.570Z - info: START seeder.
+2019-03-04T06:50:33.574Z - debug: 6 products
+2019-03-04T06:50:33.575Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:50:33.755Z - debug: GET /user/login
+2019-03-04T06:50:38.439Z - debug: POST /user/login
+2019-03-04T06:50:38.597Z - debug: GET /user/userHome/index
+2019-03-04T06:52:31.400Z - info: Environment variables loaded.
+2019-03-04T06:52:31.916Z - info: Loaded routing.
+2019-03-04T06:52:31.978Z - info: START seeder.
+2019-03-04T06:52:31.982Z - debug: 6 products
+2019-03-04T06:52:31.983Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:53:47.650Z - info: Environment variables loaded.
+2019-03-04T06:53:48.102Z - info: Loaded routing.
+2019-03-04T06:53:48.167Z - info: START seeder.
+2019-03-04T06:53:48.171Z - debug: 6 products
+2019-03-04T06:53:48.171Z - info: END Seeder. Sample data read and verified.
+2019-03-04T06:53:49.756Z - debug: GET /user/login
+2019-03-04T06:53:56.673Z - debug: POST /user/login
+2019-03-04T06:53:56.902Z - debug: GET /user/userHome/
+2019-03-04T06:54:04.180Z - debug: GET /
+2019-03-04T06:54:06.302Z - debug: GET /user/login
+2019-03-04T06:54:10.273Z - debug: POST /user/login
+2019-03-04T06:54:10.296Z - debug: GET /user/login
+2019-03-04T06:54:12.079Z - debug: POST /user/login
+2019-03-04T06:54:12.097Z - debug: GET /user/login
+2019-03-04T06:54:13.905Z - debug: POST /user/login
+2019-03-04T06:54:13.926Z - debug: GET /user/login
+2019-03-04T06:54:19.196Z - debug: POST /user/login
+2019-03-04T06:54:19.213Z - debug: GET /user/login
+2019-03-04T06:54:50.737Z - debug: POST /user/login
+2019-03-04T06:54:50.854Z - debug: GET /user/login
+2019-03-04T06:55:00.148Z - debug: POST /user/login
+2019-03-04T06:55:00.281Z - debug: GET /user/userHome/
+2019-03-04T06:55:04.711Z - debug: GET /
+2019-03-04T06:55:20.241Z - debug: GET /intro/adminLogin
+2019-03-04T06:55:40.916Z - debug: GET /admin
+2019-03-04T06:56:05.485Z - debug: GET /admin/announcement
+2019-03-04T07:02:12.669Z - info: Environment variables loaded.
+2019-03-04T07:02:13.321Z - info: Loaded routing.
+2019-03-04T07:02:13.377Z - info: START seeder.
+2019-03-04T07:02:13.394Z - debug: 6 products
+2019-03-04T07:02:13.396Z - info: END Seeder. Sample data read and verified.
+2019-03-04T07:03:46.451Z - debug: GET /
+2019-03-04T07:03:51.250Z - debug: GET /intro/adminLogin
+2019-03-04T07:03:53.427Z - debug: GET /admin
+2019-03-04T07:03:55.653Z - debug: GET /admin/announcement
+2019-03-04T07:03:59.444Z - debug: GET /admin
+2019-03-04T07:08:44.810Z - info: Environment variables loaded.
+2019-03-04T07:08:45.183Z - info: Loaded routing.
+2019-03-04T07:08:45.231Z - info: START seeder.
+2019-03-04T07:08:45.235Z - debug: 6 products
+2019-03-04T07:08:45.236Z - info: END Seeder. Sample data read and verified.
