@@ -43,12 +43,16 @@
                     </div>
                     <div class="row productButton">
                         <div class="col-sm-6"></div>
+                        <div class="col-sm-3"></div>
+                        <% if (item.accepted) { %>
                         <div class="col-sm-3">
                             <a href="/user/accept/<%= item._id %>" class="btn btn-warning">Accept</a>
                         </div>
+                        <% } else { %>
                         <div class="col-sm-3">
-                            <a href="" class="btn btn-danger">Deny</a>
+                            <a href="/user/deny/<%= item._id %>" class="btn btn-danger">Deny</a>
                         </div>
+                        <% } %>
                     </div>
                 </div>
         <% }

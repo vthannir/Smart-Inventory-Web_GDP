@@ -3309,3 +3309,936 @@ ReferenceError: docs is not defined
 2019-03-02T23:56:05.205Z - debug: GET /intro/userLogin
 2019-03-02T23:56:06.775Z - debug: GET /user
 2019-03-02T23:56:08.030Z - debug: GET /user/accept/4
+2019-03-04T01:05:01.906Z - info: Environment variables loaded.
+2019-03-04T01:05:02.266Z - info: Loaded routing.
+2019-03-04T01:05:02.350Z - info: START seeder.
+2019-03-04T01:05:02.354Z - debug: 6 products
+2019-03-04T01:05:02.354Z - info: END Seeder. Sample data read and verified.
+2019-03-04T01:05:11.272Z - debug: GET /user
+2019-03-04T01:05:13.964Z - debug: GET /user/accept/3
+2019-03-04T01:05:17.088Z - debug: GET /user/accept/5
+2019-03-04T01:05:17.110Z - error: uncaughtException: docs is not defined date=Sun Mar 03 2019 19:05:17 GMT-0600 (Central Standard Time), pid=1760, uid=null, gid=null, cwd=D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\app.js], rss=86409216, heapTotal=67665920, heapUsed=31786928, external=36925699, loadavg=[0, 0, 0], uptime=871852
+ReferenceError: docs is not defined
+    at Timeout._onTimeout (D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\controllers\user.js:36:19)
+    at listOnTimeout (timers.js:326:17)
+    at processTimers (timers.js:268:5)
+2019-03-04T01:05:33.949Z - debug: GET /
+2019-03-04T01:05:35.601Z - debug: GET /intro/adminLogin
+2019-03-04T01:05:37.260Z - debug: GET /admin
+2019-03-04T01:05:39.006Z - debug: GET /admin/announcement
+2019-03-04T01:10:17.850Z - info: Environment variables loaded.
+2019-03-04T01:10:18.056Z - info: Loaded routing.
+2019-03-04T01:10:18.089Z - info: START seeder.
+2019-03-04T01:10:18.097Z - debug: 6 products
+2019-03-04T01:10:18.098Z - info: END Seeder. Sample data read and verified.
+2019-03-04T01:10:24.371Z - debug: GET /admin
+2019-03-04T01:10:25.999Z - debug: GET /admin/announcement
+2019-03-04T01:13:45.752Z - info: Environment variables loaded.
+2019-03-04T01:13:45.984Z - info: Loaded routing.
+2019-03-04T01:13:46.024Z - info: START seeder.
+2019-03-04T01:13:46.029Z - debug: 6 products
+2019-03-04T01:13:46.030Z - info: END Seeder. Sample data read and verified.
+2019-03-04T01:13:47.861Z - debug: GET /admin
+2019-03-04T01:13:50.191Z - debug: GET /admin/announcement
+2019-03-04T01:14:32.222Z - info: Environment variables loaded.
+2019-03-04T01:14:32.450Z - info: Loaded routing.
+2019-03-04T01:14:32.479Z - info: START seeder.
+2019-03-04T01:14:32.485Z - debug: 6 products
+2019-03-04T01:14:32.486Z - info: END Seeder. Sample data read and verified.
+2019-03-04T01:14:38.618Z - debug: GET /admin
+2019-03-04T01:14:39.911Z - debug: GET /admin/announcement
+2019-03-04T01:16:18.267Z - info: Environment variables loaded.
+2019-03-04T01:16:18.519Z - info: Loaded routing.
+2019-03-04T01:16:18.552Z - info: START seeder.
+2019-03-04T01:16:18.555Z - debug: 6 products
+2019-03-04T01:16:18.555Z - info: END Seeder. Sample data read and verified.
+2019-03-04T01:16:23.475Z - debug: GET /
+2019-03-04T01:16:25.761Z - debug: GET /intro/adminLogin
+2019-03-04T01:16:27.591Z - debug: GET /admin
+2019-03-04T01:16:29.508Z - debug: GET /admin/announcement
+2019-03-04T01:17:29.676Z - info: Environment variables loaded.
+2019-03-04T01:17:29.938Z - info: Loaded routing.
+2019-03-04T01:17:29.987Z - info: START seeder.
+2019-03-04T01:17:29.992Z - debug: 6 products
+2019-03-04T01:17:29.994Z - info: END Seeder. Sample data read and verified.
+2019-03-04T01:17:32.864Z - debug: GET /
+2019-03-04T01:17:35.188Z - debug: GET /intro/adminLogin
+2019-03-04T01:17:36.712Z - debug: GET /intro/adminLogin?
+2019-03-04T01:17:37.955Z - debug: GET /admin
+2019-03-04T01:17:39.677Z - debug: GET /admin/announcement
+2019-03-04T01:19:09.084Z - info: Environment variables loaded.
+2019-03-04T01:19:09.674Z - info: Loaded routing.
+2019-03-04T01:19:09.730Z - info: START seeder.
+2019-03-04T01:19:09.742Z - debug: 6 products
+2019-03-04T01:19:09.745Z - info: END Seeder. Sample data read and verified.
+2019-03-04T01:19:14.241Z - debug: GET /
+2019-03-04T01:19:16.989Z - debug: GET /intro/adminLogin
+2019-03-04T01:19:18.914Z - debug: GET /admin
+2019-03-04T01:19:20.986Z - debug: GET /admin/announcement
+2019-03-04T01:19:21.002Z - error: uncaughtException: Cannot read property '_id' of undefined date=Sun Mar 03 2019 19:19:20 GMT-0600 (Central Standard Time), pid=14860, uid=null, gid=null, cwd=D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\app.js], rss=87130112, heapTotal=68714496, heapUsed=31680160, external=36751766, loadavg=[0, 0, 0], uptime=872696
+TypeError: Cannot read property '_id' of undefined
+    at Timeout._onTimeout (D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\controllers\admin.js:29:38)
+    at listOnTimeout (timers.js:326:17)
+    at processTimers (timers.js:268:5)
+2019-03-04T01:19:21.012Z - error: uncaughtException: Cannot read property '_id' of undefined date=Sun Mar 03 2019 19:19:21 GMT-0600 (Central Standard Time), pid=14860, uid=null, gid=null, cwd=D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\app.js], rss=87293952, heapTotal=68714496, heapUsed=31985992, external=36761502, loadavg=[0, 0, 0], uptime=872696
+TypeError: Cannot read property '_id' of undefined
+    at Timeout._onTimeout (D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\controllers\admin.js:29:38)
+    at listOnTimeout (timers.js:326:17)
+    at processTimers (timers.js:268:5)
+2019-03-04T01:19:21.020Z - error: uncaughtException: Cannot read property '_id' of undefined date=Sun Mar 03 2019 19:19:21 GMT-0600 (Central Standard Time), pid=14860, uid=null, gid=null, cwd=D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\app.js], rss=87293952, heapTotal=68714496, heapUsed=32074560, external=36761769, loadavg=[0, 0, 0], uptime=872696
+TypeError: Cannot read property '_id' of undefined
+    at Timeout._onTimeout (D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\controllers\admin.js:29:38)
+    at listOnTimeout (timers.js:326:17)
+    at processTimers (timers.js:268:5)
+2019-03-04T01:20:55.726Z - info: Environment variables loaded.
+2019-03-04T01:20:56.004Z - info: Loaded routing.
+2019-03-04T01:20:56.030Z - info: START seeder.
+2019-03-04T01:20:56.034Z - debug: 6 products
+2019-03-04T01:20:56.034Z - info: END Seeder. Sample data read and verified.
+2019-03-04T01:21:05.073Z - debug: GET /
+2019-03-04T01:21:07.179Z - debug: GET /intro/adminLogin
+2019-03-04T01:21:08.998Z - debug: GET /admin
+2019-03-04T01:21:10.527Z - debug: GET /admin/announcement
+2019-03-04T01:22:17.704Z - debug: GET /admin/announcement
+2019-03-04T01:22:19.105Z - debug: GET /admin/announcement
+2019-03-04T01:22:20.026Z - debug: GET /admin/announcement
+2019-03-04T01:22:20.400Z - debug: GET /admin/announcement
+2019-03-04T01:22:20.531Z - debug: GET /admin/announcement
+2019-03-04T01:22:20.813Z - debug: GET /admin/announcement
+2019-03-04T01:22:21.449Z - debug: GET /admin/announcement
+2019-03-04T01:22:21.732Z - debug: GET /admin/announcement
+2019-03-04T01:22:21.875Z - debug: GET /admin/announcement
+2019-03-04T01:22:28.406Z - debug: GET /admin/announcement
+2019-03-04T01:22:30.020Z - debug: GET /admin/announcement
+2019-03-04T01:22:31.301Z - debug: GET /admin/announcement
+2019-03-04T01:22:32.196Z - debug: GET /admin/announcement
+2019-03-04T01:22:33.331Z - debug: GET /admin/announcement
+2019-03-04T01:22:35.903Z - debug: GET /admin/announcement
+2019-03-04T01:22:36.715Z - debug: GET /admin/announcement
+2019-03-04T01:22:37.520Z - debug: GET /admin/announcement
+2019-03-04T01:22:38.943Z - debug: GET /admin/announcement
+2019-03-04T01:22:39.985Z - debug: GET /admin/announcement
+2019-03-04T01:24:25.261Z - info: Environment variables loaded.
+2019-03-04T01:24:25.471Z - info: Loaded routing.
+2019-03-04T01:24:25.502Z - info: START seeder.
+2019-03-04T01:24:25.506Z - debug: 6 products
+2019-03-04T01:24:25.507Z - info: END Seeder. Sample data read and verified.
+2019-03-04T01:24:29.854Z - debug: GET /
+2019-03-04T01:24:29.919Z - debug: GET /css/main.css
+2019-03-04T01:24:30.328Z - debug: GET /images/manifest.json
+2019-03-04T01:24:32.203Z - debug: GET /intro/adminLogin
+2019-03-04T01:24:33.637Z - debug: GET /admin
+2019-03-04T01:24:35.158Z - debug: GET /admin/announcement
+2019-03-04T01:24:37.731Z - debug: GET /admin/announcement
+2019-03-04T01:24:38.710Z - debug: GET /admin/announcement
+2019-03-04T01:24:39.414Z - debug: GET /admin/announcement
+2019-03-04T01:24:40.056Z - debug: GET /admin/announcement
+2019-03-04T01:24:40.601Z - debug: GET /admin/announcement
+2019-03-04T01:24:40.860Z - debug: GET /admin/announcement
+2019-03-04T01:24:41.230Z - debug: GET /admin/announcement
+2019-03-04T01:24:41.512Z - debug: GET /admin/announcement
+2019-03-04T01:26:09.139Z - info: Environment variables loaded.
+2019-03-04T01:26:09.350Z - info: Loaded routing.
+2019-03-04T01:26:09.379Z - info: START seeder.
+2019-03-04T01:26:09.388Z - debug: 6 products
+2019-03-04T01:26:09.388Z - info: END Seeder. Sample data read and verified.
+2019-03-04T01:26:11.804Z - debug: GET /admin/announcement
+2019-03-04T01:26:13.156Z - debug: GET /admin/announcement
+2019-03-04T01:26:13.729Z - debug: GET /admin/announcement
+2019-03-04T01:26:14.025Z - debug: GET /admin/announcement
+2019-03-04T01:26:14.256Z - debug: GET /admin/announcement
+2019-03-04T01:26:14.416Z - debug: GET /admin/announcement
+2019-03-04T01:26:14.607Z - debug: GET /admin/announcement
+2019-03-04T01:26:14.778Z - debug: GET /admin/announcement
+2019-03-04T01:26:14.998Z - debug: GET /admin/announcement
+2019-03-04T01:26:15.157Z - debug: GET /admin/announcement
+2019-03-04T01:26:15.354Z - debug: GET /admin/announcement
+2019-03-04T01:26:15.505Z - debug: GET /admin/announcement
+2019-03-04T01:26:15.667Z - debug: GET /admin/announcement
+2019-03-04T01:26:15.844Z - debug: GET /admin/announcement
+2019-03-04T01:26:16.002Z - debug: GET /admin/announcement
+2019-03-04T01:26:16.161Z - debug: GET /admin/announcement
+2019-03-04T01:27:22.391Z - info: Environment variables loaded.
+2019-03-04T01:27:22.632Z - info: Loaded routing.
+2019-03-04T01:27:22.661Z - info: START seeder.
+2019-03-04T01:27:22.664Z - debug: 6 products
+2019-03-04T01:27:22.665Z - info: END Seeder. Sample data read and verified.
+2019-03-04T01:27:23.429Z - debug: GET /admin/announcement
+2019-03-04T01:27:27.880Z - debug: GET /admin/announcement
+2019-03-04T01:27:29.197Z - debug: GET /admin/announcement
+2019-03-04T01:27:30.528Z - debug: GET /admin/announcement
+2019-03-04T01:27:31.264Z - debug: GET /admin/announcement
+2019-03-04T01:27:31.895Z - debug: GET /admin/announcement
+2019-03-04T01:27:32.236Z - debug: GET /admin/announcement
+2019-03-04T01:27:32.515Z - debug: GET /admin/announcement
+2019-03-04T01:27:33.203Z - debug: GET /admin/announcement
+2019-03-04T01:28:58.786Z - debug: GET /admin
+2019-03-04T01:29:00.030Z - debug: GET /admin/announcement
+2019-03-04T01:29:02.953Z - debug: GET /admin/announcement
+2019-03-04T01:29:04.279Z - debug: GET /admin/announcement
+2019-03-04T01:29:05.588Z - debug: GET /admin/announcement
+2019-03-04T01:29:06.249Z - debug: GET /admin/announcement
+2019-03-04T01:29:06.771Z - debug: GET /admin/announcement
+2019-03-04T01:29:07.375Z - debug: GET /admin/announcement
+2019-03-04T01:29:08.087Z - debug: GET /admin/announcement
+2019-03-04T01:29:08.563Z - debug: GET /admin/announcement
+2019-03-04T01:29:09.126Z - debug: GET /admin/announcement
+2019-03-04T01:29:09.410Z - debug: GET /admin/announcement
+2019-03-04T01:29:09.960Z - debug: GET /admin/announcement
+2019-03-04T01:29:10.525Z - debug: GET /admin/announcement
+2019-03-04T01:29:11.716Z - debug: GET /admin/announcement
+2019-03-04T01:34:28.298Z - info: Environment variables loaded.
+2019-03-04T01:34:28.509Z - info: Loaded routing.
+2019-03-04T01:34:28.550Z - info: START seeder.
+2019-03-04T01:34:28.554Z - debug: 6 products
+2019-03-04T01:34:28.554Z - info: END Seeder. Sample data read and verified.
+2019-03-04T01:34:33.137Z - debug: GET /
+2019-03-04T01:34:33.193Z - debug: GET /css/main.css
+2019-03-04T01:34:33.618Z - debug: GET /images/manifest.json
+2019-03-04T01:34:35.093Z - debug: GET /intro/adminLogin
+2019-03-04T01:34:36.386Z - debug: GET /admin
+2019-03-04T01:34:38.273Z - debug: GET /admin/edit/3
+2019-03-04T01:34:40.416Z - debug: GET /admin
+2019-03-04T01:34:44.072Z - debug: GET /
+2019-03-04T01:34:45.711Z - debug: GET /intro/userLogin
+2019-03-04T01:34:47.176Z - debug: GET /user
+2019-03-04T01:34:55.952Z - debug: GET /user
+2019-03-04T01:44:44.540Z - info: Environment variables loaded.
+2019-03-04T01:44:44.741Z - info: Loaded routing.
+2019-03-04T01:44:44.775Z - info: START seeder.
+2019-03-04T01:44:44.778Z - debug: 6 products
+2019-03-04T01:44:44.779Z - info: END Seeder. Sample data read and verified.
+2019-03-04T01:44:50.756Z - debug: GET /user
+2019-03-04T01:44:53.301Z - debug: GET /user/deny/3
+2019-03-04T01:44:53.322Z - debug: GET /user
+2019-03-04T01:44:58.119Z - debug: GET /
+2019-03-04T01:44:59.379Z - debug: GET /intro/adminLogin
+2019-03-04T01:45:00.409Z - debug: GET /admin
+2019-03-04T01:45:01.745Z - debug: GET /admin/announcement
+2019-03-04T01:45:48.576Z - info: Environment variables loaded.
+2019-03-04T01:45:48.799Z - info: Loaded routing.
+2019-03-04T01:45:48.831Z - info: START seeder.
+2019-03-04T01:45:48.835Z - debug: 6 products
+2019-03-04T01:45:48.835Z - info: END Seeder. Sample data read and verified.
+2019-03-04T01:45:49.028Z - debug: GET /admin
+2019-03-04T01:45:50.965Z - debug: GET /
+2019-03-04T01:45:52.460Z - debug: GET /intro/userLogin
+2019-03-04T01:45:53.729Z - debug: GET /user
+2019-03-04T01:45:55.865Z - debug: GET /user/deny/4
+2019-03-04T01:45:55.881Z - debug: GET /user
+2019-03-04T01:45:59.637Z - debug: GET /user/accept/3
+2019-03-04T01:45:59.654Z - error: uncaughtException: docs is not defined date=Sun Mar 03 2019 19:45:59 GMT-0600 (Central Standard Time), pid=11608, uid=null, gid=null, cwd=D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\app.js], rss=86523904, heapTotal=68714496, heapUsed=32806272, external=36783626, loadavg=[0, 0, 0], uptime=874295
+ReferenceError: docs is not defined
+    at Timeout._onTimeout (D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\controllers\user.js:36:19)
+    at listOnTimeout (timers.js:326:17)
+    at processTimers (timers.js:268:5)
+2019-03-04T01:47:43.255Z - info: Environment variables loaded.
+2019-03-04T01:47:43.467Z - info: Loaded routing.
+2019-03-04T01:47:43.499Z - info: START seeder.
+2019-03-04T01:47:43.517Z - debug: 6 products
+2019-03-04T01:47:43.517Z - info: END Seeder. Sample data read and verified.
+2019-03-04T01:47:48.014Z - debug: GET /user/accept/3
+2019-03-04T01:47:53.840Z - debug: GET /user
+2019-03-04T01:47:56.783Z - debug: GET /user/accept/3
+2019-03-04T01:47:59.885Z - debug: GET /user/accept/4
+2019-03-04T01:47:59.900Z - debug: GET /user
+2019-03-04T01:48:04.839Z - debug: GET /user
+2019-03-04T01:48:06.837Z - debug: GET /
+2019-03-04T01:48:08.726Z - debug: GET /intro/adminLogin
+2019-03-04T01:48:09.941Z - debug: GET /admin
+2019-03-04T01:48:11.332Z - debug: GET /admin/announcement
+2019-03-04T01:48:12.637Z - debug: GET /admin/announcement
+2019-03-04T01:48:13.364Z - debug: GET /admin/announcement
+2019-03-04T01:48:13.763Z - debug: GET /admin/announcement
+2019-03-04T01:48:14.058Z - debug: GET /admin/announcement
+2019-03-04T01:48:14.778Z - debug: GET /admin/announcement
+2019-03-04T01:48:21.900Z - debug: GET /admin/announcement
+2019-03-04T01:48:27.661Z - debug: GET /
+2019-03-04T01:48:29.384Z - debug: GET /intro/userLogin
+2019-03-04T01:48:30.917Z - debug: GET /user
+2019-03-04T01:48:33.209Z - debug: GET /user/deny/3
+2019-03-04T01:48:33.225Z - debug: GET /user
+2019-03-04T01:48:35.365Z - debug: GET /
+2019-03-04T01:48:38.496Z - debug: GET /intro/adminLogin
+2019-03-04T01:48:40.178Z - debug: GET /admin
+2019-03-04T01:48:41.529Z - debug: GET /admin/announcement
+2019-03-04T01:48:47.521Z - debug: GET /
+2019-03-04T01:48:48.881Z - debug: GET /intro/userLogin
+2019-03-04T01:48:50.406Z - debug: GET /user
+2019-03-04T01:48:53.020Z - debug: GET /user/deny/5
+2019-03-04T01:48:53.032Z - debug: GET /user
+2019-03-04T01:48:54.941Z - debug: GET /
+2019-03-04T01:48:57.228Z - debug: GET /intro/adminLogin
+2019-03-04T01:48:58.974Z - debug: GET /admin
+2019-03-04T01:49:00.501Z - debug: GET /admin/announcement
+2019-03-04T01:49:02.172Z - debug: GET /admin/announcement
+2019-03-04T01:49:02.761Z - debug: GET /admin/announcement
+2019-03-04T01:49:03.146Z - debug: GET /admin/announcement
+2019-03-04T01:49:03.471Z - debug: GET /admin/announcement
+2019-03-04T01:49:03.830Z - debug: GET /admin/announcement
+2019-03-04T01:49:03.992Z - debug: GET /admin/announcement
+2019-03-04T01:49:04.149Z - debug: GET /admin/announcement
+2019-03-04T01:49:11.035Z - debug: GET /admin
+2019-03-04T01:52:12.940Z - debug: GET /
+2019-03-04T01:52:14.579Z - debug: GET /intro/userLogin
+2019-03-04T01:52:15.915Z - debug: GET /user
+2019-03-04T01:52:40.625Z - debug: GET /
+2019-03-04T01:52:42.151Z - debug: GET /intro/adminLogin
+2019-03-04T01:52:43.572Z - debug: GET /admin
+2019-03-04T01:52:44.880Z - debug: GET /admin/announcement
+2019-03-04T01:52:48.985Z - debug: GET /admin/announcement
+2019-03-04T01:52:49.389Z - debug: GET /admin/announcement
+2019-03-04T01:52:49.699Z - debug: GET /admin/announcement
+2019-03-04T01:52:50.057Z - debug: GET /admin/announcement
+2019-03-04T01:52:50.432Z - debug: GET /admin/announcement
+2019-03-04T01:52:50.811Z - debug: GET /admin/announcement
+2019-03-04T01:52:51.165Z - debug: GET /admin/announcement
+2019-03-04T01:52:51.518Z - debug: GET /admin/announcement
+2019-03-04T01:52:51.854Z - debug: GET /admin/announcement
+2019-03-04T01:52:52.113Z - debug: GET /admin/announcement
+2019-03-04T01:52:52.301Z - debug: GET /admin/announcement
+2019-03-04T01:52:52.449Z - debug: GET /admin/announcement
+2019-03-04T01:52:52.852Z - debug: GET /admin/announcement
+2019-03-04T01:52:53.000Z - debug: GET /admin/announcement
+2019-03-04T01:52:53.168Z - debug: GET /admin/announcement
+2019-03-04T01:52:53.350Z - debug: GET /admin/announcement
+2019-03-04T01:52:53.495Z - debug: GET /admin/announcement
+2019-03-04T01:52:53.656Z - debug: GET /admin/announcement
+2019-03-04T01:52:53.823Z - debug: GET /admin/announcement
+2019-03-04T01:52:53.973Z - debug: GET /admin/announcement
+2019-03-04T01:52:54.155Z - debug: GET /admin/announcement
+2019-03-04T01:52:54.641Z - debug: GET /admin/announcement
+2019-03-04T01:52:54.965Z - debug: GET /admin/announcement
+2019-03-04T01:52:55.311Z - debug: GET /admin/announcement
+2019-03-04T01:52:55.689Z - debug: GET /admin/announcement
+2019-03-04T01:52:56.053Z - debug: GET /admin/announcement
+2019-03-04T01:52:56.415Z - debug: GET /admin/announcement
+2019-03-04T01:52:56.760Z - debug: GET /admin/announcement
+2019-03-04T01:52:57.183Z - debug: GET /admin/announcement
+2019-03-04T01:52:57.503Z - debug: GET /admin/announcement
+2019-03-04T01:52:58.140Z - debug: GET /admin/announcement
+2019-03-04T01:52:58.604Z - debug: GET /admin/announcement
+2019-03-04T01:52:59.146Z - debug: GET /admin/announcement
+2019-03-04T01:52:59.651Z - debug: GET /admin/announcement
+2019-03-04T01:53:00.482Z - debug: GET /admin/announcement
+2019-03-04T01:53:01.072Z - debug: GET /admin/announcement
+2019-03-04T01:53:01.788Z - debug: GET /admin/announcement
+2019-03-04T01:53:02.376Z - debug: GET /admin/announcement
+2019-03-04T01:53:02.879Z - debug: GET /admin/announcement
+2019-03-04T01:53:03.063Z - debug: GET /admin/announcement
+2019-03-04T01:53:03.708Z - debug: GET /admin/announcement
+2019-03-04T01:53:03.878Z - debug: GET /admin/announcement
+2019-03-04T01:53:04.263Z - debug: GET /admin/announcement
+2019-03-04T01:53:04.613Z - debug: GET /admin/announcement
+2019-03-04T01:53:04.769Z - debug: GET /admin/announcement
+2019-03-04T01:53:05.126Z - debug: GET /admin/announcement
+2019-03-04T01:53:05.427Z - debug: GET /admin/announcement
+2019-03-04T01:53:05.613Z - debug: GET /admin/announcement
+2019-03-04T01:53:06.021Z - debug: GET /admin/announcement
+2019-03-04T01:53:06.362Z - debug: GET /admin/announcement
+2019-03-04T01:53:06.701Z - debug: GET /admin/announcement
+2019-03-04T01:53:07.072Z - debug: GET /admin/announcement
+2019-03-04T01:53:07.405Z - debug: GET /admin/announcement
+2019-03-04T01:53:07.600Z - debug: GET /admin/announcement
+2019-03-04T01:53:07.799Z - debug: GET /admin/announcement
+2019-03-04T01:53:08.157Z - debug: GET /admin/announcement
+2019-03-04T01:53:08.522Z - debug: GET /admin/announcement
+2019-03-04T01:53:08.914Z - debug: GET /admin/announcement
+2019-03-04T01:53:09.119Z - debug: GET /admin/announcement
+2019-03-04T01:53:09.334Z - debug: GET /admin/announcement
+2019-03-04T01:53:09.515Z - debug: GET /admin/announcement
+2019-03-04T01:53:09.759Z - debug: GET /admin/announcement
+2019-03-04T01:53:11.796Z - debug: GET /
+2019-03-04T01:53:13.366Z - debug: GET /intro/userLogin
+2019-03-04T01:53:15.158Z - debug: GET /user
+2019-03-04T01:53:16.806Z - debug: GET /user/deny/3
+2019-03-04T01:53:16.815Z - debug: GET /user
+2019-03-04T01:53:18.257Z - debug: GET /user/deny/4
+2019-03-04T01:53:18.275Z - debug: GET /user
+2019-03-04T01:53:19.239Z - debug: GET /user/deny/7
+2019-03-04T01:53:19.247Z - debug: GET /user
+2019-03-04T01:53:20.216Z - debug: GET /user/deny/5
+2019-03-04T01:53:20.227Z - debug: GET /user
+2019-03-04T01:53:22.142Z - debug: GET /
+2019-03-04T01:53:23.902Z - debug: GET /intro/adminLogin
+2019-03-04T01:53:25.173Z - debug: GET /admin
+2019-03-04T01:53:26.466Z - debug: GET /admin/announcement
+2019-03-04T02:04:04.162Z - debug: GET /admin
+2019-03-04T02:04:05.812Z - debug: GET /admin/edit/3
+2019-03-04T02:04:18.072Z - debug: POST /admin/update/3
+2019-03-04T02:04:18.116Z - debug: GET /admin
+2019-03-04T02:04:19.918Z - debug: GET /admin/edit/3
+2019-03-04T02:04:21.949Z - debug: GET /admin
+2019-03-04T02:13:43.449Z - info: Environment variables loaded.
+2019-03-04T02:13:43.735Z - info: Loaded routing.
+2019-03-04T02:13:43.783Z - info: START seeder.
+2019-03-04T02:13:43.790Z - debug: 6 products
+2019-03-04T02:13:43.791Z - info: END Seeder. Sample data read and verified.
+2019-03-04T02:13:48.336Z - debug: GET /admin
+2019-03-04T02:13:50.809Z - debug: GET /admin/edit/7
+2019-03-04T02:14:02.686Z - debug: POST /admin/update/7
+2019-03-04T02:14:02.723Z - debug: GET /admin
+2019-03-04T02:14:37.089Z - debug: GET /admin
+2019-03-04T02:14:45.682Z - info: Environment variables loaded.
+2019-03-04T02:14:45.877Z - info: Loaded routing.
+2019-03-04T02:14:45.930Z - info: START seeder.
+2019-03-04T02:14:45.943Z - debug: 6 products
+2019-03-04T02:14:45.944Z - info: END Seeder. Sample data read and verified.
+2019-03-04T02:14:47.059Z - debug: GET /admin
+2019-03-04T02:14:48.350Z - debug: GET /
+2019-03-04T02:14:49.743Z - debug: GET /intro/userLogin
+2019-03-04T02:14:51.238Z - debug: GET /user
+2019-03-04T02:16:40.281Z - debug: GET /user
+2019-03-04T02:16:40.583Z - debug: GET /user
+2019-03-04T02:16:40.725Z - debug: GET /user
+2019-03-04T02:16:40.856Z - debug: GET /user
+2019-03-04T02:16:40.991Z - debug: GET /user
+2019-03-04T02:16:41.116Z - debug: GET /user
+2019-03-04T02:16:41.259Z - debug: GET /user
+2019-03-04T02:16:41.391Z - debug: GET /user
+2019-03-04T02:16:41.540Z - debug: GET /user
+2019-03-04T02:16:44.077Z - debug: GET /
+2019-03-04T02:16:45.602Z - debug: GET /intro/userLogin
+2019-03-04T02:16:46.906Z - debug: GET /user
+2019-03-04T02:17:50.003Z - info: Environment variables loaded.
+2019-03-04T02:17:50.205Z - info: Loaded routing.
+2019-03-04T02:17:50.232Z - info: START seeder.
+2019-03-04T02:17:50.241Z - debug: 6 products
+2019-03-04T02:17:50.241Z - info: END Seeder. Sample data read and verified.
+2019-03-04T02:17:53.581Z - debug: GET /
+2019-03-04T02:17:57.236Z - debug: GET /user?
+2019-03-04T02:17:59.454Z - debug: GET /user/accept/3
+2019-03-04T02:26:52.585Z - info: Environment variables loaded.
+2019-03-04T02:26:53.176Z - info: Loaded routing.
+2019-03-04T02:26:53.273Z - info: START seeder.
+2019-03-04T02:26:53.284Z - debug: 6 products
+2019-03-04T02:26:53.285Z - info: END Seeder. Sample data read and verified.
+2019-03-04T02:26:58.045Z - debug: GET /
+2019-03-04T02:27:00.397Z - debug: GET /intro/userLogin
+2019-03-04T02:27:02.191Z - debug: GET /user
+2019-03-04T02:27:03.980Z - debug: GET /user/accept/3
+2019-03-04T02:30:18.902Z - info: Environment variables loaded.
+2019-03-04T02:30:19.856Z - info: Loaded routing.
+2019-03-04T02:30:20.069Z - info: START seeder.
+2019-03-04T02:30:20.100Z - debug: 6 products
+2019-03-04T02:30:20.100Z - info: END Seeder. Sample data read and verified.
+2019-03-04T02:30:24.093Z - debug: GET /
+2019-03-04T02:30:26.746Z - debug: GET /intro/userLogin
+2019-03-04T02:30:28.712Z - debug: GET /user
+2019-03-04T02:30:30.496Z - debug: GET /user/accept/3
+2019-03-04T02:30:30.592Z - debug: GET /user
+2019-03-04T02:30:34.535Z - debug: GET /user/deny/3
+2019-03-04T02:30:39.898Z - debug: GET /user/accept/4
+2019-03-04T02:30:39.923Z - debug: GET /user
+2019-03-04T02:30:41.656Z - debug: GET /user/deny/4
+2019-03-04T02:31:32.629Z - info: Environment variables loaded.
+2019-03-04T02:31:33.160Z - info: Loaded routing.
+2019-03-04T02:31:33.479Z - info: START seeder.
+2019-03-04T02:31:33.494Z - debug: 6 products
+2019-03-04T02:31:33.494Z - info: END Seeder. Sample data read and verified.
+2019-03-04T02:31:33.684Z - debug: GET /
+2019-03-04T02:31:36.475Z - debug: GET /intro/userLogin
+2019-03-04T02:31:38.523Z - debug: GET /user
+2019-03-04T02:31:45.989Z - debug: GET /user/accept/5
+2019-03-04T02:31:46.035Z - debug: GET /user
+2019-03-04T02:31:47.099Z - debug: GET /user/deny/5
+2019-03-04T02:32:16.500Z - debug: GET /user/deny/5
+2019-03-04T02:32:30.231Z - info: Environment variables loaded.
+2019-03-04T02:32:30.551Z - info: Loaded routing.
+2019-03-04T02:32:30.619Z - info: START seeder.
+2019-03-04T02:32:30.625Z - debug: 6 products
+2019-03-04T02:32:30.626Z - info: END Seeder. Sample data read and verified.
+2019-03-04T02:32:32.810Z - debug: GET /user
+2019-03-04T02:32:35.296Z - debug: GET /user/deny/3
+2019-03-04T02:32:35.356Z - debug: GET /user
+2019-03-04T02:32:37.129Z - debug: GET /user/deny/4
+2019-03-04T02:32:37.138Z - debug: GET /user
+2019-03-04T02:32:39.234Z - debug: GET /user/deny/5
+2019-03-04T02:32:39.292Z - debug: GET /user
+2019-03-04T02:32:40.335Z - debug: GET /user/accept/5
+2019-03-04T02:32:40.451Z - debug: GET /user
+2019-03-04T02:32:45.448Z - debug: GET /
+2019-03-04T02:32:47.037Z - debug: GET /intro/adminLogin
+2019-03-04T02:32:48.338Z - debug: GET /intro/adminLogin?
+2019-03-04T02:32:49.971Z - debug: GET /admin
+2019-03-04T02:32:51.774Z - debug: GET /admin/announcement
+2019-03-04T02:33:01.880Z - debug: GET /admin/announcement
+2019-03-04T02:33:05.160Z - debug: GET /admin/announcement
+2019-03-04T02:33:06.683Z - debug: GET /admin/announcement
+2019-03-04T02:33:07.133Z - debug: GET /admin/announcement
+2019-03-04T02:33:07.350Z - debug: GET /admin/announcement
+2019-03-04T02:33:07.931Z - debug: GET /admin/announcement
+2019-03-04T02:33:08.186Z - debug: GET /admin/announcement
+2019-03-04T02:33:08.283Z - debug: GET /admin/announcement
+2019-03-04T02:33:08.530Z - debug: GET /admin/announcement
+2019-03-04T02:33:09.834Z - debug: GET /admin/announcement
+2019-03-04T02:33:10.223Z - debug: GET /admin/announcement
+2019-03-04T02:33:10.597Z - debug: GET /admin/announcement
+2019-03-04T02:33:12.828Z - debug: GET /admin/announcement
+2019-03-04T02:43:40.721Z - debug: GET /
+2019-03-04T02:43:42.619Z - debug: GET /intro/userLogin
+2019-03-04T02:43:44.397Z - debug: GET /user
+2019-03-04T02:43:46.632Z - debug: GET /user/accept/3
+2019-03-04T02:43:46.684Z - debug: GET /user
+2019-03-04T02:44:20.867Z - debug: GET /
+2019-03-04T02:44:23.005Z - debug: GET /intro/adminLogin
+2019-03-04T02:44:24.622Z - debug: GET /admin
+2019-03-04T02:44:26.259Z - debug: GET /admin/announcement
+2019-03-04T02:44:28.687Z - debug: GET /admin/announcement
+2019-03-04T02:44:30.912Z - debug: GET /admin/announcement
+2019-03-04T02:44:31.909Z - debug: GET /admin/announcement
+2019-03-04T02:44:32.572Z - debug: GET /admin/announcement
+2019-03-04T02:44:33.179Z - debug: GET /admin/announcement
+2019-03-04T02:44:33.865Z - debug: GET /admin/announcement
+2019-03-04T02:44:34.544Z - debug: GET /admin/announcement
+2019-03-04T02:44:34.775Z - debug: GET /admin/announcement
+2019-03-04T02:44:34.966Z - debug: GET /admin/announcement
+2019-03-04T02:44:35.284Z - debug: GET /admin/announcement
+2019-03-04T02:44:36.842Z - debug: GET /admin/announcement
+2019-03-04T02:44:37.266Z - debug: GET /admin/announcement
+2019-03-04T02:44:37.392Z - debug: GET /admin/announcement
+2019-03-04T02:44:37.653Z - debug: GET /admin/announcement
+2019-03-04T02:44:55.256Z - debug: GET /admin/announcement
+2019-03-04T02:49:20.109Z - info: Environment variables loaded.
+2019-03-04T02:49:20.872Z - info: Loaded routing.
+2019-03-04T02:49:20.971Z - info: START seeder.
+2019-03-04T02:49:20.980Z - debug: 6 products
+2019-03-04T02:49:20.982Z - info: END Seeder. Sample data read and verified.
+2019-03-04T02:49:27.189Z - debug: GET /
+2019-03-04T02:49:27.243Z - debug: GET /css/main.css
+2019-03-04T02:49:32.176Z - debug: GET /intro/adminLogin
+2019-03-04T02:49:34.996Z - debug: GET /admin
+2019-03-04T02:49:44.952Z - debug: GET /admin/announcement
+2019-03-04T02:49:54.629Z - debug: GET /
+2019-03-04T02:49:59.616Z - debug: GET /intro/userLogin
+2019-03-04T02:50:02.372Z - debug: GET /user
+2019-03-04T02:50:08.409Z - debug: GET /user/accept/4
+2019-03-04T02:50:08.464Z - debug: GET /user
+2019-03-04T02:50:14.323Z - debug: GET /
+2019-03-04T02:50:34.611Z - debug: GET /intro/adminLogin
+2019-03-04T02:50:36.541Z - debug: GET /admin
+2019-03-04T02:50:39.224Z - debug: GET /admin/announcement
+2019-03-04T02:50:43.996Z - debug: GET /admin/announcement
+2019-03-04T02:50:45.172Z - debug: GET /admin/announcement
+2019-03-04T02:50:46.028Z - debug: GET /admin/announcement
+2019-03-04T02:50:46.792Z - debug: GET /admin/announcement
+2019-03-04T02:50:47.464Z - debug: GET /admin/announcement
+2019-03-04T02:50:48.086Z - debug: GET /admin/announcement
+2019-03-04T02:50:48.620Z - debug: GET /admin/announcement
+2019-03-04T02:50:49.167Z - debug: GET /admin/announcement
+2019-03-04T02:50:49.821Z - debug: GET /admin/announcement
+2019-03-04T02:50:50.502Z - debug: GET /admin/announcement
+2019-03-04T02:50:51.203Z - debug: GET /admin/announcement
+2019-03-04T02:50:52.153Z - debug: GET /admin/announcement
+2019-03-04T02:50:53.014Z - debug: GET /admin/announcement
+2019-03-04T02:50:54.105Z - debug: GET /admin/announcement
+2019-03-04T02:50:55.794Z - debug: GET /admin/announcement
+2019-03-04T02:50:57.792Z - debug: GET /admin/announcement
+2019-03-04T02:50:59.116Z - debug: GET /admin/announcement
+2019-03-04T02:50:59.874Z - debug: GET /admin/announcement
+2019-03-04T02:51:00.642Z - debug: GET /admin/announcement
+2019-03-04T02:51:01.393Z - debug: GET /admin/announcement
+2019-03-04T02:51:02.509Z - debug: GET /admin/announcement
+2019-03-04T02:51:04.120Z - debug: GET /admin/announcement
+2019-03-04T02:53:20.410Z - info: Environment variables loaded.
+2019-03-04T02:53:21.245Z - info: Loaded routing.
+2019-03-04T02:53:21.357Z - info: START seeder.
+2019-03-04T02:53:21.368Z - debug: 6 products
+2019-03-04T02:53:21.369Z - info: END Seeder. Sample data read and verified.
+2019-03-04T02:54:38.448Z - debug: GET /
+2019-03-04T02:54:42.878Z - debug: GET /intro/userLogin
+2019-03-04T02:54:45.262Z - debug: GET /intro/userLogin?
+2019-03-04T02:54:47.404Z - debug: GET /intro/userLogin?
+2019-03-04T02:54:48.335Z - debug: GET /user
+2019-03-04T02:54:52.733Z - debug: GET /user
+2019-03-04T02:54:55.118Z - debug: GET /
+2019-03-04T02:54:56.724Z - debug: GET /intro/adminLogin
+2019-03-04T02:54:58.598Z - debug: GET /admin
+2019-03-04T02:55:03.049Z - debug: GET /admin/announcement
+2019-03-04T02:57:10.731Z - info: Environment variables loaded.
+2019-03-04T02:57:11.363Z - error: uncaughtException: Unexpected token var date=Sun Mar 03 2019 20:57:11 GMT-0600 (Central Standard Time), pid=15352, uid=null, gid=null, cwd=D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\app.js], rss=81027072, heapTotal=64229376, heapUsed=29904472, external=37077342, loadavg=[0, 0, 0], uptime=878566
+D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\controllers\admin.js:27
+    setTimeoutfor(var i=0; i<docs.length; i++) {
+                  ^^^
+
+SyntaxError: Unexpected token var
+    at new Script (vm.js:84:7)
+    at createScript (vm.js:264:10)
+    at Object.runInThisContext (vm.js:312:10)
+    at Module._compile (internal/modules/cjs/loader.js:684:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\routes\index.js:23:22)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\app.js:65:16)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+2019-03-04T02:57:37.805Z - info: Environment variables loaded.
+2019-03-04T02:57:38.287Z - info: Loaded routing.
+2019-03-04T02:57:38.349Z - info: START seeder.
+2019-03-04T02:57:38.355Z - debug: 6 products
+2019-03-04T02:57:38.356Z - info: END Seeder. Sample data read and verified.
+2019-03-04T02:57:49.894Z - info: Environment variables loaded.
+2019-03-04T02:57:50.281Z - info: Loaded routing.
+2019-03-04T02:57:50.339Z - info: START seeder.
+2019-03-04T02:57:50.347Z - debug: 6 products
+2019-03-04T02:57:50.347Z - info: END Seeder. Sample data read and verified.
+2019-03-04T02:57:50.548Z - debug: GET /admin/announcement
+2019-03-04T02:57:51.971Z - debug: GET /admin/announcement
+2019-03-04T02:57:52.812Z - debug: GET /admin/announcement
+2019-03-04T02:58:43.933Z - info: Environment variables loaded.
+2019-03-04T02:58:44.530Z - info: Loaded routing.
+2019-03-04T02:58:44.609Z - info: START seeder.
+2019-03-04T02:58:44.617Z - debug: 6 products
+2019-03-04T02:58:44.617Z - info: END Seeder. Sample data read and verified.
+2019-03-04T02:58:50.895Z - debug: GET /admin/announcement
+2019-03-04T02:58:52.969Z - debug: GET /admin/announcement
+2019-03-04T02:58:53.984Z - debug: GET /admin/announcement
+2019-03-04T02:58:54.806Z - debug: GET /admin/announcement
+2019-03-04T02:58:55.537Z - debug: GET /admin/announcement
+2019-03-04T02:58:56.221Z - debug: GET /admin/announcement
+2019-03-04T02:58:56.738Z - debug: GET /admin/announcement
+2019-03-04T02:59:11.465Z - info: Environment variables loaded.
+2019-03-04T02:59:12.157Z - info: Loaded routing.
+2019-03-04T02:59:12.226Z - info: START seeder.
+2019-03-04T02:59:12.242Z - debug: 6 products
+2019-03-04T02:59:12.243Z - info: END Seeder. Sample data read and verified.
+2019-03-04T02:59:16.728Z - debug: GET /admin/announcement
+2019-03-04T02:59:20.724Z - debug: GET /
+2019-03-04T02:59:22.403Z - debug: GET /intro/userLogin
+2019-03-04T02:59:25.312Z - debug: GET /user
+2019-03-04T02:59:27.517Z - debug: GET /user/deny/4
+2019-03-04T02:59:27.623Z - debug: GET /user
+2019-03-04T02:59:30.706Z - debug: GET /
+2019-03-04T02:59:33.504Z - debug: GET /intro/adminLogin
+2019-03-04T02:59:35.348Z - debug: GET /admin
+2019-03-04T02:59:36.940Z - debug: GET /admin/announcement
+2019-03-04T02:59:38.840Z - debug: GET /admin/announcement
+2019-03-04T02:59:42.346Z - debug: GET /admin/announcement
+2019-03-04T02:59:43.277Z - debug: GET /admin/announcement
+2019-03-04T02:59:44.017Z - debug: GET /admin/announcement
+2019-03-04T02:59:44.994Z - debug: GET /admin/announcement
+2019-03-04T02:59:45.794Z - debug: GET /admin/announcement
+2019-03-04T03:00:00.148Z - debug: GET /admin/announcement
+2019-03-04T03:00:02.415Z - debug: GET /admin/announcement
+2019-03-04T03:00:03.421Z - debug: GET /admin/announcement
+2019-03-04T03:00:04.390Z - debug: GET /admin/announcement
+2019-03-04T03:00:05.243Z - debug: GET /admin/announcement
+2019-03-04T03:00:06.130Z - debug: GET /admin/announcement
+2019-03-04T03:00:06.840Z - debug: GET /admin/announcement
+2019-03-04T03:00:07.689Z - debug: GET /admin/announcement
+2019-03-04T03:00:08.085Z - debug: GET /admin/announcement
+2019-03-04T03:00:08.669Z - debug: GET /admin/announcement
+2019-03-04T03:00:10.402Z - debug: GET /
+2019-03-04T03:00:15.665Z - debug: GET /intro/adminLogin
+2019-03-04T03:00:21.548Z - debug: GET /admin
+2019-03-04T03:00:23.061Z - debug: GET /admin/announcement
+2019-03-04T03:00:25.300Z - debug: GET /admin/announcement
+2019-03-04T03:00:26.247Z - debug: GET /admin/announcement
+2019-03-04T03:00:26.997Z - debug: GET /admin/announcement
+2019-03-04T03:00:27.601Z - debug: GET /admin/announcement
+2019-03-04T03:00:33.371Z - debug: GET /
+2019-03-04T03:00:35.235Z - debug: GET /intro/userLogin
+2019-03-04T03:00:37.207Z - debug: GET /user
+2019-03-04T03:00:38.913Z - debug: GET /user/accept/4
+2019-03-04T03:00:39.072Z - debug: GET /user
+2019-03-04T03:00:40.651Z - debug: GET /
+2019-03-04T03:00:42.112Z - debug: GET /intro/adminLogin
+2019-03-04T03:00:43.774Z - debug: GET /admin
+2019-03-04T03:00:45.462Z - debug: GET /admin/announcement
+2019-03-04T03:00:48.597Z - debug: GET /admin/announcement
+2019-03-04T03:00:49.562Z - debug: GET /admin/announcement
+2019-03-04T03:00:50.367Z - debug: GET /admin/announcement
+2019-03-04T03:00:52.495Z - debug: GET /admin/announcement
+2019-03-04T03:00:53.417Z - debug: GET /admin/announcement
+2019-03-04T03:01:07.698Z - info: Environment variables loaded.
+2019-03-04T03:01:08.210Z - info: Loaded routing.
+2019-03-04T03:01:08.280Z - info: START seeder.
+2019-03-04T03:01:08.296Z - debug: 6 products
+2019-03-04T03:01:08.297Z - info: END Seeder. Sample data read and verified.
+2019-03-04T03:01:12.176Z - debug: GET /
+2019-03-04T03:01:12.189Z - debug: GET /
+2019-03-04T03:01:14.257Z - debug: GET /intro/userLogin
+2019-03-04T03:01:16.133Z - debug: GET /user
+2019-03-04T03:01:19.675Z - debug: GET /user/accept/7
+2019-03-04T03:01:19.816Z - debug: GET /user
+2019-03-04T03:01:22.042Z - debug: GET /
+2019-03-04T03:01:24.933Z - debug: GET /intro/adminLogin
+2019-03-04T03:01:27.316Z - debug: GET /admin
+2019-03-04T03:01:29.426Z - debug: GET /admin/announcement
+2019-03-04T03:01:34.704Z - debug: GET /admin/announcement
+2019-03-04T03:01:36.018Z - debug: GET /admin/announcement
+2019-03-04T03:04:33.280Z - info: Environment variables loaded.
+2019-03-04T03:04:33.747Z - info: Loaded routing.
+2019-03-04T03:04:33.806Z - info: START seeder.
+2019-03-04T03:04:33.812Z - debug: 6 products
+2019-03-04T03:04:33.812Z - info: END Seeder. Sample data read and verified.
+2019-03-04T03:04:37.688Z - debug: GET /
+2019-03-04T03:04:39.238Z - debug: GET /intro/adminLogin
+2019-03-04T03:04:40.820Z - debug: GET /admin
+2019-03-04T03:04:42.857Z - debug: GET /admin/announcement
+2019-03-04T03:04:44.754Z - debug: GET /admin/announcement
+2019-03-04T03:04:45.505Z - debug: GET /admin/announcement
+2019-03-04T03:04:46.348Z - debug: GET /admin/announcement
+2019-03-04T03:04:46.998Z - debug: GET /admin/announcement
+2019-03-04T03:04:47.795Z - debug: GET /admin/announcement
+2019-03-04T03:04:48.460Z - debug: GET /admin/announcement
+2019-03-04T03:06:53.015Z - info: Environment variables loaded.
+2019-03-04T03:06:53.675Z - info: Loaded routing.
+2019-03-04T03:06:53.765Z - info: START seeder.
+2019-03-04T03:06:53.776Z - debug: 6 products
+2019-03-04T03:06:53.777Z - info: END Seeder. Sample data read and verified.
+2019-03-04T03:06:58.359Z - debug: GET /
+2019-03-04T03:06:59.714Z - debug: GET /intro/adminLogin
+2019-03-04T03:07:01.488Z - debug: GET /admin
+2019-03-04T03:07:03.525Z - debug: GET /admin/announcement
+2019-03-04T03:07:05.402Z - debug: GET /admin/announcement
+2019-03-04T03:07:06.208Z - debug: GET /admin/announcement
+2019-03-04T03:07:06.958Z - debug: GET /admin/announcement
+2019-03-04T03:07:07.679Z - debug: GET /admin/announcement
+2019-03-04T03:07:07.978Z - debug: GET /admin/announcement
+2019-03-04T03:07:08.188Z - debug: GET /admin/announcement
+2019-03-04T03:07:08.396Z - debug: GET /admin/announcement
+2019-03-04T03:07:09.938Z - debug: GET /
+2019-03-04T03:07:12.129Z - debug: GET /intro/userLogin
+2019-03-04T03:07:13.836Z - debug: GET /user
+2019-03-04T03:07:16.005Z - debug: GET /user/deny/4
+2019-03-04T03:07:16.108Z - debug: GET /user
+2019-03-04T03:07:17.783Z - debug: GET /
+2019-03-04T03:07:20.003Z - debug: GET /intro/adminLogin
+2019-03-04T03:07:21.513Z - debug: GET /admin
+2019-03-04T03:07:23.947Z - debug: GET /admin/announcement
+2019-03-04T03:07:26.223Z - debug: GET /admin/announcement
+2019-03-04T03:07:27.049Z - debug: GET /admin/announcement
+2019-03-04T03:07:27.719Z - debug: GET /admin/announcement
+2019-03-04T03:07:28.038Z - debug: GET /admin/announcement
+2019-03-04T03:07:28.442Z - debug: GET /admin/announcement
+2019-03-04T03:07:28.756Z - debug: GET /admin/announcement
+2019-03-04T03:07:29.084Z - debug: GET /admin/announcement
+2019-03-04T03:07:29.429Z - debug: GET /admin/announcement
+2019-03-04T03:07:29.761Z - debug: GET /admin/announcement
+2019-03-04T03:07:29.936Z - debug: GET /admin/announcement
+2019-03-04T03:07:30.162Z - debug: GET /admin/announcement
+2019-03-04T03:07:31.951Z - debug: GET /
+2019-03-04T03:07:33.525Z - debug: GET /intro/adminLogin
+2019-03-04T03:07:36.268Z - debug: GET /admin
+2019-03-04T03:07:37.731Z - debug: GET /admin/announcement
+2019-03-04T03:07:40.380Z - debug: GET /
+2019-03-04T03:07:42.815Z - debug: GET /intro/userLogin
+2019-03-04T03:07:44.875Z - debug: GET /user
+2019-03-04T03:07:48.652Z - debug: GET /user/deny/7
+2019-03-04T03:07:48.666Z - debug: GET /user
+2019-03-04T03:07:50.721Z - debug: GET /
+2019-03-04T03:07:52.457Z - debug: GET /intro/adminLogin
+2019-03-04T03:07:54.076Z - debug: GET /admin
+2019-03-04T03:07:56.085Z - debug: GET /admin/announcement
+2019-03-04T03:07:58.121Z - debug: GET /
+2019-03-04T03:08:00.457Z - debug: GET /intro/userLogin
+2019-03-04T03:08:02.454Z - debug: GET /user
+2019-03-04T03:08:04.607Z - debug: GET /user/accept/4
+2019-03-04T03:08:04.634Z - debug: GET /user
+2019-03-04T03:08:06.281Z - debug: GET /
+2019-03-04T03:08:27.845Z - debug: GET /intro/adminLogin
+2019-03-04T03:08:29.880Z - debug: GET /admin
+2019-03-04T03:08:31.897Z - debug: GET /admin/announcement
+2019-03-04T03:08:36.518Z - debug: GET /
+2019-03-04T03:08:38.583Z - debug: GET /intro/userLogin
+2019-03-04T03:08:40.220Z - debug: GET /user
+2019-03-04T03:08:43.903Z - debug: GET /user/deny/4
+2019-03-04T03:08:43.937Z - debug: GET /user
+2019-03-04T03:08:45.632Z - debug: GET /
+2019-03-04T03:08:47.032Z - debug: GET /intro/adminLogin
+2019-03-04T03:08:48.726Z - debug: GET /admin
+2019-03-04T03:08:49.982Z - debug: GET /admin/announcement
+2019-03-04T03:10:20.075Z - info: Environment variables loaded.
+2019-03-04T03:10:20.594Z - info: Loaded routing.
+2019-03-04T03:10:20.679Z - info: START seeder.
+2019-03-04T03:10:20.688Z - debug: 6 products
+2019-03-04T03:10:20.688Z - info: END Seeder. Sample data read and verified.
+2019-03-04T03:11:00.105Z - info: Environment variables loaded.
+2019-03-04T03:11:00.663Z - info: Loaded routing.
+2019-03-04T03:11:00.722Z - info: START seeder.
+2019-03-04T03:11:00.730Z - debug: 6 products
+2019-03-04T03:11:00.730Z - info: END Seeder. Sample data read and verified.
+2019-03-04T03:11:44.114Z - info: Environment variables loaded.
+2019-03-04T03:11:44.837Z - info: Loaded routing.
+2019-03-04T03:11:45.024Z - info: START seeder.
+2019-03-04T03:11:45.036Z - debug: 6 products
+2019-03-04T03:11:45.036Z - info: END Seeder. Sample data read and verified.
+2019-03-04T03:13:36.835Z - info: Environment variables loaded.
+2019-03-04T03:13:37.881Z - info: Loaded routing.
+2019-03-04T03:13:37.943Z - info: START seeder.
+2019-03-04T03:13:37.948Z - debug: 6 products
+2019-03-04T03:13:37.948Z - info: END Seeder. Sample data read and verified.
+2019-03-04T03:14:02.477Z - info: Environment variables loaded.
+2019-03-04T03:14:03.124Z - info: Loaded routing.
+2019-03-04T03:14:03.285Z - info: START seeder.
+2019-03-04T03:14:03.299Z - debug: 6 products
+2019-03-04T03:14:03.301Z - info: END Seeder. Sample data read and verified.
+2019-03-04T03:14:07.083Z - info: Environment variables loaded.
+2019-03-04T03:14:07.846Z - info: Loaded routing.
+2019-03-04T03:14:07.892Z - info: START seeder.
+2019-03-04T03:14:07.897Z - debug: 6 products
+2019-03-04T03:14:07.898Z - info: END Seeder. Sample data read and verified.
+2019-03-04T03:14:10.197Z - debug: GET /admin/announcement
+2019-03-04T03:14:15.746Z - debug: GET /admin/announcement
+2019-03-04T03:14:17.056Z - debug: GET /admin/announcement
+2019-03-04T03:14:17.754Z - debug: GET /admin/announcement
+2019-03-04T03:16:16.251Z - info: Environment variables loaded.
+2019-03-04T03:16:16.957Z - info: Loaded routing.
+2019-03-04T03:16:17.036Z - info: START seeder.
+2019-03-04T03:16:17.057Z - debug: 6 products
+2019-03-04T03:16:17.057Z - info: END Seeder. Sample data read and verified.
+2019-03-04T03:16:24.051Z - debug: GET /admin/announcement
+2019-03-04T03:17:08.479Z - info: Environment variables loaded.
+2019-03-04T03:17:09.183Z - info: Loaded routing.
+2019-03-04T03:17:09.325Z - info: START seeder.
+2019-03-04T03:17:09.358Z - debug: 6 products
+2019-03-04T03:17:09.360Z - info: END Seeder. Sample data read and verified.
+2019-03-04T03:17:11.490Z - debug: GET /admin/announcement
+2019-03-04T03:17:26.686Z - info: Environment variables loaded.
+2019-03-04T03:17:27.499Z - info: Loaded routing.
+2019-03-04T03:17:27.603Z - info: START seeder.
+2019-03-04T03:17:27.629Z - debug: 6 products
+2019-03-04T03:17:27.632Z - info: END Seeder. Sample data read and verified.
+2019-03-04T03:17:30.201Z - debug: GET /admin/announcement
+2019-03-04T03:22:09.413Z - info: Environment variables loaded.
+2019-03-04T03:22:09.982Z - info: Loaded routing.
+2019-03-04T03:22:10.061Z - info: START seeder.
+2019-03-04T03:22:10.072Z - debug: 6 products
+2019-03-04T03:22:10.072Z - info: END Seeder. Sample data read and verified.
+2019-03-04T03:22:40.485Z - info: Environment variables loaded.
+2019-03-04T03:22:41.069Z - error: uncaughtException: Unexpected token for date=Sun Mar 03 2019 21:22:41 GMT-0600 (Central Standard Time), pid=17764, uid=null, gid=null, cwd=D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\app.js], rss=78508032, heapTotal=64753664, heapUsed=30984640, external=37179724, loadavg=[0, 0, 0], uptime=880096
+D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\controllers\admin.js:28
+      url: for(var i=0; i<docs.length; i++) {
+           ^^^
+
+SyntaxError: Unexpected token for
+    at new Script (vm.js:84:7)
+    at createScript (vm.js:264:10)
+    at Object.runInThisContext (vm.js:312:10)
+    at Module._compile (internal/modules/cjs/loader.js:684:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\routes\index.js:23:22)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\app.js:65:16)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+2019-03-04T03:23:08.365Z - info: Environment variables loaded.
+2019-03-04T03:23:09.099Z - error: uncaughtException: Unexpected token for date=Sun Mar 03 2019 21:23:09 GMT-0600 (Central Standard Time), pid=8580, uid=null, gid=null, cwd=D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory, execPath=C:\Program Files\nodejs\node.exe, version=v11.6.0, argv=[C:\Program Files\nodejs\node.exe, D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\app.js], rss=78344192, heapTotal=64229376, heapUsed=29099536, external=36771005, loadavg=[0, 0, 0], uptime=880124
+D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\controllers\admin.js:28
+      url: for(var i=0; i<docs.length; i++) {
+           ^^^
+
+SyntaxError: Unexpected token for
+    at new Script (vm.js:84:7)
+    at createScript (vm.js:264:10)
+    at Object.runInThisContext (vm.js:312:10)
+    at Module._compile (internal/modules/cjs/loader.js:684:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\routes\index.js:23:22)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (D:\OneDrive - nwmissouri.edu\Attachments\semesters\fourth sem\books\GDP II\project\smartInventory\app.js:65:16)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+2019-03-04T03:23:24.372Z - info: Environment variables loaded.
+2019-03-04T03:23:25.160Z - info: Loaded routing.
+2019-03-04T03:23:25.249Z - info: START seeder.
+2019-03-04T03:23:25.256Z - debug: 6 products
+2019-03-04T03:23:25.256Z - info: END Seeder. Sample data read and verified.
+2019-03-04T03:30:01.499Z - info: Environment variables loaded.
+2019-03-04T03:30:01.995Z - info: Loaded routing.
+2019-03-04T03:30:02.047Z - info: START seeder.
+2019-03-04T03:30:02.057Z - debug: 6 products
+2019-03-04T03:30:02.057Z - info: END Seeder. Sample data read and verified.
+2019-03-04T03:31:32.295Z - info: Environment variables loaded.
+2019-03-04T03:31:32.721Z - info: Loaded routing.
+2019-03-04T03:31:32.805Z - info: START seeder.
+2019-03-04T03:31:32.812Z - debug: 6 products
+2019-03-04T03:31:32.813Z - info: END Seeder. Sample data read and verified.
+2019-03-04T03:31:47.382Z - info: Environment variables loaded.
+2019-03-04T03:31:48.497Z - info: Loaded routing.
+2019-03-04T03:31:48.571Z - info: START seeder.
+2019-03-04T03:31:48.587Z - debug: 6 products
+2019-03-04T03:31:48.587Z - info: END Seeder. Sample data read and verified.
+2019-03-04T03:32:21.472Z - info: Environment variables loaded.
+2019-03-04T03:32:21.938Z - info: Loaded routing.
+2019-03-04T03:32:22.040Z - info: START seeder.
+2019-03-04T03:32:22.055Z - debug: 6 products
+2019-03-04T03:32:22.056Z - info: END Seeder. Sample data read and verified.
+2019-03-04T03:32:28.629Z - debug: GET /
+2019-03-04T03:32:32.116Z - debug: GET /intro/userLogin
+2019-03-04T03:32:33.844Z - debug: GET /user
+2019-03-04T03:32:35.732Z - debug: GET /user/accept/4
+2019-03-04T03:32:35.848Z - debug: GET /user
+2019-03-04T03:32:37.458Z - debug: GET /
+2019-03-04T03:32:39.464Z - debug: GET /intro/adminLogin
+2019-03-04T03:32:40.969Z - debug: GET /admin
+2019-03-04T03:32:43.142Z - debug: GET /admin/announcement
+2019-03-04T03:32:50.880Z - debug: GET /admin/announcement
+2019-03-04T03:33:32.594Z - info: Environment variables loaded.
+2019-03-04T03:33:33.271Z - info: Loaded routing.
+2019-03-04T03:33:33.320Z - info: START seeder.
+2019-03-04T03:33:33.325Z - debug: 6 products
+2019-03-04T03:33:33.326Z - info: END Seeder. Sample data read and verified.
+2019-03-04T03:33:56.487Z - info: Environment variables loaded.
+2019-03-04T03:33:57.032Z - info: Loaded routing.
+2019-03-04T03:33:57.103Z - info: START seeder.
+2019-03-04T03:33:57.117Z - debug: 6 products
+2019-03-04T03:33:57.119Z - info: END Seeder. Sample data read and verified.
+2019-03-04T03:34:08.537Z - info: Environment variables loaded.
+2019-03-04T03:34:09.283Z - info: Loaded routing.
+2019-03-04T03:34:09.352Z - info: START seeder.
+2019-03-04T03:34:09.357Z - debug: 6 products
+2019-03-04T03:34:09.357Z - info: END Seeder. Sample data read and verified.
+2019-03-04T03:34:09.519Z - debug: GET /
+2019-03-04T03:34:11.591Z - debug: GET /intro/adminLogin
+2019-03-04T03:34:13.346Z - debug: GET /admin
+2019-03-04T03:34:15.456Z - debug: GET /admin/announcement
+2019-03-04T03:35:35.393Z - info: Environment variables loaded.
+2019-03-04T03:35:36.301Z - info: Loaded routing.
+2019-03-04T03:35:36.391Z - info: START seeder.
+2019-03-04T03:35:36.407Z - debug: 6 products
+2019-03-04T03:35:36.407Z - info: END Seeder. Sample data read and verified.
+2019-03-04T03:35:43.223Z - debug: GET /
+2019-03-04T03:35:45.482Z - debug: GET /intro/adminLogin
+2019-03-04T03:35:47.332Z - debug: GET /admin
+2019-03-04T03:35:49.392Z - debug: GET /admin/announcement
+2019-03-04T03:35:52.678Z - debug: GET /admin/announcement
+2019-03-04T03:35:56.780Z - debug: GET /admin/announcement
+2019-03-04T03:36:00.392Z - debug: GET /admin/announcement

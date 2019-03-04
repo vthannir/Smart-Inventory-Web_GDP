@@ -447,3 +447,20 @@ h2{
   border: 1px solid lightblue;
   cursor: pointer;
 }
+
+/* announcement.ejs */
+
+.announcement {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background: ghostwhite;
+  border: 1px solid rgb(194, 191, 191);
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.announcement:hover {
+  box-shadow: 10px 10px 30px saddlebrown;
+}

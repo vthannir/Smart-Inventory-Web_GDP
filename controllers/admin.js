@@ -14,7 +14,29 @@ api.get('/', (req, res) => {
 })
 
 api.get('/announcement', (req, res) => {
-  res.render('admin/adminHome/announcements.ejs')
+
+  var db = req.db
+  var collection = db.get('userAcceptance');
+
+  var actualCollection = db.get('usercollection');
+
+  var items = [];
+
+  collection.find({},{},function(e,docs){
+    console.log("number of items: " + docs.length)
+    for(var i=0; i<docs.length; i++) {
+      actualCollection.findOne({"_id" : docs[i]._id}, function(err, item) {
+        items.push(item);
+      })
+    }
+    setTimeout(function() {
+      res.render('admin/adminHome/announcements.ejs', {
+      "productsMongo" : items
+    });
+  }, 1000)
+ 
+  });
+
 })
 
 api.get('/shippingLabel', (req, res) => {
@@ -48,13 +70,13 @@ api.post('/save/:id', (req, res) => {
         "name": name,
         "description": description,
         "quantity": quantity,
-        "prize": prize
+        "prize": prize,
+        "accepted": true
   }, function (err, doc) {
     if (err) {
         res.send("There was a problem adding the information to the database.");
     }
     else {
-      console.log(docs)
         return res.redirect("/admin");
     }
   })
@@ -75,7 +97,8 @@ api.post('/update/:id', (req, res) => {
         "name": name,
         "description": description,
         "quantity": quantity,
-        "prize": prize
+        "prize": prize,
+        "accepted": true
   }, function (err, doc) {
     if (err) {
         res.send("There was a problem updating the information to the database.");
