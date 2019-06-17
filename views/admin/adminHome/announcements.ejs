@@ -1,0 +1,44 @@
+<% include ../header.ejs %>
+<%  console.log(productsMongo.length)
+    if (productsMongo.length == 0) {
+    %>
+        <h3>Nothing to show</h3>
+    <%
+    } else {
+        for (var i = 0; i < productsMongo.length; i++) {   
+            item = productsMongo[i]; %>
+            <div class="announcement">
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-4">
+                        <label>Name of product:</label>
+                    </div>
+                    <div class="col-sm-2">
+                        <p> <%= item.name %> </p>
+                    </div>
+                    <div class="col-sm-4"></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-4">
+                        <label>Quantity of product:</label>
+                    </div>
+                    <div class="col-sm-2">
+                        <p> <%= item.quantity %> </p>
+                    </div>
+                    <div class="col-sm-4"></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6"></div>
+                    <div class="col-sm-1">
+                        <a href="" class="btn btn-warning">Accept</a>
+                    </div>
+                    <div class="col-sm-1">
+                        <a href="" class="btn btn-danger">Deny</a>
+                    </div>
+                    <div class="col-sm-4"></div>
+                </div>
+            </div>
+    <% }
+    }
+%>

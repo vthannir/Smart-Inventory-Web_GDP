@@ -1,0 +1,466 @@
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  -webkit-border-radius: 0 6px 6px 6px;
+  -moz-border-radius: 0 6px 6px;
+  border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #ccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+  border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+  float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  -webkit-border-radius: 6px 0 6px 6px;
+  -moz-border-radius: 6px 0 6px 6px;
+  border-radius: 6px 0 6px 6px;
+}
+
+
+
+
+
+
+/*This is for both admin and user login pages (intro/adminLogIn.ejs, intro/userLogIn.ejs)*/
+.form {
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  border: 1px solid lightgray;
+  background: rgb(230, 237, 245);
+  padding: 50px 0px;
+  padding-left: 5px;
+  width: 30%;
+  box-shadow: 10px 10px 30px gray;
+  border-radius: 10px;
+}
+
+.form div {
+  margin: 0px 20px 5px 0px;
+}
+
+.form button {
+  background: rgba(7, 129, 23, 0.658);
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.form button a {
+  color: antiquewhite;
+}
+
+.form input {
+  border: 1px solid rgb(150, 149, 149);
+  border-radius: 5px;
+  height: 25px;
+}
+
+.signup div {
+  margin: 0px;
+  padding: 0px;
+}
+
+.signup p{
+  text-align: right;
+  font-size: 0.7em;
+  margin: 0px;
+  margin-top: 5px;
+  padding-right: 5px;
+}
+
+.signup button {
+  background: none;
+  border: none;
+  font-size: 0.8em;
+  padding: 0px;
+  text-align: left;
+}
+
+.signup button a {
+  color: rgb(22, 89, 143);
+}
+
+.signup button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.paragraph {
+  height: 600px;
+  border: 1px solid gray;
+}
+
+
+
+
+
+
+
+/*This is for signUp (index.ejs)*/
+.navigation {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 110%;
+  background: darkslategray;
+  color: ghostwhite;
+  padding: 10px;
+  height: 70px;
+  left: 0;
+}
+
+.navigation div p {
+  margin: 0px;
+  padding-top: 10px; 
+}
+
+.buttonNav {
+  border: 1px solid ghostwhite;
+  border-radius: 5px;
+  margin: 3px;
+  right: 10px;
+  text-align: center;
+  padding-top: 10px;
+  background: ghostwhite;
+}
+
+.buttonNav a {
+  color: darkslategray;
+  text-decoration: none;
+}
+
+.buttonNav:hover {
+  background: rgb(103, 224, 99);
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* .mainBody {
+  background-image: url("http://www.scalsys.com/wallpaper/Website-Background-Wallpapers/Website-Background-Wallpapers_1167542.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 627px;
+} */
+
+.bodyContent {
+  position: absolute;
+  width: 70%;
+  left: 5px;
+  top: 30px;
+  border: 1px solid black;
+  height: 500px;
+  margin-top: 50px;
+}
+
+.bodySignUp {
+  position: absolute;
+  width: 30%;
+  right: 5px;
+  top: 30px;
+  margin-top: 50px;
+}
+
+.bodySignUp h3 {
+  text-align: center;
+  color: darkslategray;
+}
+
+.bodySignUp form {
+  margin-top: 30px;
+  padding-left: 20px;
+  border-radius: 5px;
+}
+
+.signUpContent {
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.signUpContent input {
+  border: 1px solid rgb(192, 190, 190);
+  border-radius: 2px;
+  background: ghostwhite;
+  height: 45px;
+  font-size: 1em;
+  font-weight: 400;
+  width: 100%;
+  padding-left: 5px;
+}
+
+.signUpContent button {
+  border: 1px solid rgb(192, 190, 190);
+  border-radius: 2px;
+  background: rgb(160, 160, 211);
+  height: 45px;
+  font-size: 1em;
+  font-weight: 400;
+  width: 100%;
+  padding-left: 5px;
+  color: black;
+  text-decoration: none;
+}
+
+.signUpContent button:hover {
+  text-decoration: underline;
+  background: rgb(103, 224, 99);
+}
+
+.terms {
+  font-size: .8em;
+  margin-left: 2px;
+}
+
+.terms p a{
+  text-decoration: underline;
+  color: black;
+}
+
+
+
+
+
+/*This is for admin home page (adminHome/index.ejs, userHome/index.ejs)*/
+.inventoryMenu {
+  margin-top: 20px;
+}
+
+.inventoryMenu p {
+  font-weight: 500;
+  font-size: 1.6em;
+}
+
+.contentInv {
+  text-align: right;
+}
+
+.inventoryMenu button {
+  border: 1px solid gray;
+  background: ghostwhite;
+  color: lightslategrey;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.inventoryMenu button:hover{
+  background: darkgray;
+  color: ghostwhite;
+  border: none;
+}
+
+.buttonContent {
+  text-align: center;
+}
+
+.products {
+  margin-top: 20px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.products h3 {
+  text-align: center;
+  margin-top: 100px;
+  height: 300px;
+  border: 1px solid lightgray;
+  padding: 120px;
+  border-radius: 5px;
+  background: gainsboro;
+  box-shadow: 20px 20px 50px grey;
+}
+
+.product{
+  float: left;
+  width: 45%;
+  border: 1px solid lightgray;
+  margin: 10px;
+  padding: 10px;
+  background: ghostwhite;
+  border-radius: 5px;
+  padding-bottom: 30px;
+  height: 250px;
+}
+
+.productButton {
+  margin-top: 20px;
+}
+
+.productButton a {
+  width: 100%;
+}
+
+.editButton {
+  width: 100%;
+}
+
+.product:hover {
+  box-shadow: 5px 5px 30px gray;
+}
+
+
+
+
+
+/*This is for adding a new product (adminHome/newProduct.ejs)*/
+h2{
+  margin: 20px 0px 0px 50px;
+  color: darkslategray;
+
+}
+
+.newProductForm {
+  margin: 20px 0px 20px 0px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto; 
+  text-align: center;
+  background: rgb(234, 234, 247);
+  padding: 20px;
+  padding-top: 40px;
+  border-radius: 10px;
+}
+
+.deleteProductForm {
+  margin: 20px 0px 20px 0px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto; 
+  text-align: left;
+  background: rgb(234, 234, 247);
+  padding: 20px;
+  padding-top: 40px;
+  border-radius: 10px;
+  height: 400px;
+}
+
+.productFormContent {
+  margin-bottom: 10px;
+}
+
+.productFormContent input {
+  width: 80%;
+  height: 50px;
+  border: 2px solid lightgray;
+  background: rgb(229, 229, 240);
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.anchorTag {
+  width: 30%;
+  height: 50px;
+  border: 2px solid lightgray;
+  background: rgb(229, 229, 240);
+  padding-left: 10px;
+  border-radius: 5px;
+  padding-top: 13px;
+}
+
+.anchorTag a {
+  color: darkslategray;
+  width: 100%;
+}
+
+.productFormContent label {
+  height: 50px;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.deleteButtonContent {
+  width: 100%;
+}
+
+.productFormContent button {
+  border: 1px solid darkgray;
+  background: dodgerblue;
+  color: whitesmoke;
+  border-radius: 5px;
+  height: 50px;
+  width: 70%;
+}
+
+.deleteButtonContent button, .deleteButtonContent input {
+  width: 100%;
+}
+
+.deleteButtonContent button {
+  background: crimson;
+}
+
+.deleteButtonContent input:hover {
+  background: rgb(189, 189, 216);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.productFormContent button:hover {
+  background: yellowgreen;
+  color: whitesmoke;
+  border: none;
+}
+
+.returnToList input {
+  border: 1px solid rgb(112, 178, 243);
+  background: lightblue;
+}
+
+.returnToList input:hover {
+  background: ghostwhite;
+  border: 1px solid lightblue;
+  cursor: pointer;
+}
+
+/* announcement.ejs */
+
+.announcement {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background: ghostwhite;
+  border: 1px solid rgb(194, 191, 191);
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.announcement:hover {
+  box-shadow: 10px 10px 30px saddlebrown;
+}

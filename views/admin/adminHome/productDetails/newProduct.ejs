@@ -1,0 +1,49 @@
+<h2>New product announcement:</h2>
+<% 
+    var maxID=0; 
+    for (var i=0; i < productsMongo.length; i++) {    
+        if(products.query[i]._id!=undefined && productsMongo[i]._id > maxID) { 
+            maxID=productsMongo[i]._id;   
+        }
+        var age = productsMongo[i].age;
+    }
+    console.log("product id is "+(maxID+1))
+%>
+<form class="newProductForm" method="POST" action="/admin/save/<%= maxID+1 %>">
+    <div class="row productFormContent">
+        <div class="col-sm-12">
+            <input type="number" id="_id" name="_id" placeholder="<%= maxID+1 %>" disabled>
+        </div>
+    </div>
+    <div class="row productFormContent">
+        <div class="col-sm-12">
+            <input type="text" id="name" name="name" placeholder="Product name" required>
+        </div>
+    </div>
+    <div class="row productFormContent">
+        <div class="col-sm-12">
+            <input type="text" id="description" name="description" placeholder="Description" required>
+        </div>
+    </div>
+    <div class="row productFormContent">
+        <div class="col-sm-12">
+            <input type="number" id="quantity" name="quantity" placeholder="Product quantity" min="1" step="1" required/>
+        </div>
+    </div>
+    <div class="row productFormContent">
+        <div class="col-sm-12">
+            <input type="text" id="prize" name="prize" placeholder="Prize per unit">
+        </div>
+    </div>
+    <div class="row productFormContent">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-4 anchorTag">
+            <a href="/admin">Return to list</a>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-5">
+            <button type="submit">Add a product</button>
+        </div>
+    </div>
+</form>
+

@@ -1,0 +1,45 @@
+[
+    {
+        "_id":1,
+        "name":"iPhone X",
+        "description":"256GB storage with 3GB RAM",
+        "quantity": 10,
+        "prize": 1000
+       
+    },
+    {
+        "_id":2,
+        "name":"MacBook air",
+        "description":"13 inch, with integrated touch ID sensor",
+        "quantity": 2,
+        "prize": 1300
+    },
+    {
+        "_id":3,
+        "name":"HP elite book",
+        "description":"3rd generation intel core i7 processor",
+        "quantity": 5,
+        "prize": 1125
+    },
+    {
+        "_id":4,
+        "name":"Samsung note 6",
+        "description":"Midnight black",
+        "quantity":15,
+        "prize": 900
+    },
+    {
+        "_id":5,
+        "name":"Sony LED Television",
+        "description":"4k Ultra HD, Built in Wi-Fi, HDMI, USB",
+        "quantity":5,
+        "prize": 3500
+    },
+    {
+        "_id":6,
+        "name":"Toshiba Micro oven",
+        "description":"Smart sensor, easy clean interior, ECO mode and sound ON/OFF",
+        "quantity": 10,
+        "prize": 120
+    }
+]
